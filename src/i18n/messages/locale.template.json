@@ -1,0 +1,32 @@
+{
+  "header": {
+    "brand": "ROK Tools",
+    "languageLabel": "Language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "menu": [
+      { "label": "AP Calculator" },
+      { "label": "Commanders" },
+      { "label": "Guides" },
+      { "label": "About" }
+    ]
+  },
+  "meta": {
+    "title": "",
+    "description": ""
+  },
+  "results": {
+    "dailyNatural": "",
+    "dailyTotal": "",
+    "castles": "",
+    "sleepAp": ""
+  },
+  "inputs": {
+    "apRefillSeconds": "",
+    "dailyFreeAp": "",
+    "castleApCost": "",
+    "sleepHours": "",
+    "maxApCapacity": ""
+  },
+  "warning": ""
+}

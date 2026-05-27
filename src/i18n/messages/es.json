@@ -1,0 +1,32 @@
+{
+  "header": {
+    "brand": "Herramientas ROK",
+    "languageLabel": "Idioma",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "menu": [
+      { "label": "Calculadora AP" },
+      { "label": "Comandantes" },
+      { "label": "Guías" },
+      { "label": "Acerca de" }
+    ]
+  },
+  "meta": {
+    "title": "Calculadora de AP - Rise of Kingdoms",
+    "description": "Calcula el AP diario, ataques a castillos y recarga durante el sueño."
+  },
+  "results": {
+    "dailyNatural": "Recarga Natural Diaria",
+    "dailyTotal": "AP Total Diario",
+    "castles": "Castillos Posibles",
+    "sleepAp": "AP Durante el Sueño"
+  },
+  "inputs": {
+    "apRefillSeconds": "Tiempo de Recarga AP (Seg.)",
+    "dailyFreeAp": "AP Gratis Diario",
+    "castleApCost": "Costo AP del Castillo",
+    "sleepHours": "Horas de Sueño",
+    "maxApCapacity": "Capacidad Máx. de AP"
+  },
+  "warning": "Atención: el AP que ganas dormiendo supera tu capacidad; ¡puedes perder puntos!"
+}

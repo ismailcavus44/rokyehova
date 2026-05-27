@@ -1,0 +1,138 @@
+.container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.05);
+  padding: 40px;
+  width: 100%;
+  max-width: 850px;
+  color: #333;
+}
+
+.resultsGrid {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  padding: 25px 0;
+  margin-bottom: 40px;
+}
+
+.resultItem {
+  flex: 1;
+}
+
+.resultLabel {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.resultValue {
+  font-size: 20px;
+  color: #2c3e50;
+}
+
+.inputsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px 50px;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fullWidth {
+  grid-column: 1 / span 2;
+  width: 47%;
+}
+
+.inputLabel {
+  font-size: 14px;
+  width: 160px;
+  color: #333;
+}
+
+.sliderContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+}
+
+.sliderContainer input[type="range"] {
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  background: #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+.sliderContainer input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 24px;
+  border-radius: 4px;
+  background: #333;
+  cursor: pointer;
+}
+
+.sliderContainer input[type="range"]::-moz-range-thumb {
+  width: 16px;
+  height: 24px;
+  border-radius: 4px;
+  background: #333;
+  cursor: pointer;
+  border: none;
+}
+
+.numberInput {
+  width: 65px;
+  padding: 12px 5px;
+  border: none;
+  background-color: #f4f5f7;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 14px;
+  font-family: inherit;
+  color: #333;
+  outline: none;
+}
+
+.warning {
+  color: #e74c3c;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 24px;
+  }
+
+  .resultsGrid {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .resultItem {
+    flex: 1 1 40%;
+  }
+
+  .inputsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .fullWidth {
+    width: 100%;
+    grid-column: 1;
+  }
+}

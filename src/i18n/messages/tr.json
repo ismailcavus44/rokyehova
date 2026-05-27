@@ -1,0 +1,32 @@
+{
+  "header": {
+    "brand": "ROK Araçları",
+    "languageLabel": "Dil",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "menu": [
+      { "label": "AP Hesaplayıcı" },
+      { "label": "Komutanlar" },
+      { "label": "Rehberler" },
+      { "label": "Hakkında" }
+    ]
+  },
+  "meta": {
+    "title": "Rise of Kingdoms AP Hesaplayıcı",
+    "description": "Günlük AP, kale sayısı ve uyku dolumunu hesaplayın."
+  },
+  "results": {
+    "dailyNatural": "Günlük Doğal Dolum",
+    "dailyTotal": "Günlük Toplam AP",
+    "castles": "Yapılabilecek Kale",
+    "sleepAp": "Uykuda Dolan AP"
+  },
+  "inputs": {
+    "apRefillSeconds": "AP Dolum Süresi (San.)",
+    "dailyFreeAp": "Günlük Bedava AP",
+    "castleApCost": "Kale AP Maliyeti",
+    "sleepHours": "Uyku Süreniz (Saat)",
+    "maxApCapacity": "Maks. AP Kapasitesi"
+  },
+  "warning": "Dikkat: Uyku sırasında dolacak olan AP kapasitenizi aşıyor, puanlarınız boşa gidebilir!"
+}
