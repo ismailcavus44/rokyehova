@@ -19,12 +19,10 @@ type Props = {
 
 function ToolsMenu({
   locale,
-  header,
   home,
   onNavigate,
 }: {
   locale: Locale;
-  header: Dictionary["header"];
   home: Dictionary["home"];
   onNavigate?: () => void;
 }) {
@@ -193,7 +191,7 @@ export function Header({ locale, header, home }: Props) {
                 {toolsOpen ? (
                   <div className={styles.toolsPanel}>
                     <div className={styles.toolsPanelSurface}>
-                      <ToolsMenu locale={locale} header={header} home={home} />
+                      <ToolsMenu locale={locale} home={home} />
                     </div>
                   </div>
                 ) : null}
@@ -249,7 +247,6 @@ export function Header({ locale, header, home }: Props) {
           <p className={styles.mobileToolsLabel}>{header.toolsLabel}</p>
           <ToolsMenu
             locale={locale}
-            header={header}
             home={home}
             onNavigate={() => setMenuOpen(false)}
           />

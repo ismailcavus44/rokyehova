@@ -13,11 +13,11 @@ import { type Locale } from "./config";
 
 type TrDictionary = typeof tr;
 
-/** AP page SEO lives under `ap.seo`; other locales may omit it until translated. */
-export type Dictionary = Omit<TrDictionary, "ap"> & {
-  ap?: {
-    seo?: CalculatorSeoContent;
-  };
+/** Calculator SEO blocks — other locales may omit until translated. */
+export type Dictionary = Omit<TrDictionary, "ap" | "speedup" | "gems"> & {
+  ap?: Omit<TrDictionary["ap"], "seo"> & { seo?: CalculatorSeoContent };
+  speedup: Omit<TrDictionary["speedup"], "seo"> & { seo?: CalculatorSeoContent };
+  gems: Omit<TrDictionary["gems"], "seo"> & { seo?: CalculatorSeoContent };
 };
 
 const dictionaries: Record<Locale, Dictionary> = {
