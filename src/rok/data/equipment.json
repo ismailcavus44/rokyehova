@@ -1,0 +1,3756 @@
+{
+  "weapon": [
+    {
+      "equipmentType": "Common",
+      "name": "Sharp Longsword",
+      "color": "",
+      "leather": {
+        "C": 100,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 100000
+    },
+    {
+      "equipmentType": "Uncommon",
+      "name": "Vanguard Halberd",
+      "color": "green",
+      "leather": {
+        "C": 0,
+        "UC": 110,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 750000
+    },
+    {
+      "equipmentType": "Uncommon",
+      "name": "Blessed Blade",
+      "color": "green",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 60,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 20,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 500000
+    },
+    {
+      "equipmentType": "Rare",
+      "name": "Staff of the Lost",
+      "color": "blue",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 20,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 20,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 50,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 2000000
+    },
+    {
+      "equipmentType": "Rare",
+      "name": "Gatekeeper\\'s Shield",
+      "color": "blue",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 20,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 50,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 20,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 2000000
+    },
+    {
+      "equipmentType": "Rare",
+      "name": "Blazing Axe",
+      "color": "blue",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 50,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 20,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 20,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 2000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Scepeter of the Forest Guardian",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 35,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 6000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Golden Age",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 15,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 15,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 70,
+        "M": 0
+      },
+      "gold": 5000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Heart of the Saint",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 70,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 15,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 15,
+        "M": 0
+      },
+      "gold": 5000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Sakura Fubuki",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 15,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 70,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 15,
+        "M": 0
+      },
+      "gold": 5000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Trial of the Lost Kingdom",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 30
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 15
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 10000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Rifle of the Hellish Wasteland",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 60
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 15
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 15
+      },
+      "gold": 20000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Shield of the Eternal Empire",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 15
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 60
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 15
+      },
+      "gold": 20000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Dragon\\'s Breath Bow",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 15
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 15
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 60
+      },
+      "gold": 20000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Sacred Dominion",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 110
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 20
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 20
+      },
+      "gold": 30000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Hammer of the Sun and Moon",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 20
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 110
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 20
+      },
+      "gold": 30000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "The Hydra\\'s Blast",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 20
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 20
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 110
+      },
+      "gold": 30000000
+    }
+  ],
+  "helmet": [
+    {
+      "equipmentType": "Common",
+      "name": "Iron Helm",
+      "color": "",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 80,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 100000
+    },
+    {
+      "equipmentType": "Uncommon",
+      "name": "Helm of Fear",
+      "color": "green",
+      "leather": {
+        "C": 0,
+        "UC": 40,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 10,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 500000
+    },
+    {
+      "equipmentType": "Uncommon",
+      "name": "Helm of the Phoenix",
+      "color": "green",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 10,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 40,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 500000
+    },
+    {
+      "equipmentType": "Rare",
+      "name": "Harvester\\'s Headscarf",
+      "color": "blue",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 30,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 3000000
+    },
+    {
+      "equipmentType": "Rare",
+      "name": "Expedition War Helm",
+      "color": "blue",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 40,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 20,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 2000000
+    },
+    {
+      "equipmentType": "Rare",
+      "name": "Windswept War Helm",
+      "color": "blue",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 30,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 30,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 3000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Revival Helm",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 10,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 30,
+        "M": 0
+      },
+      "gold": 6000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Mask of the Forest Guardian",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 25,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 6000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Abyssal Visage",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 30,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 10,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 10,
+        "M": 0
+      },
+      "gold": 5000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Witch\\'s Lineage",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 10,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 30,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 10,
+        "M": 0
+      },
+      "gold": 5000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "War Helm of the Hellish Wasteland",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "gold": 20000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Gold Helm of the Eternal Empire",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "gold": 20000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Dragon\\'s Breath Helm",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "gold": 20000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Pride of Khan",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 70
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 20
+      },
+      "gold": 30000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Helm of the Conqueror",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 20
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 70
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 30000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Ancestral Mask of Night",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 20
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 70
+      },
+      "gold": 30000000
+    }
+  ],
+  "chest": [
+    {
+      "equipmentType": "Common",
+      "name": "Chain Mail",
+      "color": "",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 80,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 100000
+    },
+    {
+      "equipmentType": "Uncommon",
+      "name": "Infantry Breastplate",
+      "color": "green",
+      "leather": {
+        "C": 0,
+        "UC": 10,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 40,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 500000
+    },
+    {
+      "equipmentType": "Uncommon",
+      "name": "Milanese Plate",
+      "color": "green",
+      "leather": {
+        "C": 0,
+        "UC": 40,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 10,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 500000
+    },
+    {
+      "equipmentType": "Rare",
+      "name": "Harvester Robes",
+      "color": "blue",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 30,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 3000000
+    },
+    {
+      "equipmentType": "Rare",
+      "name": "Commander\\'s Heavy Armor",
+      "color": "blue",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 20,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 40,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 2000000
+    },
+    {
+      "equipmentType": "Rare",
+      "name": "Windswept Breastplate",
+      "color": "blue",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 30,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 30,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 3000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Revival Plate",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 20,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 40,
+        "M": 0
+      },
+      "gold": 6000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Robe of the Forest Guardian",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 25,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 6000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Dark Lord\\'s Blessing",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 40,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 20,
+        "M": 0
+      },
+      "gold": 5000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Quinn\\'s Soul",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 40,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 20,
+        "M": 0
+      },
+      "gold": 5000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Shadow Legion\\'s Retribution",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "gold": 15000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "The Milky Way",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "gold": 15000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Heavy Armor of the Hellish Wasteland",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "gold": 20000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Plate of Enternal Empire",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "gold": 20000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Dragon\\'s Breath Plate",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "gold": 20000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Hope Cloak",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "gold": 15000000
+    }
+  ],
+  "gloves": [
+    {
+      "equipmentType": "Common",
+      "name": "Cloth Gloves",
+      "color": "",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 60,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 100000
+    },
+    {
+      "equipmentType": "Uncommon",
+      "name": "Leather Gloves",
+      "color": "green",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 15,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 20,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 500000
+    },
+    {
+      "equipmentType": "Uncommon",
+      "name": "Bronze Bracers",
+      "color": "green",
+      "leather": {
+        "C": 0,
+        "UC": 20,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 15,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 500000
+    },
+    {
+      "equipmentType": "Rare",
+      "name": "Windswept Bracers",
+      "color": "blue",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 20,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 20,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 3000000
+    },
+    {
+      "equipmentType": "Rare",
+      "name": "Saint\\'s Song",
+      "color": "blue",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 10,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 30,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 2000000
+    },
+    {
+      "equipmentType": "Rare",
+      "name": "Calvin\\'s Hand",
+      "color": "blue",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 5,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 30,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 5,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 2000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Revival Gauntlets",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 10,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 30,
+        "M": 0
+      },
+      "gold": 6000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Claws of the Forest Guardian",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 15,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 6000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Iset\\'s Sufferance",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 40,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 5000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Seth\\'s Brutality",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 30,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 10,
+        "M": 0
+      },
+      "gold": 5000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Sacred Grips",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 30
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "gold": 15000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Ian\\'s Choice",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 30
+      },
+      "gold": 15000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Armband of the Hellish Wasteland",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 30
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "gold": 20000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Vambraces of the Eternal Empire",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 30
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 20000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Dragon\\'s Breath Vambraces",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 30
+      },
+      "gold": 20000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Navar\\'s Control",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 30
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 15000000
+    }
+  ],
+  "legs": [
+    {
+      "equipmentType": "Common",
+      "name": "Coarse Breeches",
+      "color": "",
+      "leather": {
+        "C": 60,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 100000
+    },
+    {
+      "equipmentType": "Uncommon",
+      "name": "Vanguard Greaves",
+      "color": "green",
+      "leather": {
+        "C": 0,
+        "UC": 70,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 750000
+    },
+    {
+      "equipmentType": "Uncommon",
+      "name": "Ranger Trousers",
+      "color": "green",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 40,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 10,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 500000
+    },
+    {
+      "equipmentType": "Rare",
+      "name": "Greaves of the Exile",
+      "color": "blue",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 20,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 40,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 2000000
+    },
+    {
+      "equipmentType": "Rare",
+      "name": "Harvester Breeches",
+      "color": "blue",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 30,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 3000000
+    },
+    {
+      "equipmentType": "Rare",
+      "name": "Sentry Breeches",
+      "color": "blue",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 10,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 40,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 10,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 2000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Karuak\\'s Humility",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 20,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 40,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 5000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Gladiator",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 40,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 20,
+        "M": 0
+      },
+      "gold": 5000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Revival Greaves",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 20,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 40,
+        "M": 0
+      },
+      "gold": 6000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Fanatic\\'s Tassets",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 20,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 40,
+        "M": 0
+      },
+      "gold": 5000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Eternal Night",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "gold": 15000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Ash of the Dawn",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "gold": 15000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Tassets of the Hellish Wasteland",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "gold": 20000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Greaves of the Eternal Empire",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "gold": 20000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Dragon\\'s Breath Tassets",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "gold": 20000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Cape of the War God",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "gold": 15000000
+    }
+  ],
+  "boots": [
+    {
+      "equipmentType": "Common",
+      "name": "Sturdy Boots",
+      "color": "",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 60,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 100000
+    },
+    {
+      "equipmentType": "Uncommon",
+      "name": "Edged Boots",
+      "color": "green",
+      "leather": {
+        "C": 0,
+        "UC": 15,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 20,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 500000
+    },
+    {
+      "equipmentType": "Uncommon",
+      "name": "Boots of Reverence",
+      "color": "green",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 20,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 15,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 500000
+    },
+    {
+      "equipmentType": "Rare",
+      "name": "Windswept Boots",
+      "color": "blue",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 20,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 20,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 3000000
+    },
+    {
+      "equipmentType": "Rare",
+      "name": "Harvester Boots",
+      "color": "blue",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 20,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 3000000
+    },
+    {
+      "equipmentType": "Rare",
+      "name": "The Scarlet Hounds",
+      "color": "blue",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 40,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 2000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Cloud Racers",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 30,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 10,
+        "M": 0
+      },
+      "gold": 5000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Frost Treads",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 10,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 30,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 5000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Flame Treads",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 10,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 30,
+        "M": 0
+      },
+      "gold": 5000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Shio\\'s Return",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 30
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "gold": 15000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Boots of the Hellish Wasteland",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 30
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "gold": 20000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Sturdy Boots of the Eternal Empire",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 30
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 20000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Dragon\\'s Breath Boots",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 30
+      },
+      "gold": 20000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Mountain Crushers",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 30
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "gold": 20000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Commander\\'s Boots",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 10
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 30
+      },
+      "gold": 15000000
+    }
+  ],
+  "accessories": [
+    {
+      "equipmentType": "Rare",
+      "name": "Lohar\\'s Bone Necklace",
+      "color": "blue",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 70,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 4000000
+    },
+    {
+      "equipmentType": "Rare",
+      "name": "Savage Totem",
+      "color": "blue",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 70,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 4000000
+    },
+    {
+      "equipmentType": "Rare",
+      "name": "Call of the Loyal",
+      "color": "blue",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 35,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 35,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 4000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Silent Trial",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 20,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 20,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 30,
+        "M": 0
+      },
+      "gold": 8000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Delane\\'s Amulet",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 30,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 20,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 20,
+        "M": 0
+      },
+      "gold": 8000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "The Bard\\'s Pedant",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 80,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 8000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Peter\\'s Sickle",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 80,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 8000000
+    },
+    {
+      "equipmentType": "Epic",
+      "name": "Crimson Ring",
+      "color": "purple",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 80,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "gold": 8000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Pendant of Eternal Night",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "gold": 50000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Scolas\\' Licky Coin",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "gold": 50000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Ring of Doom",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "gold": 50000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Greatest Glory",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "gold": 50000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Horn of Fury",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "gold": 50000000
+    },
+    {
+      "equipmentType": "Legendary",
+      "name": "Vengeance",
+      "color": "gold",
+      "leather": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "ironOne": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "animalBone": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 0
+      },
+      "ebony": {
+        "C": 0,
+        "UC": 0,
+        "R": 0,
+        "E": 0,
+        "M": 40
+      },
+      "gold": 50000000
+    }
+  ]
+}

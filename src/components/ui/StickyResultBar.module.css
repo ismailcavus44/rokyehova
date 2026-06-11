@@ -1,0 +1,46 @@
+.bar {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .bar {
+    display: block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 40;
+    background-color: var(--surface);
+    border-top: 1px solid var(--border);
+    box-shadow:
+      0 -8px 32px rgba(0, 0, 0, 0.45),
+      inset 0 1px 0 rgba(255, 255, 255, 0.04);
+    padding: var(--space-2) var(--space-2);
+    min-height: var(--sticky-bar-height);
+  }
+
+  .bar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 10%;
+    right: 10%;
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(245, 166, 35, 0.35),
+      transparent
+    );
+  }
+
+  .inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    max-width: var(--page-max-width);
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+}

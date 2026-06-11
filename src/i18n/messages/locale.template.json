@@ -4,16 +4,143 @@
     "languageLabel": "Language",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
-    "menu": [
-      { "label": "AP Calculator" },
-      { "label": "Commanders" },
-      { "label": "Guides" },
-      { "label": "About" }
-    ]
+    "toolsLabel": "",
+    "aboutLabel": "",
+    "contactLabel": ""
+  },
+  "support": {
+    "text": "",
+    "button": "",
+    "modalTitle": "",
+    "modalText": "",
+    "usdtLabel": "",
+    "copy": "",
+    "copied": "",
+    "networkWarning": "",
+    "close": ""
   },
   "meta": {
     "title": "",
     "description": ""
+  },
+  "home": {
+    "meta": {
+      "title": "",
+      "description": ""
+    },
+    "title": "",
+    "subtitle": "",
+    "hero": {
+      "title": "",
+      "subtitle": "",
+      "stats": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "categories": {
+      "economy": "",
+      "military": "",
+      "commander": "",
+      "infrastructure": "",
+      "team": ""
+    },
+    "relatedCalculators": "",
+    "seo": {
+      "title": "",
+      "body": [
+        "",
+        ""
+      ]
+    },
+    "items": {
+      "ap": {
+        "title": "",
+        "description": ""
+      },
+      "speedup": {
+        "title": "",
+        "description": ""
+      },
+      "gems": {
+        "title": "",
+        "description": ""
+      },
+      "tomes": {
+        "title": "",
+        "description": ""
+      },
+      "vip": {
+        "title": "",
+        "description": ""
+      },
+      "commander": {
+        "title": "",
+        "description": ""
+      },
+      "trading-post": {
+        "title": "",
+        "description": ""
+      },
+      "resources": {
+        "title": "",
+        "description": ""
+      },
+      "healing": {
+        "title": "",
+        "description": ""
+      },
+      "training": {
+        "title": "",
+        "description": ""
+      },
+      "building": {
+        "title": "",
+        "description": ""
+      },
+      "research": {
+        "title": "",
+        "description": ""
+      },
+      "equipment": {
+        "title": "",
+        "description": ""
+      },
+      "aoo-planner": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "faq": {
+      "title": "",
+      "items": [
+        {
+          "question": "",
+          "answer": ""
+        },
+        {
+          "question": "",
+          "answer": ""
+        },
+        {
+          "question": "",
+          "answer": ""
+        },
+        {
+          "question": "",
+          "answer": ""
+        },
+        {
+          "question": "",
+          "answer": ""
+        },
+        {
+          "question": "",
+          "answer": ""
+        }
+      ]
+    }
   },
   "results": {
     "dailyNatural": "",
@@ -28,5 +155,457 @@
     "sleepHours": "",
     "maxApCapacity": ""
   },
-  "warning": ""
+  "warning": "",
+  "ap": {
+    "seo": {
+      "heading": "",
+      "intro": "",
+      "howHeading": "",
+      "how": "",
+      "tipsHeading": "",
+      "tips": "",
+      "faq": [
+        { "q": "", "a": "" }
+      ]
+    }
+  },
+  "speedup": {
+    "meta": {
+      "title": "",
+      "description": ""
+    },
+    "title": "",
+    "subtitle": "",
+    "results": {
+      "totalDuration": "",
+      "totalMinutes": "",
+      "packagesSelected": "",
+      "days": "",
+      "hours": "",
+      "minutes": ""
+    },
+    "inputs": {
+      "quantity": ""
+    },
+    "labels": {
+      "minute": "",
+      "hour": "",
+      "day": ""
+    },
+    "seo": {
+      "heading": "",
+      "intro": "",
+      "howHeading": "",
+      "how": "",
+      "tipsHeading": "",
+      "tips": "",
+      "faq": [
+        { "q": "", "a": "" }
+      ]
+    }
+  },
+  "gems": {
+    "meta": {
+      "title": "",
+      "description": ""
+    },
+    "title": "",
+    "subtitle": "",
+    "results": {
+      "totalGems": "",
+      "packagesSelected": ""
+    },
+    "inputs": {
+      "quantity": ""
+    },
+    "labels": {
+      "gems": ""
+    }
+  },
+  "tomes": {
+    "meta": {
+      "title": "",
+      "description": ""
+    },
+    "title": "",
+    "subtitle": "",
+    "results": {
+      "totalExp": "",
+      "packagesSelected": ""
+    },
+    "inputs": {
+      "quantity": ""
+    },
+    "labels": {
+      "exp": "EXP"
+    }
+  },
+  "vip": {
+    "meta": {
+      "title": "",
+      "description": ""
+    },
+    "title": "",
+    "subtitle": "",
+    "inputs": {
+      "levelFrom": "",
+      "levelTo": "",
+      "currentPoints": ""
+    },
+    "results": {
+      "pointsNeeded": ""
+    },
+    "labels": {
+      "level": "VIP {level}"
+    },
+    "warning": ""
+  },
+  "commander": {
+    "meta": {
+      "title": "",
+      "description": ""
+    },
+    "title": "",
+    "subtitle": "",
+    "inputs": {
+      "rarity": "",
+      "levelFrom": "",
+      "levelTo": "",
+      "currentExp": ""
+    },
+    "results": {
+      "expNeeded": ""
+    },
+    "labels": {
+      "level": "Level {level}",
+      "rarity": {
+        "legendary": "",
+        "epic": "",
+        "elite": "",
+        "advanced": ""
+      }
+    },
+    "warning": ""
+  },
+  "building": {
+    "meta": {
+      "title": "",
+      "description": ""
+    },
+    "title": "",
+    "subtitle": "",
+    "inputs": {
+      "building": "",
+      "levelFrom": "",
+      "levelTo": "",
+      "speedBonus": "",
+      "allianceHelps": ""
+    },
+    "results": {
+      "total": "",
+      "totalDuration": "",
+      "foodCost": "",
+      "woodCost": "",
+      "stoneCost": "",
+      "goldCost": "",
+      "days": "",
+      "hours": "",
+      "minutes": "",
+      "powerReward": "",
+      "mgePointsReward": ""
+    },
+    "labels": {
+      "level": "Level {level}"
+    },
+    "warning": ""
+  },
+  "research": {
+    "meta": {
+      "title": "",
+      "description": ""
+    },
+    "title": "",
+    "subtitle": "",
+    "inputs": {
+      "category": "",
+      "research": "",
+      "levelFrom": "",
+      "levelTo": "",
+      "speedBonus": "",
+      "allianceHelps": ""
+    },
+    "results": {
+      "total": "",
+      "totalDuration": "",
+      "foodCost": "",
+      "woodCost": "",
+      "stoneCost": "",
+      "goldCost": "",
+      "days": "",
+      "hours": "",
+      "minutes": "",
+      "powerReward": "",
+      "mgePointsReward": ""
+    },
+    "labels": {
+      "level": "Level {level}",
+      "category": {
+        "military": "",
+        "economic": ""
+      }
+    },
+    "warning": ""
+  },
+  "equipment": {
+    "meta": {
+      "title": "",
+      "description": ""
+    },
+    "title": "",
+    "subtitle": "",
+    "inputs": {
+      "weapon": "",
+      "helmet": "",
+      "chest": "",
+      "gloves": "",
+      "legs": "",
+      "boots": "",
+      "accessories": "",
+      "speedBonus": "",
+      "none": ""
+    },
+    "advanced": {
+      "title": "",
+      "leather": "",
+      "ironOne": "",
+      "animalBone": "",
+      "ebony": ""
+    },
+    "results": {
+      "summary": "",
+      "totalDuration": "",
+      "piecesSelected": "",
+      "totalLeather": "",
+      "totalIronOne": "",
+      "totalAnimalBone": "",
+      "totalEbony": "",
+      "gold": "",
+      "days": "",
+      "hours": "",
+      "minutes": ""
+    },
+    "labels": {
+      "rarity": {
+        "C": "Common",
+        "UC": "Uncommon",
+        "R": "Rare",
+        "E": "Epic",
+        "M": "Legendary"
+      }
+    }
+  },
+  "tradingPost": {
+    "meta": {
+      "title": "",
+      "description": ""
+    },
+    "title": "",
+    "subtitle": "",
+    "modes": {
+      "label": "",
+      "deliver": "",
+      "send": "",
+      "deliverHint": "",
+      "sendHint": ""
+    },
+    "inputs": {
+      "level": "",
+      "food": "",
+      "wood": "",
+      "stone": "",
+      "gold": ""
+    },
+    "results": {
+      "send": "",
+      "tax": "",
+      "delivered": ""
+    },
+    "labels": {
+      "level": "Level {level}",
+      "taxRate": "Tax rate: {rate}"
+    }
+  },
+  "resources": {
+    "meta": {
+      "title": "",
+      "description": ""
+    },
+    "title": "",
+    "subtitle": "",
+    "results": {
+      "totalResources": "",
+      "packagesSelected": ""
+    },
+    "inputs": {
+      "quantity": "",
+      "lvl1A": "",
+      "lvl1B": "",
+      "lvl1C": "",
+      "lvl2": "",
+      "lvl3": ""
+    }
+  },
+  "healing": {
+    "meta": {
+      "title": "",
+      "description": ""
+    },
+    "title": "",
+    "subtitle": "",
+    "results": {
+      "totalDuration": "",
+      "totalFood": "",
+      "totalWood": "",
+      "totalStone": "",
+      "totalGold": "",
+      "days": "",
+      "hours": "",
+      "minutes": "",
+      "seconds": ""
+    },
+    "inputs": {
+      "healingRssReduction": "",
+      "healingSpeedBonus": "",
+      "allianceHelps": "",
+      "infantry": "",
+      "archer": "",
+      "cavalry": "",
+      "siege": ""
+    },
+    "labels": {
+      "tier": "T{tier}"
+    }
+  },
+  "training": {
+    "meta": {
+      "title": "",
+      "description": ""
+    },
+    "title": "",
+    "subtitle": "",
+    "results": {
+      "troops": "",
+      "spendFood": "",
+      "spendWood": "",
+      "spendStone": "",
+      "spendGold": "",
+      "days": "",
+      "hours": "",
+      "minutes": "",
+      "seconds": "",
+      "totalPower": "",
+      "totalMgePoints": "",
+      "totalKvkPoints": ""
+    },
+    "inputs": {
+      "tier": "",
+      "troopType": "",
+      "food": "",
+      "wood": "",
+      "stone": "",
+      "gold": "",
+      "speedup": "",
+      "speedupDays": "",
+      "speedupHours": "",
+      "speedupMinutes": "",
+      "trainingSpeedBonus": ""
+    },
+    "labels": {
+      "tier": "T{tier}",
+      "infantry": "",
+      "archer": "",
+      "cavalry": "",
+      "siege": ""
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "",
+      "description": ""
+    },
+    "title": "",
+    "subtitle": "",
+    "body": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "developerRole": "",
+    "sectionTitles": ["", "", ""],
+    "values": [
+      { "title": "" },
+      { "title": "" },
+      { "title": "" }
+    ],
+    "supportNote": "",
+    "supportButton": ""
+  },
+  "contact": {
+    "meta": {
+      "title": "",
+      "description": ""
+    },
+    "title": "",
+    "subtitle": "",
+    "intro": "",
+    "emailButton": "",
+    "emailLabel": "",
+    "copyEmail": "",
+    "copiedEmail": "",
+    "reasonsTitle": "",
+    "reasons": ["", "", ""],
+    "socialHint": ""
+  },
+  "aooPlanner": {
+    "meta": {
+      "title": "",
+      "description": ""
+    },
+    "title": "",
+    "subtitle": "",
+    "mapAlt": "",
+    "hint": "",
+    "clearConfirm": "",
+    "tools": {
+      "text": "",
+      "label": "",
+      "arrow": "",
+      "delete": "",
+      "clear": "",
+      "download": "",
+      "sizeUp": "",
+      "sizeDown": ""
+    },
+    "icons": {
+      "swords": "",
+      "shield": "",
+      "flag": "",
+      "eye": "",
+      "user": "",
+      "alert": ""
+    },
+    "colors": {
+      "white": "",
+      "black": "",
+      "amber": "",
+      "red": "",
+      "blue": "",
+      "green": ""
+    },
+    "defaults": {
+      "text": "",
+      "label": ""
+    }
+  }
 }

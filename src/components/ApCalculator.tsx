@@ -1,20 +1,22 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import type { Locale } from "@/i18n/config";
+import { intlNumberLocales, type Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/get-dictionary";
+import { CalculatorShell, NumberField, Panel } from "@/components/ui";
 import styles from "./ApCalculator.module.css";
 
 type Props = {
   dict: Dictionary;
   locale: Locale;
+  onResultsChange?: (summary: {
+    dailyTotal: string;
+    dailyNatural: string;
+    castles: string;
+    sleepAp: string;
+  }) => void;
 };
 
-const numberLocales: Record<Locale, string> = {
-  tr: "tr-TR",
-  en: "en-US",
-  es: "es-ES",
-};
 
 type FieldKey =
   | "apRefill"
@@ -25,7 +27,6 @@ type FieldKey =
 
 type FieldConfig = {
   key: FieldKey;
-  sliderId: string;
   min: number;
   max: number;
   step: number;
@@ -46,7 +47,7 @@ function formatNumber(num: number, locale: string): string {
   return new Intl.NumberFormat(locale).format(num);
 }
 
-export function ApCalculator({ dict, locale }: Props) {
+export function ApCalculator({ dict, locale, onResultsChange }: Props) {
   const [apRefill, setApRefill] = useState<number>(DEFAULTS.apRefill);
   const [dailyFree, setDailyFree] = useState<number>(DEFAULTS.dailyFree);
   const [castleCost, setCastleCost] = useState<number>(DEFAULTS.castleCost);
@@ -61,7 +62,7 @@ export function ApCalculator({ dict, locale }: Props) {
   });
   const [showWarning, setShowWarning] = useState(false);
 
-  const numberLocale = numberLocales[locale];
+  const numberLocale = intlNumberLocales[locale];
 
   const calculate = useCallback(() => {
     if (apRefill <= 0 || castleCost <= 0) return;
@@ -73,7 +74,22 @@ export function ApCalculator({ dict, locale }: Props) {
 
     setResults({ dailyNatural, dailyTotal, castles, sleepAp });
     setShowWarning(sleepAp > maxCapacity);
-  }, [apRefill, dailyFree, castleCost, sleepHours, maxCapacity]);
+
+    onResultsChange?.({
+      dailyTotal: formatNumber(dailyTotal, numberLocale),
+      dailyNatural: formatNumber(dailyNatural, numberLocale),
+      castles: formatNumber(castles, numberLocale),
+      sleepAp: formatNumber(sleepAp, numberLocale),
+    });
+  }, [
+    apRefill,
+    dailyFree,
+    castleCost,
+    sleepHours,
+    maxCapacity,
+    numberLocale,
+    onResultsChange,
+  ]);
 
   useEffect(() => {
     calculate();
@@ -82,7 +98,6 @@ export function ApCalculator({ dict, locale }: Props) {
   const fields: FieldConfig[] = [
     {
       key: "apRefill",
-      sliderId: "ap-slider",
       min: 10,
       max: 60,
       step: 1,
@@ -91,7 +106,6 @@ export function ApCalculator({ dict, locale }: Props) {
     },
     {
       key: "dailyFree",
-      sliderId: "bedava-slider",
       min: 0,
       max: 2000,
       step: 50,
@@ -100,7 +114,6 @@ export function ApCalculator({ dict, locale }: Props) {
     },
     {
       key: "castleCost",
-      sliderId: "kale-slider",
       min: 100,
       max: 200,
       step: 5,
@@ -109,7 +122,6 @@ export function ApCalculator({ dict, locale }: Props) {
     },
     {
       key: "sleepHours",
-      sliderId: "uyku-slider",
       min: 0,
       max: 15,
       step: 1,
@@ -118,7 +130,6 @@ export function ApCalculator({ dict, locale }: Props) {
     },
     {
       key: "maxCapacity",
-      sliderId: "kapasite-slider",
       min: 1000,
       max: 3000,
       step: 50,
@@ -150,74 +161,64 @@ export function ApCalculator({ dict, locale }: Props) {
     setters[key](parsed);
   }
 
-  return (
-    <div className={styles.container}>
-      <div className={styles.resultsGrid}>
-        <div className={styles.resultItem}>
-          <div className={styles.resultLabel}>{dict.results.dailyNatural}</div>
-          <div className={styles.resultValue}>
-            {formatNumber(results.dailyNatural, numberLocale)}
-          </div>
-        </div>
-        <div className={styles.resultItem}>
-          <div className={styles.resultLabel}>{dict.results.dailyTotal}</div>
-          <div className={styles.resultValue}>
-            {formatNumber(results.dailyTotal, numberLocale)}
-          </div>
-        </div>
-        <div className={styles.resultItem}>
-          <div className={styles.resultLabel}>{dict.results.castles}</div>
-          <div className={styles.resultValue}>
-            {formatNumber(results.castles, numberLocale)}
-          </div>
-        </div>
-        <div className={styles.resultItem}>
-          <div className={styles.resultLabel}>{dict.results.sleepAp}</div>
-          <div className={styles.resultValue}>
-            {formatNumber(results.sleepAp, numberLocale)}
-          </div>
-        </div>
-      </div>
+  const formatted = {
+    dailyNatural: formatNumber(results.dailyNatural, numberLocale),
+    dailyTotal: formatNumber(results.dailyTotal, numberLocale),
+    castles: formatNumber(results.castles, numberLocale),
+    sleepAp: formatNumber(results.sleepAp, numberLocale),
+  };
 
-      <div className={styles.inputsGrid}>
-        {fields.map((field) => {
-          const value = values[field.key];
-          return (
+  return (
+    <CalculatorShell className={styles.shell}>
+      <aside className={styles.resultStrip} aria-live="polite">
+        <div className={styles.resultMain}>
+          <span className={styles.resultLabel}>{dict.results.dailyTotal}</span>
+          <span key={formatted.dailyTotal} className={styles.resultValue}>
+            {formatted.dailyTotal}
+          </span>
+        </div>
+        <div className={styles.resultMeta}>
+          <div className={styles.metaItem}>
+            <span className={styles.metaLabel}>{dict.results.dailyNatural}</span>
+            <span className={styles.metaValue}>{formatted.dailyNatural}</span>
+          </div>
+          <div className={styles.metaItem}>
+            <span className={styles.metaLabel}>{dict.results.castles}</span>
+            <span className={styles.metaValue}>{formatted.castles}</span>
+          </div>
+          <div className={styles.metaItem}>
+            <span className={styles.metaLabel}>{dict.results.sleepAp}</span>
+            <span className={styles.metaValue}>{formatted.sleepAp}</span>
+          </div>
+        </div>
+      </aside>
+
+      <Panel className={styles.inputPanel}>
+        <div className={styles.inputsGrid}>
+          {fields.map((field) => (
             <div
               key={field.key}
-              className={`${styles.inputGroup} ${field.fullWidth ? styles.fullWidth : ""}`}
+              className={field.fullWidth ? styles.fullWidth : undefined}
             >
-              <div className={styles.inputLabel}>{field.label}</div>
-              <div className={styles.sliderContainer}>
-                <input
-                  type="range"
-                  id={field.sliderId}
-                  min={field.min}
-                  max={field.max}
-                  step={field.step}
-                  value={value}
-                  onChange={(e) => handleChange(field.key, e.target.value)}
-                />
-              </div>
-              <input
-                type="number"
-                className={styles.numberInput}
+              <NumberField
+                id={`ap-${field.key}`}
+                label={field.label}
                 min={field.min}
                 max={field.max}
                 step={field.step}
-                value={value}
+                value={values[field.key]}
                 onChange={(e) => handleChange(field.key, e.target.value)}
               />
             </div>
-          );
-        })}
-      </div>
+          ))}
+        </div>
+      </Panel>
 
       {showWarning && (
         <div className={styles.warning} role="alert">
-          ⚠️ {dict.warning}
+          {dict.warning}
         </div>
       )}
-    </div>
+    </CalculatorShell>
   );
 }

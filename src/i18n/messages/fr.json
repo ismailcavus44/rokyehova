@@ -1,0 +1,598 @@
+{
+  "header": {
+    "brand": "Outils ROK",
+    "languageLabel": "Langue",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "toolsLabel": "Calculateurs",
+    "aboutLabel": "À propos",
+    "contactLabel": "Contact"
+  },
+  "support": {
+    "text": "I build these tools alone, for free. If they helped, you can buy me a coffee.",
+    "button": "Buy me a coffee",
+    "modalTitle": "Support the Project",
+    "modalText": "I build these tools alone, for free. Your support keeps me motivated.",
+    "usdtLabel": "USDT (TRC20)",
+    "copy": "Copy",
+    "copied": "Copied ✓",
+    "networkWarning": "Please use the TRC20 network only",
+    "close": "Close"
+  },
+  "meta": {
+    "title": "Calculateur PA — Rise of Kingdoms",
+    "description": "Calculez le PA quotidien, les attaques de châteaux et le rechargement pendant le sommeil."
+  },
+  "home": {
+    "meta": {
+      "title": "Outils ROK — Calculateurs Rise of Kingdoms",
+      "description": "Calculateurs Rise of Kingdoms gratuits pour PA, accélérations, gemmes, VIP et plus."
+    },
+    "title": "Calculateurs Rise of Kingdoms",
+    "subtitle": "Outils pratiques pour calculer ressources, temps et points.",
+    "hero": {
+      "title": "Outils de calcul Rise of Kingdoms",
+      "subtitle": "Calculez ressources, temps, commandants et équipement en quelques secondes — et planifiez plus intelligemment.",
+      "stats": [
+        "14 outils",
+        "9 langues",
+        "Gratuit"
+      ]
+    },
+    "categories": {
+      "economy": "Ressources et économie",
+      "military": "Troupes et entraînement",
+      "commander": "Commandants et équipement",
+      "infrastructure": "Bâtiments et recherche",
+      "team": "Team & Strategy"
+    },
+    "relatedCalculators": "Calculateurs associés",
+    "seo": {
+      "title": "Calculateurs tout-en-un pour Rise of Kingdoms",
+      "body": [
+        "ROK Tools est une collection gratuite de calculateurs conçue pour les joueurs de Rise of Kingdoms. Des durées d'accélération et l'EXP des commandants aux coûts de bâtiments et de recherche et à la fabrication d'équipement — tous les calculs dont vous avez besoin en un seul endroit, rapidement et avec précision.",
+        "Chaque outil fonctionne avec les données du jeu et affiche les résultats instantanément. Aucune inscription requise et les publicités sont minimales, pour vous concentrer sur la planification et utiliser vos ressources le plus efficacement possible."
+      ]
+    },
+    "items": {
+      "ap": {
+        "title": "Calculateur PA",
+        "description": "PA quotidien, châteaux et rechargement pendant le sommeil."
+      },
+      "speedup": {
+        "title": "Calculateur d'Accélérations",
+        "description": "Durée totale de vos accélérations."
+      },
+      "gems": {
+        "title": "Calculateur de Gemmes",
+        "description": "Valeur totale de vos gemmes."
+      },
+      "tomes": {
+        "title": "Tomes of Knowledge",
+        "description": "EXP total de votre inventaire de tomes."
+      },
+      "vip": {
+        "title": "Calculateur VIP",
+        "description": "Points nécessaires pour votre niveau VIP cible."
+      },
+      "commander": {
+        "title": "EXP Commandant",
+        "description": "EXP commandant pour atteindre votre niveau cible."
+      },
+      "trading-post": {
+        "title": "Poste de Commerce",
+        "description": "Ressources à envoyer et recevoir après taxe."
+      },
+      "resources": {
+        "title": "Pack de Ressources",
+        "description": "Valeur totale des packs de ressources."
+      },
+      "healing": {
+        "title": "Soins",
+        "description": "Ressources et temps pour soigner les troupes blessées."
+      },
+      "training": {
+        "title": "Entraînement MGE",
+        "description": "Troupes entraînables selon ressources et accélérations."
+      },
+      "building": {
+        "title": "Amélioration de Bâtiment",
+        "description": "Coût et durée de montée de niveau."
+      },
+      "research": {
+        "title": "Amélioration de Recherche",
+        "description": "Coût et durée de recherche militaire et économique."
+      },
+      "equipment": {
+        "title": "Fabrication d'Équipement",
+        "description": "Matériaux, or et temps pour les pièces sélectionnées."
+      },
+      "aoo-planner": {
+        "title": "AOO Team Planner",
+        "description": "Lane, role, and teleport plan for Ark of Osiris."
+      }
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "items": [
+        {
+          "question": "Les calculs de ROK Tools sont-ils précis ?",
+          "answer": "Oui. Les formules sont dérivées de la mécanique réelle du jeu et les résultats correspondent aux valeurs en jeu."
+        },
+        {
+          "question": "Dois-je m'inscrire ?",
+          "answer": "Non. Tous les outils sont gratuits et ne nécessitent pas d'inscription."
+        },
+        {
+          "question": "Les données de calcul sont-elles à jour ?",
+          "answer": "Oui. Les données sont alignées sur le jeu et mises à jour lors des mises à jour du jeu."
+        },
+        {
+          "question": "Quels calculateurs sont disponibles ?",
+          "answer": "Accélérations, ressources, entraînement, soins, EXP commandant, équipement, bâtiments, recherche, VIP, poste de commerce et plus encore."
+        },
+        {
+          "question": "Est-ce compatible mobile ?",
+          "answer": "Oui. Tous les outils sont adaptés aux mobiles."
+        },
+        {
+          "question": "Est-ce un site officiel ?",
+          "answer": "Non. C'est un outil gratuit créé par des fans pour les joueurs, sans lien avec Lilith Games."
+        }
+      ]
+    }
+  },
+  "results": {
+    "dailyNatural": "Recharge Naturelle Quotidienne",
+    "dailyTotal": "PA Total Quotidien",
+    "castles": "Châteaux Possibles",
+    "sleepAp": "PA Pendant le Sommeil"
+  },
+  "inputs": {
+    "apRefillSeconds": "Temps de Recharge PA (Sec.)",
+    "dailyFreeAp": "PA Gratuit Quotidien",
+    "castleApCost": "Coût PA du Château",
+    "sleepHours": "Durée du Sommeil (Heures)",
+    "maxApCapacity": "Capacité PA Max."
+  },
+  "warning": "Attention : le PA gagné pendant le sommeil dépasse votre capacité — des points peuvent être perdus !",
+  "ap": {},
+  "speedup": {
+    "meta": {
+      "title": "Calculateur d'Accélérations — Rise of Kingdoms",
+      "description": "Calculez la durée totale de vos accélérations."
+    },
+    "title": "Calculateur d'Accélérations",
+    "subtitle": "Calculez la durée totale de vos accélérations.",
+    "results": {
+      "totalDuration": "Durée Totale",
+      "totalMinutes": "Minutes Totales",
+      "packagesSelected": "Paquets Sélectionnés",
+      "days": "Jours",
+      "hours": "Heures",
+      "minutes": "Minutes"
+    },
+    "inputs": {
+      "quantity": "Qté"
+    },
+    "labels": {
+      "minute": "min",
+      "hour": "h",
+      "day": "j"
+    }
+  },
+  "gems": {
+    "meta": {
+      "title": "Calculateur de Gemmes — Rise of Kingdoms",
+      "description": "Calculez la valeur totale de vos gemmes."
+    },
+    "title": "Calculateur de Gemmes",
+    "subtitle": "Calculez la valeur totale de vos gemmes.",
+    "results": {
+      "totalGems": "Gemmes Totales",
+      "packagesSelected": "Paquets Sélectionnés"
+    },
+    "inputs": {
+      "quantity": "Qté"
+    },
+    "labels": {
+      "gems": "Gemmes"
+    }
+  },
+  "tomes": {
+    "meta": {
+      "title": "Calculateur Tomes of Knowledge — Rise of Kingdoms",
+      "description": "Calculez l'EXP total de votre inventaire de tomes."
+    },
+    "title": "Calculateur Tomes of Knowledge",
+    "subtitle": "Calculez l'EXP total de votre inventaire de tomes.",
+    "results": {
+      "totalExp": "EXP Total",
+      "packagesSelected": "Paquets Sélectionnés"
+    },
+    "inputs": {
+      "quantity": "Qté"
+    },
+    "labels": {
+      "exp": "EXP"
+    }
+  },
+  "vip": {
+    "meta": {
+      "title": "Calculateur de Niveau VIP — Rise of Kingdoms",
+      "description": "Calculez les points nécessaires pour atteindre votre niveau VIP cible."
+    },
+    "title": "Calculateur de Niveau VIP",
+    "subtitle": "Calculez les points nécessaires pour atteindre votre niveau VIP cible.",
+    "inputs": {
+      "levelFrom": "Niveau VIP Actuel",
+      "levelTo": "Niveau VIP Cible",
+      "currentPoints": "Points VIP Actuels"
+    },
+    "results": {
+      "pointsNeeded": "Points Nécessaires"
+    },
+    "labels": {
+      "level": "VIP {level}"
+    },
+    "warning": "L'objectif doit être supérieur à votre niveau actuel."
+  },
+  "commander": {
+    "meta": {
+      "title": "Calculateur EXP Commandant — Rise of Kingdoms",
+      "description": "Calculez l'EXP nécessaire pour atteindre votre niveau de commandant cible."
+    },
+    "title": "Calculateur EXP Commandant",
+    "subtitle": "Calculez l'EXP nécessaire pour atteindre votre niveau de commandant cible.",
+    "inputs": {
+      "rarity": "Rareté du Commandant",
+      "levelFrom": "Niveau Actuel",
+      "levelTo": "Niveau Cible",
+      "currentExp": "EXP Accumulé Actuel"
+    },
+    "results": {
+      "expNeeded": "EXP Nécessaire"
+    },
+    "labels": {
+      "level": "Niveau {level}",
+      "rarity": {
+        "legendary": "Légendaire",
+        "epic": "Épique",
+        "elite": "Élite",
+        "advanced": "Avancé"
+      }
+    },
+    "warning": "L'objectif doit être supérieur à votre niveau actuel."
+  },
+  "building": {
+    "meta": {
+      "title": "Calculateur d'Amélioration de Bâtiment — Rise of Kingdoms",
+      "description": "Calculez le coût et le temps d'amélioration des bâtiments."
+    },
+    "title": "Calculateur d'Amélioration de Bâtiment",
+    "subtitle": "Calculez le coût et la durée d'amélioration des bâtiments.",
+    "inputs": {
+      "building": "Bâtiment",
+      "levelFrom": "Niveau Actuel",
+      "levelTo": "Niveau Cible",
+      "speedBonus": "Bonus de Vitesse de Construction (%)",
+      "allianceHelps": "Aides d'Alliance"
+    },
+    "results": {
+      "total": "Total",
+      "totalDuration": "Durée Totale",
+      "foodCost": "Nourriture",
+      "woodCost": "Bois",
+      "stoneCost": "Pierre",
+      "goldCost": "Or",
+      "days": "Jours",
+      "hours": "Heures",
+      "minutes": "Minutes",
+      "powerReward": "Puissance",
+      "mgePointsReward": "Points MGE"
+    },
+    "labels": {
+      "level": "Niveau {level}"
+    },
+    "warning": "L'objectif doit être supérieur à votre niveau actuel."
+  },
+  "research": {
+    "meta": {
+      "title": "Calculateur d'Amélioration de Recherche — Rise of Kingdoms",
+      "description": "Calculez le coût et le temps de recherche militaire et économique."
+    },
+    "title": "Calculateur d'Amélioration de Recherche",
+    "subtitle": "Calculez le coût et la durée de recherche militaire et économique.",
+    "inputs": {
+      "category": "Catégorie",
+      "research": "Recherche",
+      "levelFrom": "Niveau Actuel",
+      "levelTo": "Niveau Cible",
+      "speedBonus": "Bonus de Vitesse de Recherche (%)",
+      "allianceHelps": "Aides d'Alliance"
+    },
+    "results": {
+      "total": "Total",
+      "totalDuration": "Durée Totale",
+      "foodCost": "Nourriture",
+      "woodCost": "Bois",
+      "stoneCost": "Pierre",
+      "goldCost": "Or",
+      "days": "Jours",
+      "hours": "Heures",
+      "minutes": "Minutes",
+      "powerReward": "Puissance",
+      "mgePointsReward": "Points MGE"
+    },
+    "labels": {
+      "level": "Niveau {level}",
+      "category": {
+        "military": "Militaire",
+        "economic": "Économique"
+      }
+    },
+    "warning": "L'objectif doit être supérieur à votre niveau actuel."
+  },
+  "equipment": {
+    "meta": {
+      "title": "Calculateur de Fabrication d'Équipement — Rise of Kingdoms",
+      "description": "Calculez matériaux, or et temps de fabrication pour les équipements sélectionnés."
+    },
+    "title": "Calculateur de Fabrication d'Équipement",
+    "subtitle": "Calculez matériaux, or et temps de fabrication pour les équipements sélectionnés.",
+    "inputs": {
+      "weapon": "Arme",
+      "helmet": "Casque",
+      "chest": "Torse",
+      "gloves": "Gants",
+      "legs": "Jambes",
+      "boots": "Bottes",
+      "accessories": "Accessoires",
+      "speedBonus": "Bonus de Vitesse de Fabrication (%)",
+      "none": "Aucun"
+    },
+    "advanced": {
+      "title": "Matériaux Possédés",
+      "leather": "Cuir",
+      "ironOne": "Fer",
+      "animalBone": "Os",
+      "ebony": "Ébène"
+    },
+    "results": {
+      "summary": "Encore Nécessaire",
+      "totalDuration": "Durée Totale",
+      "piecesSelected": "Pièces Sélectionnées",
+      "totalLeather": "Cuir",
+      "totalIronOne": "Fer",
+      "totalAnimalBone": "Os",
+      "totalEbony": "Ébène",
+      "gold": "Or",
+      "days": "Jours",
+      "hours": "Heures",
+      "minutes": "Minutes"
+    },
+    "labels": {
+      "rarity": {
+        "C": "Commun",
+        "UC": "Peu commun",
+        "R": "Rare",
+        "E": "Épique",
+        "M": "Légendaire"
+      }
+    }
+  },
+  "tradingPost": {
+    "meta": {
+      "title": "Calculateur du Poste de Commerce — Rise of Kingdoms",
+      "description": "Calculez les ressources à envoyer et recevoir après taxe commerciale."
+    },
+    "title": "Calculateur du Poste de Commerce",
+    "subtitle": "Calculez les ressources à envoyer et recevoir après taxe commerciale.",
+    "modes": {
+      "label": "Mode de calcul",
+      "deliver": "Livrer X au destinataire",
+      "send": "Si j'envoie X, qu'arrive",
+      "deliverHint": "Entrez la quantité que vous voulez voir arriver à destination.",
+      "sendHint": "Entrez la quantité que vous voulez envoyer."
+    },
+    "inputs": {
+      "level": "Niveau du Poste de Commerce",
+      "food": "Nourriture",
+      "wood": "Bois",
+      "stone": "Pierre",
+      "gold": "Or"
+    },
+    "results": {
+      "send": "Vous Devez Envoyer",
+      "tax": "Taxe",
+      "delivered": "Livré"
+    },
+    "labels": {
+      "level": "Niveau {level}",
+      "taxRate": "Taux de taxe : {rate}"
+    }
+  },
+  "resources": {
+    "meta": {
+      "title": "Calculateur de Packs de Ressources — Rise of Kingdoms",
+      "description": "Calculez la valeur totale de vos packs de ressources."
+    },
+    "title": "Calculateur de Packs de Ressources",
+    "subtitle": "Calculez la valeur totale de vos packs de ressources.",
+    "results": {
+      "totalResources": "Ressources Totales",
+      "packagesSelected": "Paquets Sélectionnés"
+    },
+    "inputs": {
+      "quantity": "Qté",
+      "lvl1A": "Niv. 1A",
+      "lvl1B": "Niv. 1B",
+      "lvl1C": "Niv. 1C",
+      "lvl2": "Niv. 2",
+      "lvl3": "Niv. 3"
+    }
+  },
+  "healing": {
+    "meta": {
+      "title": "Calculateur de Soins — Rise of Kingdoms",
+      "description": "Calculez ressources et temps pour soigner les troupes blessées."
+    },
+    "title": "Calculateur de Soins",
+    "subtitle": "Calculez les ressources et le temps nécessaires pour soigner les troupes blessées.",
+    "results": {
+      "totalDuration": "Durée Totale",
+      "totalFood": "Nourriture Totale",
+      "totalWood": "Bois Total",
+      "totalStone": "Pierre Totale",
+      "totalGold": "Or Total",
+      "days": "Jours",
+      "hours": "Heures",
+      "minutes": "Minutes",
+      "seconds": "Secondes"
+    },
+    "inputs": {
+      "healingRssReduction": "Réduction de Ressources (%)",
+      "healingSpeedBonus": "Vitesse de Soins (%)",
+      "allianceHelps": "Aides d'Alliance",
+      "infantry": "Infanterie",
+      "archer": "Archer",
+      "cavalry": "Cavalerie",
+      "siege": "Siège"
+    },
+    "labels": {
+      "tier": "T{tier}"
+    }
+  },
+  "training": {
+    "meta": {
+      "title": "Calculateur d'Entraînement MGE — Rise of Kingdoms",
+      "description": "Calculez les troupes entraînables selon ressources et accélérations."
+    },
+    "title": "Calculateur d'Entraînement MGE",
+    "subtitle": "Calculez les troupes entraînables selon vos ressources et accélérations.",
+    "results": {
+      "troops": "Troupes Entraînables",
+      "spendFood": "Nourriture Dépensée",
+      "spendWood": "Bois Dépensé",
+      "spendStone": "Pierre Dépensée",
+      "spendGold": "Or Dépensé",
+      "days": "Jours",
+      "hours": "Heures",
+      "minutes": "Minutes",
+      "seconds": "Secondes",
+      "totalPower": "Puissance Totale",
+      "totalMgePoints": "Points MGE Totaux",
+      "totalKvkPoints": "Points KVK Totaux"
+    },
+    "inputs": {
+      "tier": "Niveau d'Entraînement",
+      "troopType": "Type de Troupe",
+      "food": "Nourriture Disponible",
+      "wood": "Bois Disponible",
+      "stone": "Pierre Disponible",
+      "gold": "Or Disponible",
+      "speedup": "Accélérations",
+      "speedupDays": "Jours",
+      "speedupHours": "Heures",
+      "speedupMinutes": "Minutes",
+      "trainingSpeedBonus": "Bonus de Vitesse d'Entraînement (%)"
+    },
+    "labels": {
+      "tier": "T{tier}",
+      "infantry": "Infanterie",
+      "archer": "Archer",
+      "cavalry": "Cavalerie",
+      "siege": "Siège"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "À propos — ROK Tools",
+      "description": "Qui a créé ROK Tools et pourquoi ? Une collection gratuite de calculateurs pour les joueurs de Rise of Kingdoms."
+    },
+    "title": "À propos",
+    "subtitle": "Pourquoi et comment j'ai créé ce site.",
+    "body": [
+      "Bonjour, je suis İsmail. Je vous écris depuis la Turquie et, tout comme vous, je suis un joueur de Rise of Kingdoms. J'ai découvert le jeu il y a environ deux mois et, pour être honnête, je ne m'attendais pas à l'aimer autant. Actuellement, je joue principalement infanterie dans le royaume 4066. Pour moi, élaborer des stratégies, gérer les ressources et faire le bon mouvement au bon moment est la partie la plus passionnante du jeu.",
+      "Mais au bout d'un moment, j'ai réalisé que je faisais constamment les mêmes calculs : combien d'accélérations sont nécessaires, combien de troupes puis-je entraîner, combien d'EXP faut-il pour améliorer ce commandant... La plupart des outils existants étaient soit obsolètes, soit dans une seule langue, soit trop compliqués à utiliser. Je me suis donc dit : « Je peux faire mieux que ça » et j'ai créé ce site.",
+      "Mon objectif est simple : permettre aux joueurs d'obtenir des résultats précis rapidement et sans se casser la tête. Tout est gratuit, ne nécessite aucune inscription, et j'ai essayé de garder l'interface aussi épurée que possible. Je serais ravi si ce site pouvait aussi faciliter votre expérience de jeu.",
+      "Si vous trouvez un bug ou si vous avez une suggestion, n'hésitez pas à m'écrire via la page de contact — je lis absolument tous les messages."
+    ],
+    "developerRole": "Développeur & joueur RoK",
+    "sectionTitles": [
+      "Pourquoi je l'ai créé",
+      "À quoi ça sert",
+      "Mon approche"
+    ],
+    "values": [
+      { "title": "Gratuit" },
+      { "title": "Sans inscription" },
+      { "title": "9 langues" }
+    ],
+    "supportNote": "Si ces outils vous sont utiles, vous pouvez soutenir le projet.",
+    "supportButton": "Soutenir"
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact — ROK Tools",
+      "description": "Contactez ROK Tools. Signalez des bugs, envoyez des retours ou des suggestions."
+    },
+    "title": "Contact",
+    "subtitle": "Écrivez pour des retours, suggestions ou signalements de bugs.",
+    "intro": "Si vous avez trouvé un bug, une suggestion ou un problème avec un calculateur, envoyez-moi un e-mail. J'essaie de répondre dès que possible.",
+    "emailButton": "Envoyer un e-mail",
+    "emailLabel": "E-mail",
+    "copyEmail": "Copier",
+    "copiedEmail": "Copié",
+    "reasonsTitle": "Pourquoi m'écrire ?",
+    "reasons": [
+      "Signalement de bug",
+      "Suggestion",
+      "Collaboration"
+    ],
+    "socialHint": "Liens Discord et réseaux sociaux bientôt disponibles."
+  },
+  "aooPlanner": {
+    "meta": {
+      "title": "Planificateur de Formation AOO – Éditeur de Carte Ark of Osiris",
+      "description": "Planifiez la formation de votre équipe pour Ark of Osiris dans Rise of Kingdoms. Éditeur de stratégie AOO gratuit ; ajoutez texte, flèches et marqueurs, puis téléchargez l'image."
+    },
+    "h1": "Planificateur de Formation AOO",
+    "intro": "Planifiez votre formation Ark of Osiris dans Rise of Kingdoms directement sur la carte. Ajoutez texte, flèches et marqueurs, téléchargez l'image et partagez-la avec votre alliance.",
+    "title": "AOO Map Editor",
+    "subtitle": "Freely draw your team plan on the Ark of Osiris map with text, labels, arrows and icons.",
+    "mapAlt": "Ark of Osiris map",
+    "hint": "Use the tools above to add items on the map. Drag to move them, click a text/label to edit its text.",
+    "clearConfirm": "Remove all items?",
+    "tools": {
+      "text": "Text",
+      "label": "Label",
+      "arrow": "Arrow",
+      "delete": "Delete",
+      "clear": "Clear All",
+      "download": "Download Image",
+      "sizeUp": "Larger",
+      "sizeDown": "Smaller"
+    },
+    "icons": {
+      "swords": "Rally",
+      "shield": "Garrison",
+      "flag": "Ark",
+      "eye": "Scout",
+      "user": "Player",
+      "alert": "Alert"
+    },
+    "colors": {
+      "white": "White",
+      "black": "Black",
+      "amber": "Amber",
+      "red": "Red",
+      "blue": "Blue",
+      "green": "Green"
+    },
+    "defaults": {
+      "text": "Text",
+      "label": "LABEL"
+    }
+  }
+}

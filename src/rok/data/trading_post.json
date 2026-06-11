@@ -1,0 +1,102 @@
+[
+  {
+    "level": 1,
+    "taxRate": 0.35
+  },
+  {
+    "level": 2,
+    "taxRate": 0.34
+  },
+  {
+    "level": 3,
+    "taxRate": 0.33
+  },
+  {
+    "level": 4,
+    "taxRate": 0.32
+  },
+  {
+    "level": 5,
+    "taxRate": 0.31
+  },
+  {
+    "level": 6,
+    "taxRate": 0.3
+  },
+  {
+    "level": 7,
+    "taxRate": 0.29
+  },
+  {
+    "level": 8,
+    "taxRate": 0.28
+  },
+  {
+    "level": 9,
+    "taxRate": 0.27
+  },
+  {
+    "level": 10,
+    "taxRate": 0.26
+  },
+  {
+    "level": 11,
+    "taxRate": 0.25
+  },
+  {
+    "level": 12,
+    "taxRate": 0.24
+  },
+  {
+    "level": 13,
+    "taxRate": 0.23
+  },
+  {
+    "level": 14,
+    "taxRate": 0.22
+  },
+  {
+    "level": 15,
+    "taxRate": 0.21
+  },
+  {
+    "level": 16,
+    "taxRate": 0.2
+  },
+  {
+    "level": 17,
+    "taxRate": 0.19
+  },
+  {
+    "level": 18,
+    "taxRate": 0.18
+  },
+  {
+    "level": 19,
+    "taxRate": 0.17
+  },
+  {
+    "level": 20,
+    "taxRate": 0.16
+  },
+  {
+    "level": 21,
+    "taxRate": 0.15
+  },
+  {
+    "level": 22,
+    "taxRate": 0.14
+  },
+  {
+    "level": 23,
+    "taxRate": 0.12
+  },
+  {
+    "level": 24,
+    "taxRate": 0.1
+  },
+  {
+    "level": 25,
+    "taxRate": 0.08
+  }
+]

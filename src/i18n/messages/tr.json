@@ -4,16 +4,143 @@
     "languageLabel": "Dil",
     "openMenu": "Menüyü aç",
     "closeMenu": "Menüyü kapat",
-    "menu": [
-      { "label": "AP Hesaplayıcı" },
-      { "label": "Komutanlar" },
-      { "label": "Rehberler" },
-      { "label": "Hakkında" }
-    ]
+    "toolsLabel": "Hesaplayıcılar",
+    "aboutLabel": "Hakkında",
+    "contactLabel": "İletişim"
+  },
+  "support": {
+    "text": "Bu araçları tek başıma, ücretsiz geliştiriyorum. Beğendiysen bir kahve ısmarlayabilirsin.",
+    "button": "Kahve Ismarla",
+    "modalTitle": "Projeyi Destekle",
+    "modalText": "Bu araçları tek başıma, ücretsiz geliştiriyorum. Desteğin motive ediyor.",
+    "usdtLabel": "USDT (TRC20)",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı ✓",
+    "networkWarning": "Lütfen yalnızca TRC20 ağını kullan",
+    "close": "Kapat"
   },
   "meta": {
     "title": "Rise of Kingdoms AP Hesaplayıcı",
     "description": "Günlük AP, kale sayısı ve uyku dolumunu hesaplayın."
+  },
+  "home": {
+    "meta": {
+      "title": "ROK Araçları — Rise of Kingdoms Hesaplayıcılar",
+      "description": "AP, speedup, gems, VIP ve daha fazlası için ücretsiz Rise of Kingdoms hesaplayıcıları."
+    },
+    "title": "Rise of Kingdoms Hesaplayıcıları",
+    "subtitle": "Kaynak, süre ve puan hesaplamaları için pratik araçlar.",
+    "hero": {
+      "title": "Rise of Kingdoms Hesaplama Araçları",
+      "subtitle": "Kaynak, süre, komutan ve ekipman hesaplamalarını saniyeler içinde yap ve daha akıllı planla.",
+      "stats": [
+        "14 araç",
+        "9 dil",
+        "Ücretsiz"
+      ]
+    },
+    "categories": {
+      "economy": "Kaynak & Ekonomi",
+      "military": "Asker & Eğitim",
+      "commander": "Komutan & Ekipman",
+      "infrastructure": "Bina & Araştırma",
+      "team": "Takım & Strateji"
+    },
+    "relatedCalculators": "İlgili Hesaplayıcılar",
+    "seo": {
+      "title": "Rise of Kingdoms için hepsi bir arada hesaplayıcılar",
+      "body": [
+        "ROK Araçları, Rise of Kingdoms oyuncuları için tasarlanmış ücretsiz bir hesaplayıcı koleksiyonudur. Hızlandırma sürelerinden komutan EXP'ine, bina ve araştırma maliyetlerinden ekipman üretimine kadar ihtiyacın olan tüm hesaplamaları tek bir yerde, hızlı ve doğru şekilde yaparsın.",
+        "Tüm araçlar oyun verileriyle uyumlu çalışır ve sonuçları anında gösterir. Kayıt gerekmez, reklam yükü minimumdur; sadece planlamaya odaklan ve kaynaklarını en verimli şekilde kullan."
+      ]
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "items": [
+        {
+          "question": "ROK Araçları hesaplamaları doğru mu?",
+          "answer": "Evet, formüller oyunun gerçek mekaniğinden çıkarıldı; sonuçlar oyun içi değerlerle uyumludur."
+        },
+        {
+          "question": "Kayıt olmam gerekiyor mu?",
+          "answer": "Hayır, tüm araçlar ücretsizdir ve kayıt gerektirmez."
+        },
+        {
+          "question": "Hesaplama verileri güncel mi?",
+          "answer": "Evet, oyun verileriyle uyumludur ve oyun güncellemelerinde yenilenir."
+        },
+        {
+          "question": "Hangi hesaplayıcılar var?",
+          "answer": "Hızlandırma, kaynak, eğitim, iyileştirme, komutan EXP, ekipman, bina, araştırma, VIP, ticaret merkezi ve daha fazlası."
+        },
+        {
+          "question": "Mobilde çalışır mı?",
+          "answer": "Evet, tüm araçlar mobil uyumludur."
+        },
+        {
+          "question": "Bu site resmi mi?",
+          "answer": "Hayır, Lilith Games ile bağlantısı olmayan, oyuncular için yapılmış ücretsiz bir fan aracıdır."
+        }
+      ]
+    },
+    "items": {
+      "ap": {
+        "title": "AP Hesaplayıcı",
+        "description": "Günlük AP, kale sayısı ve uyku dolumu."
+      },
+      "speedup": {
+        "title": "Hızlandırma Hesaplayıcı",
+        "description": "Speedup paketlerinin toplam süresi."
+      },
+      "gems": {
+        "title": "Gems Hesaplayıcı",
+        "description": "Gems paketlerinin toplam değeri."
+      },
+      "tomes": {
+        "title": "Tomes of Knowledge",
+        "description": "Tome envanterinin toplam EXP değeri."
+      },
+      "vip": {
+        "title": "VIP Seviye Hesaplayıcı",
+        "description": "Hedef VIP seviyesi için gereken puan."
+      },
+      "commander": {
+        "title": "Komutan EXP",
+        "description": "Hedef seviyeye ulaşmak için gereken komutan EXP."
+      },
+      "trading-post": {
+        "title": "Ticaret Merkezi",
+        "description": "Vergi sonrası gönderilecek ve ulaşacak kaynak."
+      },
+      "resources": {
+        "title": "Kaynak Paketi",
+        "description": "Kaynak paketlerinin toplam değeri."
+      },
+      "healing": {
+        "title": "İyileştirme",
+        "description": "Yaralı askerler için kaynak ve süre."
+      },
+      "training": {
+        "title": "MGE Eğitim",
+        "description": "Kaynak ve hızlandırmaya göre eğitilebilir asker."
+      },
+      "building": {
+        "title": "Bina Geliştirme",
+        "description": "Seviye atlama maliyeti ve süresi."
+      },
+      "research": {
+        "title": "Araştırma Geliştirme",
+        "description": "Askeri ve ekonomik araştırma maliyeti ve süresi."
+      },
+      "equipment": {
+        "title": "Ekipman Üretimi",
+        "description": "Seçili parçalar için malzeme, altın ve süre."
+      },
+      "aoo-planner": {
+        "title": "AOO Takım Planlayıcı",
+        "description": "Ark of Osiris için lane, rol ve ışınlanma planı."
+      }
+    }
   },
   "results": {
     "dailyNatural": "Günlük Doğal Dolum",
@@ -28,5 +155,511 @@
     "sleepHours": "Uyku Süreniz (Saat)",
     "maxApCapacity": "Maks. AP Kapasitesi"
   },
-  "warning": "Dikkat: Uyku sırasında dolacak olan AP kapasitenizi aşıyor, puanlarınız boşa gidebilir!"
+  "warning": "Dikkat: Uyku sırasında dolacak olan AP kapasitenizi aşıyor, puanlarınız boşa gidebilir!",
+  "ap": {
+    "seo": {
+      "heading": "RoK AP Hesaplama: Envanterindeki Toplam Aksiyon Puanını Öğren",
+      "intro": "KvK (Krallıklar Çarpışması) öncesi veya büyük bir etkinlik yaklaşırken oyuncuların en çok merak ettiği şey, çantada ne kadar AP (Aksiyon Puanı) biriktiğidir. Rise of Kingdoms ap hesaplama işlemini manuel yapmak, farklı değerlerdeki yüzlerce paketi tek tek saymayı gerektirdiği için oldukça yorucudur. Tam bu noktada rok ap hesaplama aracımız devreye giriyor. Envanterinizdeki tüm AP şişelerinin toplam değerini saniyeler içinde bularak, Çapulcu (Marauder) etkinliklerine veya büyük savaşlara ne kadar hazırlıklı olduğunuzu anında görebilirsiniz.",
+      "howHeading": "AP Hesaplayıcı Nasıl Çalışır?",
+      "how": "Aracımız, oyun içi çantanızda bulunan AP paketlerinin değerlerini ve adetlerini temel alarak matematiksel bir işlem yapar. Bildiğiniz gibi oyunda 50, 100, 500 ve 1000'lik AP paketleri bulunur. AP hesaplama formülü tam olarak şöyledir: Her bir AP paketinin değeri ile o paketten elinizde kaç adet olduğu çarpılır ve elde edilen tüm sonuçlar birbiriyle toplanır. Örneğin; 20 adet 500'lük ve 5 adet 1000'lik paketiniz varsa, sistem bunu (20x500) + (5x1000) olarak işler ve toplam 15.000 AP'niz olduğunu gösterir. Sadece paket adetlerini ilgili kutucuklara girmeniz yeterlidir.",
+      "tipsHeading": "AP Kullanımı İçin Taktikler",
+      "tips": "AP şişelerinizi rastgele harcamak yerine stratejik davranmak hesap gelişiminizi doğrudan etkiler. Özellikle ön-KvK dönemindeki Çapulcu etkinlikleri, elinizdeki tüm paketleri eritmek için en iyi zamandır. Normal günlerde ise çantadaki AP şişelerine dokunmamak, sadece kendiliğinden dolan günlük yeşil AP barınızı kullanarak barbar ve kale kesmek en doğrusudur. Puanlarınızı her zaman yüksek değerli etkinliklere saklayın.",
+      "faq": [
+        {
+          "q": "Rise of Kingdoms ap hesaplama aracı güvenilir mi, şifre ister mi?",
+          "a": "Aracımız tamamen güvenlidir ve hesabınıza giriş yapmanızı veya şifre girmenizi asla istemez. Sadece sizin gireceğiniz paket adetlerini çarparak toplayan basit bir matematik aracıdır."
+        },
+        {
+          "q": "AP (Aksiyon Puanı) paketleri oyunda en kârlı nerede harcanır?",
+          "a": "Oyunun metasına göre AP harcamanın en mantıklı yeri KvK öncesi etkinlikleridir. Buradan düşen parşömenler sayesinde elde edeceğiniz hızlandırma, değerli taş ve materyaller gelişiminiz için kritiktir."
+        },
+        {
+          "q": "Günlük yenilenen AP barı nasıl hızlı doldurulur?",
+          "a": "Standart AP barı zamanla kendiliğinden dolar. Ancak VIP seviyenizi yükseltmek, AP dolum hızınızı ciddi şekilde artırır. Ayrıca medeniyet olarak Almanya'yı seçmek ekstra AP dolum hızı bonusu sağlar."
+        }
+      ]
+    }
+  },
+  "speedup": {
+    "meta": {
+      "title": "Rise of Kingdoms Hızlandırma Hesaplayıcı",
+      "description": "Speedup paketlerinizin toplam süresini hesaplayın."
+    },
+    "title": "Hızlandırma Hesaplayıcı",
+    "subtitle": "Speedup paketlerinizin toplam süresini hesaplayın.",
+    "results": {
+      "totalDuration": "Toplam Süre",
+      "totalMinutes": "Toplam Dakika",
+      "packagesSelected": "Seçili Paket",
+      "days": "Gün",
+      "hours": "Saat",
+      "minutes": "Dakika"
+    },
+    "inputs": {
+      "quantity": "Adet"
+    },
+    "labels": {
+      "minute": "dk",
+      "hour": "sa",
+      "day": "gün"
+    },
+    "seo": {
+      "heading": "Rise of Kingdoms Hızlandırıcı Hesaplama Aracı",
+      "intro": "Rise of Kingdoms oynarken en büyük zorluklardan biri zamanı ve kaynakları doğru yönetmektir. İster kritik bir araştırma basıyor olun, ister T4 veya T5 asker üretiyor olun, çantanızda tam olarak ne kadar süreniz kaldığını bilmek etkinliklerde fark yaratır. İşte bu noktada Rise of Kingdoms hızlandırıcı hesaplama aracımız devreye giriyor. Envanterinizdeki tüm paketleri tek tek saymakla uğraşmak yerine, rok hızlandırıcı hesaplama işlemlerinizi saniyeler içinde tamamlayabilirsiniz. Özellikle KvK (Krallık Krallığa Karşı) savaşları öncesinde veya En Güçlü Vali (MGE) etkinliklerinde elinizdeki toplam süreyi bilmek, stratejinizi kusursuz bir şekilde planlamanıza yardımcı olur.",
+      "howHeading": "Hızlandırıcı Hesaplayıcı Nasıl Çalışır?",
+      "how": "Aracımızın arka plandaki çalışma mantığı son derece basit ve nettir. Çantanızdaki her bir hızlandırma paketinin dakika değeri, elinizdeki adet ile çarpılır ve tüm sonuçlar toplanarak toplam süreniz bulunur. Hesaplama formülü şu şekildedir: (Paketin Dakika Değeri × Adedi) + (Diğer Paketin Dakika Değeri × Adedi). Daha net bir örnek vermek gerekirse; çantanızda 10 adet 60 dakikalık ve 5 adet 8 saatlik (480 dakika) hızlandırıcı olduğunu varsayalım. Araç bunu (10 × 60) + (5 × 480) şeklinde işler. Sonuç olarak 600 + 2400 = 3000 dakika toplam hızlandırmaya sahip olduğunuzu anında ekranda görürsünüz.",
+      "tipsHeading": "Hızlandırıcıları Verimli Kullanma İpuçları",
+      "tips": "Hızlandırıcılarınızı kullanmadan önce mutlaka krallık buff'larının açık olduğundan emin olun. Ayrıca ittifak yardımlarını tamamen almayı (full help) bekleyin ve araştırma veya inşaat başlatmadan önce ilgili unvanları (Bilim İnsanı, Mimar gibi) isteyip rünleri toplayın. Unutmayın ki genel (evrensel) hızlandırıcılar oyunun en değerli eşyalarından biridir; bunları spesifik işleriniz (sadece eğitim veya inşaat hızlandırıcılarınız) bittiğinde destek olarak kullanmak en doğru ilerleme yöntemidir.",
+      "faq": [
+        {
+          "q": "RoK hızlandırıcı hesaplama aracı tüm türleri destekliyor mu?",
+          "a": "Evet, inşaat, araştırma, eğitim, iyileştirme ve genel (evrensel) hızlandırıcılarınızın tümünü dakika bazında sisteme girerek her kategori için net sürenizi hesaplayabilirsiniz."
+        },
+        {
+          "q": "Oyunda 1 günlük hızlandırıcı kaç dakika olarak hesaplanıyor?",
+          "a": "Oyun mekaniklerinde 1 tam gün 1440 dakikaya eşittir. Aracımız da 24 saatlik hızlandırıcıları formüle dahil ederken 1440 dakika üzerinden işlem yapmaktadır."
+        },
+        {
+          "q": "En Güçlü Vali (MGE) için hızlandırıcılarımı ne zaman kullanmalıyım?",
+          "a": "MGE gibi rekabetçi etkinliklerde hızlandırıcılarınızı eğitim ve güç artırma günlerine saklamalısınız. Etkinlik öncesi bu hesaplayıcıyı kullanarak ilk 10'a girmek için yeterli stoğunuz olup olmadığını test edebilirsiniz."
+        }
+      ]
+    }
+  },
+  "gems": {
+    "meta": {
+      "title": "Rise of Kingdoms Gems Hesaplayıcı",
+      "description": "Gems paketlerinizin toplam değerini hesaplayın."
+    },
+    "title": "Gems Hesaplayıcı",
+    "subtitle": "Gems paketlerinizin toplam değerini hesaplayın.",
+    "results": {
+      "totalGems": "Toplam Gems",
+      "packagesSelected": "Seçili Paket"
+    },
+    "inputs": {
+      "quantity": "Adet"
+    },
+    "labels": {
+      "gems": "Gems"
+    },
+    "seo": {
+      "heading": "Rise of Kingdoms Gem Hesaplama Aracı",
+      "intro": "Çantanda biriken gem paketlerinin toplamda ne kadar ettiğini merak mı ediyorsun? VIP seviyesi atlamak, Çark (Wheel of Fortune) çevirmek veya More Than Gems etkinliğine hazırlanmak için elindeki tam miktarı bilmek şart. Bu rok gem hesaplama aracı ile envanterindeki tüm paketleri tek tek saymak yerine hızlıca toplayabilirsin. Rise of kingdoms gem hesaplama derdinden kurtulup, savaş ve gelişim planlarını net rakamlar üzerinden yapmaya başla.",
+      "howHeading": "Gem Hesaplayıcı Nasıl Çalışır?",
+      "how": "Aracın formülü doğrudan oyun içi değerlere dayanır ve oldukça basittir. Çantanda bulunan her bir gem paketinin değeri (5, 10, 50, 100, 200, 500, 650, 1000 ve 2000) ile o paketten elinde kaç adet olduğu çarpılır. Ardından tüm paketlerin sonuçları toplanarak envanterindeki gizli mücevher miktarı bulunur. Örneğin, elinde 10 adet 650'lik ve 5 adet 100'lük paket varsa, sistem (10 x 650) + (5 x 100) formülünü uygulayarak anında toplam miktarı çıkarır.",
+      "tipsHeading": "Gem Harcarken Dikkat Etmen Gerekenler",
+      "tips": "Elindeki net rakamı rok gem hesaplama aracıyla öğrendikten sonra harcamalarını akıllıca yapmalısın. Gem harcarken her zaman 'More Than Gems' (Geminin Hakkını Ver) etkinliğini beklemek en kârlı stratejidir. Önceliğin daima günlük efsanevi komutan heykeli veren VIP 10, VIP 12 ve VIP 14 seviyelerine ulaşmak olsun. Komutan çarklarına (Wheel of Fortune) gireceksen, hesaplamanı yapıp sadece yeteneklerini geliştireceğin ana kıta komutanları için gem harca.",
+      "faq": [
+        {
+          "q": "Gem paketlerini envanterde bekletmeli miyim?",
+          "a": "Kesinlikle evet. Çantada paket halinde duran gemler, şehrin saldırı alıp sıfırlansa bile yağmalanamaz. Sadece harcama yapacağın zaman ihtiyacın olan miktar kadarını açmalısın."
+        },
+        {
+          "q": "Rise of kingdoms gem hesaplama işlemi tüm paketleri kapsıyor mu?",
+          "a": "Evet. Sistem, oyunda düşebilecek veya satın alınabilecek 5, 10, 50, 100, 200, 500, 650, 1000 ve 2000'lik tüm paket değerlerini formüle dahil ederek eksiksiz çalışır."
+        },
+        {
+          "q": "Oyunda en hızlı nasıl gem kasılır?",
+          "a": "Haritada sürekli barbar kalesi (fort) rallilerine katılmak, etkinlik ödüllerini toplamak ve araştırma seviyene göre kıtalarını boş zamanlarda haritadaki gem madenlerine toplama yapmaya göndermek en etkili yollardır."
+        }
+      ]
+    }
+  },
+  "tomes": {
+    "meta": {
+      "title": "Rise of Kingdoms Tomes of Knowledge Hesaplayıcı",
+      "description": "Tome envanterinizin toplam EXP değerini hesaplayın."
+    },
+    "title": "Tomes of Knowledge Hesaplayıcı",
+    "subtitle": "Tome envanterinizin toplam EXP değerini hesaplayın.",
+    "results": {
+      "totalExp": "Toplam EXP",
+      "packagesSelected": "Seçili Paket"
+    },
+    "inputs": {
+      "quantity": "Adet"
+    },
+    "labels": {
+      "exp": "EXP"
+    }
+  },
+  "vip": {
+    "meta": {
+      "title": "Rise of Kingdoms VIP Seviye Hesaplayıcı",
+      "description": "Hedef VIP seviyesine ulaşmak için gereken puanı hesaplayın."
+    },
+    "title": "VIP Seviye Hesaplayıcı",
+    "subtitle": "Hedef VIP seviyesine ulaşmak için gereken puanı hesaplayın.",
+    "inputs": {
+      "levelFrom": "Mevcut VIP Seviyesi",
+      "levelTo": "Hedef VIP Seviyesi",
+      "currentPoints": "Mevcut VIP Puanım"
+    },
+    "results": {
+      "pointsNeeded": "Gereken Puan"
+    },
+    "labels": {
+      "level": "VIP {level}"
+    },
+    "warning": "Hedef, mevcut seviyeden büyük olmalı."
+  },
+  "commander": {
+    "meta": {
+      "title": "Rise of Kingdoms Komutan EXP Hesaplayıcı",
+      "description": "Hedef komutan seviyesine ulaşmak için gereken EXP'yi hesaplayın."
+    },
+    "title": "Komutan EXP Hesaplayıcı",
+    "subtitle": "Hedef komutan seviyesine ulaşmak için gereken EXP'yi hesaplayın.",
+    "inputs": {
+      "rarity": "Komutan Nadirliği",
+      "levelFrom": "Mevcut Seviye",
+      "levelTo": "Hedef Seviye",
+      "currentExp": "Mevcut Biriken EXP"
+    },
+    "results": {
+      "expNeeded": "Gereken EXP"
+    },
+    "labels": {
+      "level": "Seviye {level}",
+      "rarity": {
+        "legendary": "Legendary",
+        "epic": "Epic",
+        "elite": "Elite",
+        "advanced": "Advanced"
+      }
+    },
+    "warning": "Hedef, mevcut seviyeden büyük olmalı."
+  },
+  "building": {
+    "meta": {
+      "title": "Rise of Kingdoms Bina Geliştirme Hesaplayıcı",
+      "description": "Bina seviyesi yükseltme maliyetini ve süresini hesaplayın."
+    },
+    "title": "Bina Geliştirme Hesaplayıcı",
+    "subtitle": "Bina seviyesi yükseltme maliyetini ve süresini hesaplayın.",
+    "inputs": {
+      "building": "Bina",
+      "levelFrom": "Mevcut Seviye",
+      "levelTo": "Hedef Seviye",
+      "speedBonus": "Bina Hızı Bonusu (%)",
+      "allianceHelps": "İttifak Yardımı Sayısı"
+    },
+    "results": {
+      "total": "Toplam",
+      "totalDuration": "Toplam Süre",
+      "foodCost": "Yiyecek",
+      "woodCost": "Odun",
+      "stoneCost": "Taş",
+      "goldCost": "Altın",
+      "days": "Gün",
+      "hours": "Saat",
+      "minutes": "Dakika",
+      "powerReward": "Güç",
+      "mgePointsReward": "MGE Puanı"
+    },
+    "labels": {
+      "level": "Seviye {level}"
+    },
+    "warning": "Hedef, mevcut seviyeden büyük olmalı."
+  },
+  "research": {
+    "meta": {
+      "title": "Rise of Kingdoms Araştırma Geliştirme Hesaplayıcı",
+      "description": "Askeri ve ekonomik araştırma seviyesi yükseltme maliyetini ve süresini hesaplayın."
+    },
+    "title": "Araştırma Geliştirme Hesaplayıcı",
+    "subtitle": "Askeri ve ekonomik araştırma seviyesi yükseltme maliyetini ve süresini hesaplayın.",
+    "inputs": {
+      "category": "Kategori",
+      "research": "Araştırma",
+      "levelFrom": "Mevcut Seviye",
+      "levelTo": "Hedef Seviye",
+      "speedBonus": "Araştırma Hızı Bonusu (%)",
+      "allianceHelps": "İttifak Yardımı Sayısı"
+    },
+    "results": {
+      "total": "Toplam",
+      "totalDuration": "Toplam Süre",
+      "foodCost": "Yiyecek",
+      "woodCost": "Odun",
+      "stoneCost": "Taş",
+      "goldCost": "Altın",
+      "days": "Gün",
+      "hours": "Saat",
+      "minutes": "Dakika",
+      "powerReward": "Güç",
+      "mgePointsReward": "MGE Puanı"
+    },
+    "labels": {
+      "level": "Seviye {level}",
+      "category": {
+        "military": "Askeri",
+        "economic": "Ekonomik"
+      }
+    },
+    "warning": "Hedef, mevcut seviyeden büyük olmalı."
+  },
+  "equipment": {
+    "meta": {
+      "title": "Rise of Kingdoms Ekipman Üretim Hesaplayıcı",
+      "description": "Seçili ekipman parçaları için gereken malzeme, altın ve üretim süresini hesaplayın."
+    },
+    "title": "Ekipman Üretim Hesaplayıcı",
+    "subtitle": "Seçili ekipman parçaları için gereken malzeme, altın ve üretim süresini hesaplayın.",
+    "inputs": {
+      "weapon": "Silah",
+      "helmet": "Miğfer",
+      "chest": "Göğüs",
+      "gloves": "Eldiven",
+      "legs": "Bacak",
+      "boots": "Bot",
+      "accessories": "Aksesuar",
+      "speedBonus": "Üretim Hızı Bonusu (%)",
+      "none": "Yok"
+    },
+    "advanced": {
+      "title": "Elindeki Malzemeler",
+      "leather": "Deri",
+      "ironOne": "Demir",
+      "animalBone": "Hayvan Kemiği",
+      "ebony": "Abanoz"
+    },
+    "results": {
+      "summary": "Hâlâ Gereken",
+      "totalDuration": "Toplam Süre",
+      "piecesSelected": "Seçili Parça",
+      "totalLeather": "Deri",
+      "totalIronOne": "Demir",
+      "totalAnimalBone": "Kemik",
+      "totalEbony": "Abanoz",
+      "gold": "Altın",
+      "days": "Gün",
+      "hours": "Saat",
+      "minutes": "Dakika"
+    },
+    "labels": {
+      "rarity": {
+        "C": "Common",
+        "UC": "Uncommon",
+        "R": "Rare",
+        "E": "Epic",
+        "M": "Legendary"
+      }
+    }
+  },
+  "tradingPost": {
+    "meta": {
+      "title": "Rise of Kingdoms Ticaret Merkezi Hesaplayıcı",
+      "description": "Ticaret vergisiyle gönderilecek ve ulaşacak kaynak miktarını hesaplayın."
+    },
+    "title": "Ticaret Merkezi Hesaplayıcı",
+    "subtitle": "Ticaret vergisiyle gönderilecek ve ulaşacak kaynak miktarını hesaplayın.",
+    "modes": {
+      "label": "Hesaplama modu",
+      "deliver": "Karşıya X ulaşsın",
+      "send": "X gönderirsem ne ulaşır",
+      "deliverHint": "Karşıya ulaşmasını istediğiniz miktarı girin.",
+      "sendHint": "Göndermek istediğiniz miktarı girin."
+    },
+    "inputs": {
+      "level": "Ticaret Merkezi Seviyesi",
+      "food": "Yiyecek",
+      "wood": "Odun",
+      "stone": "Taş",
+      "gold": "Altın"
+    },
+    "results": {
+      "send": "Göndermen Gereken",
+      "tax": "Vergi",
+      "delivered": "Ulaşan"
+    },
+    "labels": {
+      "level": "Seviye {level}",
+      "taxRate": "Vergi oranı: {rate}"
+    }
+  },
+  "resources": {
+    "meta": {
+      "title": "Rise of Kingdoms Kaynak Paketi Hesaplayıcı",
+      "description": "Kaynak paketlerinizin toplam değerini hesaplayın."
+    },
+    "title": "Kaynak Paketi Hesaplayıcı",
+    "subtitle": "Kaynak paketlerinizin toplam değerini hesaplayın.",
+    "results": {
+      "totalResources": "Toplam Kaynak",
+      "packagesSelected": "Seçili Paket"
+    },
+    "inputs": {
+      "quantity": "Adet",
+      "lvl1A": "Lvl 1A",
+      "lvl1B": "Lvl 1B",
+      "lvl1C": "Lvl 1C",
+      "lvl2": "Lvl 2",
+      "lvl3": "Lvl 3"
+    }
+  },
+  "healing": {
+    "meta": {
+      "title": "Rise of Kingdoms İyileştirme Hesaplayıcı",
+      "description": "Yaralı askerleri iyileştirmek için gereken kaynak ve süreyi hesaplayın."
+    },
+    "title": "İyileştirme Hesaplayıcı",
+    "subtitle": "Yaralı askerleri iyileştirmek için gereken kaynak ve süreyi hesaplayın.",
+    "results": {
+      "totalDuration": "Toplam Süre",
+      "totalFood": "Toplam Yiyecek",
+      "totalWood": "Toplam Odun",
+      "totalStone": "Toplam Taş",
+      "totalGold": "Toplam Altın",
+      "days": "Gün",
+      "hours": "Saat",
+      "minutes": "Dakika",
+      "seconds": "Saniye"
+    },
+    "inputs": {
+      "healingRssReduction": "Kaynak Azaltma (%)",
+      "healingSpeedBonus": "İyileştirme Hızı (%)",
+      "allianceHelps": "İttifak Yardımı",
+      "infantry": "Piyade",
+      "archer": "Okçu",
+      "cavalry": "Süvari",
+      "siege": "Kuşatma"
+    },
+    "labels": {
+      "tier": "T{tier}"
+    }
+  },
+  "training": {
+    "meta": {
+      "title": "Rise of Kingdoms MGE Eğitim Hesaplayıcı",
+      "description": "Kaynak ve hızlandırmaya göre eğitilebilecek asker sayısını hesaplayın."
+    },
+    "title": "MGE Eğitim Hesaplayıcı",
+    "subtitle": "Kaynak ve hızlandırmaya göre eğitilebilecek asker sayısını hesaplayın.",
+    "results": {
+      "troops": "Eğitilebilecek Asker",
+      "spendFood": "Harcanan Yiyecek",
+      "spendWood": "Harcanan Odun",
+      "spendStone": "Harcanan Taş",
+      "spendGold": "Harcanan Altın",
+      "days": "Gün",
+      "hours": "Saat",
+      "minutes": "Dakika",
+      "seconds": "Saniye",
+      "totalPower": "Toplam Güç",
+      "totalMgePoints": "Toplam MGE Puanı",
+      "totalKvkPoints": "Toplam KVK Puanı"
+    },
+    "inputs": {
+      "tier": "Eğitim Tipi",
+      "troopType": "Asker Tipi",
+      "food": "Elindeki Yiyecek",
+      "wood": "Elindeki Odun",
+      "stone": "Elindeki Taş",
+      "gold": "Elindeki Altın",
+      "speedup": "Hızlandırma",
+      "speedupDays": "Gün",
+      "speedupHours": "Saat",
+      "speedupMinutes": "Dakika",
+      "trainingSpeedBonus": "Eğitim Hızı Bonusu (%)"
+    },
+    "labels": {
+      "tier": "T{tier}",
+      "infantry": "Piyade",
+      "archer": "Okçu",
+      "cavalry": "Süvari",
+      "siege": "Kuşatma"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "Hakkında — ROK Araçları",
+      "description": "ROK Araçları kim tarafından ve neden yapıldı? Rise of Kingdoms oyuncuları için ücretsiz hesaplayıcı koleksiyonu."
+    },
+    "title": "Hakkında",
+    "subtitle": "Bu siteyi neden ve nasıl yaptım.",
+    "body": [
+      "Merhaba, ben İsmail. Türkiye'den yazıyorum ve senin gibi bir Rise of Kingdoms oyuncusuyum. Oyunla yaklaşık iki ay önce tanıştım ve açıkçası bu kadar seveceğimi tahmin etmemiştim. Şu an 4066 krallığında piyade oynuyorum — strateji kurmak, kaynak planlamak, doğru anda doğru hamleyi yapmak benim için oyunun en keyifli kısmı.",
+      "Ama bir süre sonra fark ettim ki sürekli aynı hesapları yapıyorum: ne kadar hızlandırma lazım, kaç asker eğitebilirim, şu komutanı yükseltmek kaç EXP istiyor... Var olan araçların çoğu ya eski, ya tek dilli, ya da kullanması zahmetliydi. Ben de \"bunu daha iyi yapabilirim\" dedim ve bu siteyi kurdum.",
+      "Amacım basit: oyuncuların kafa yormadan, hızlıca doğru sonuca ulaşmasını sağlamak. Hepsi ücretsiz, kayıt istemez ve mümkün olduğunca sade tutmaya çalıştım. Senin de işini kolaylaştırırsa ne mutlu bana.",
+      "Bir hata görürsen ya da bir önerin olursa iletişim sayfasından bana yazabilirsin — her mesajı okuyorum."
+    ],
+    "developerRole": "Geliştirici & RoK Oyuncusu",
+    "sectionTitles": [
+      "Neden yaptım",
+      "Ne işe yarar",
+      "Yaklaşımım"
+    ],
+    "values": [
+      { "title": "Ücretsiz" },
+      { "title": "Kayıt Yok" },
+      { "title": "9 Dil" }
+    ],
+    "supportNote": "Bu araçları faydalı buluyorsan projeyi destekleyebilirsin.",
+    "supportButton": "Destek Ol"
+  },
+  "contact": {
+    "meta": {
+      "title": "İletişim — ROK Araçları",
+      "description": "ROK Araçları ile iletişime geçin. Şikayet, öneri ve hata bildirimleri için."
+    },
+    "title": "İletişim",
+    "subtitle": "Şikayet, öneri ve hatalar için bana ulaşabilirsin.",
+    "intro": "Bir hata fark ettiysen, önerin varsa veya bir hesaplayıcıda sorun yaşadıysan bana e-posta ile yazabilirsin. Mümkün olduğunca kısa sürede dönmeye çalışırım.",
+    "emailButton": "E-posta Gönder",
+    "emailLabel": "E-posta",
+    "copyEmail": "Kopyala",
+    "copiedEmail": "Kopyalandı",
+    "reasonsTitle": "Ne için yazabilirsin?",
+    "reasons": [
+      "Hata bildirimi",
+      "Öneri",
+      "İş birliği"
+    ],
+    "socialHint": "Discord ve sosyal medya bağlantıları yakında eklenecek."
+  },
+  "aooPlanner": {
+    "meta": {
+      "title": "AOO Dizilim Planlayıcı – Ark of Osiris Harita Editörü",
+      "description": "Rise of Kingdoms Ark of Osiris için takım dizilimini harita üzerinde planla. İttifak liderleri için ücretsiz AOO strateji editörü; metin, ok ve işaret ekle, görseli indir."
+    },
+    "h1": "AOO Dizilim Planlayıcı",
+    "intro": "Rise of Kingdoms Ark of Osiris dizilimini harita üzerinde planla. Metin, ok ve işaret ekleyip görseli indir, ittifakınla paylaş.",
+    "title": "AOO Harita Editörü",
+    "subtitle": "Ark of Osiris haritası üzerine metin, etiket, ok ve ikon ekleyerek takım planını serbestçe çiz.",
+    "mapAlt": "Ark of Osiris haritası",
+    "hint": "Yukarıdaki araçlarla harita üzerine öğe ekle. Öğeleri sürükleyerek taşı, metin/etikete tıklayarak yazısını düzenle.",
+    "clearConfirm": "Tüm öğeler silinsin mi?",
+    "tools": {
+      "text": "Metin",
+      "label": "Etiket",
+      "arrow": "Ok",
+      "delete": "Sil",
+      "clear": "Tümünü Temizle",
+      "download": "Görseli İndir",
+      "sizeUp": "Büyüt",
+      "sizeDown": "Küçült"
+    },
+    "icons": {
+      "swords": "Ralli",
+      "shield": "Garnizon",
+      "flag": "Ark",
+      "eye": "Gözlemci",
+      "user": "Oyuncu",
+      "alert": "Uyarı"
+    },
+    "colors": {
+      "white": "Beyaz",
+      "black": "Siyah",
+      "amber": "Amber",
+      "red": "Kırmızı",
+      "blue": "Mavi",
+      "green": "Yeşil"
+    },
+    "defaults": {
+      "text": "Metin",
+      "label": "ETİKET"
+    }
+  }
 }

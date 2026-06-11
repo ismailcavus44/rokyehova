@@ -1,0 +1,598 @@
+{
+  "header": {
+    "brand": "ROK 工具",
+    "languageLabel": "语言",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "toolsLabel": "计算器",
+    "aboutLabel": "关于",
+    "contactLabel": "联系"
+  },
+  "support": {
+    "text": "I build these tools alone, for free. If they helped, you can buy me a coffee.",
+    "button": "Buy me a coffee",
+    "modalTitle": "Support the Project",
+    "modalText": "I build these tools alone, for free. Your support keeps me motivated.",
+    "usdtLabel": "USDT (TRC20)",
+    "copy": "Copy",
+    "copied": "Copied ✓",
+    "networkWarning": "Please use the TRC20 network only",
+    "close": "Close"
+  },
+  "meta": {
+    "title": "AP 计算器 — 万国觉醒",
+    "description": "计算每日 AP、城堡攻击次数和睡眠期间恢复的 AP。"
+  },
+  "home": {
+    "meta": {
+      "title": "ROK 工具 — 万国觉醒计算器",
+      "description": "免费的万国觉醒计算器，涵盖 AP、加速、宝石、VIP 等。"
+    },
+    "title": "万国觉醒计算器",
+    "subtitle": "实用的资源、时间和点数计算工具。",
+    "hero": {
+      "title": "万国觉醒计算工具",
+      "subtitle": "秒速计算资源、时间、统帅与装备——更智能地规划发展。",
+      "stats": [
+        "14 个工具",
+        "9 种语言",
+        "免费"
+      ]
+    },
+    "categories": {
+      "economy": "资源与经济",
+      "military": "部队与训练",
+      "commander": "统帅与装备",
+      "infrastructure": "建筑与研究",
+      "team": "Team & Strategy"
+    },
+    "relatedCalculators": "相关计算器",
+    "seo": {
+      "title": "万国觉醒一站式计算器",
+      "body": [
+        "ROK Tools 是为万国觉醒玩家打造的免费计算器合集。从加速时长、统帅经验到建筑与研究成本、装备锻造——所需计算一应俱全，快速准确。",
+        "所有工具基于游戏数据，即时显示结果。无需注册，广告极少，让你专注规划，高效利用资源。"
+      ]
+    },
+    "items": {
+      "ap": {
+        "title": "AP 计算器",
+        "description": "每日 AP、城堡次数和睡眠恢复。"
+      },
+      "speedup": {
+        "title": "加速计算器",
+        "description": "加速道具的总时长。"
+      },
+      "gems": {
+        "title": "宝石计算器",
+        "description": "宝石道具的总价值。"
+      },
+      "tomes": {
+        "title": "知识之书",
+        "description": "知识之书库存的总 EXP。"
+      },
+      "vip": {
+        "title": "VIP 计算器",
+        "description": "达到目标 VIP 等级所需的点数。"
+      },
+      "commander": {
+        "title": "统帅 EXP",
+        "description": "达到目标等级所需的统帅 EXP。"
+      },
+      "trading-post": {
+        "title": "贸易站",
+        "description": "扣税后发送和接收的资源。"
+      },
+      "resources": {
+        "title": "资源包",
+        "description": "资源包的总价值。"
+      },
+      "healing": {
+        "title": "治疗",
+        "description": "治疗伤兵所需的资源和时间。"
+      },
+      "training": {
+        "title": "MGE 训练",
+        "description": "根据资源和加速可训练的部队。"
+      },
+      "building": {
+        "title": "建筑升级",
+        "description": "升级等级的成本和时间。"
+      },
+      "research": {
+        "title": "科技升级",
+        "description": "军事和经济科技的成本和时间。"
+      },
+      "equipment": {
+        "title": "装备锻造",
+        "description": "所选装备的材料、金币和时间。"
+      },
+      "aoo-planner": {
+        "title": "AOO Team Planner",
+        "description": "Lane, role, and teleport plan for Ark of Osiris."
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "items": [
+        {
+          "question": "ROK Tools 的计算准确吗？",
+          "answer": "是的。公式源自游戏实际机制，结果与游戏内数值一致。"
+        },
+        {
+          "question": "需要注册吗？",
+          "answer": "不需要。所有工具免费，无需注册。"
+        },
+        {
+          "question": "计算数据是最新的吗？",
+          "answer": "是的。数据与游戏同步，游戏更新时会刷新。"
+        },
+        {
+          "question": "有哪些计算器？",
+          "answer": "加速、资源、训练、治疗、统帅经验、装备、建筑、研究、VIP、贸易站等。"
+        },
+        {
+          "question": "支持手机使用吗？",
+          "answer": "支持。所有工具均适配移动端。"
+        },
+        {
+          "question": "这是官方网站吗？",
+          "answer": "不是。这是玩家自制的免费工具，与 Lilith Games 无关。"
+        }
+      ]
+    }
+  },
+  "results": {
+    "dailyNatural": "每日自然恢复",
+    "dailyTotal": "每日总 AP",
+    "castles": "可攻击城堡数",
+    "sleepAp": "睡眠期间 AP"
+  },
+  "inputs": {
+    "apRefillSeconds": "AP 恢复时间（秒）",
+    "dailyFreeAp": "每日免费 AP",
+    "castleApCost": "城堡 AP 消耗",
+    "sleepHours": "睡眠时长（小时）",
+    "maxApCapacity": "最大 AP 容量"
+  },
+  "warning": "警告：睡眠期间获得的 AP 超过您的容量，点数可能会浪费！",
+  "ap": {},
+  "speedup": {
+    "meta": {
+      "title": "加速计算器 — 万国觉醒",
+      "description": "计算加速道具的总时长。"
+    },
+    "title": "加速计算器",
+    "subtitle": "计算加速道具的总时长。",
+    "results": {
+      "totalDuration": "总时长",
+      "totalMinutes": "总分钟",
+      "packagesSelected": "已选包裹",
+      "days": "天",
+      "hours": "小时",
+      "minutes": "分钟"
+    },
+    "inputs": {
+      "quantity": "数量"
+    },
+    "labels": {
+      "minute": "分",
+      "hour": "时",
+      "day": "天"
+    }
+  },
+  "gems": {
+    "meta": {
+      "title": "宝石计算器 — 万国觉醒",
+      "description": "计算宝石道具的总价值。"
+    },
+    "title": "宝石计算器",
+    "subtitle": "计算宝石道具的总价值。",
+    "results": {
+      "totalGems": "宝石总数",
+      "packagesSelected": "已选包裹"
+    },
+    "inputs": {
+      "quantity": "数量"
+    },
+    "labels": {
+      "gems": "宝石"
+    }
+  },
+  "tomes": {
+    "meta": {
+      "title": "知识之书计算器 — 万国觉醒",
+      "description": "计算知识之书库存的总 EXP。"
+    },
+    "title": "知识之书计算器",
+    "subtitle": "计算知识之书库存的总 EXP。",
+    "results": {
+      "totalExp": "总 EXP",
+      "packagesSelected": "已选包裹"
+    },
+    "inputs": {
+      "quantity": "数量"
+    },
+    "labels": {
+      "exp": "EXP"
+    }
+  },
+  "vip": {
+    "meta": {
+      "title": "VIP 等级计算器 — 万国觉醒",
+      "description": "计算达到目标 VIP 等级所需的点数。"
+    },
+    "title": "VIP 等级计算器",
+    "subtitle": "计算达到目标 VIP 等级所需的点数。",
+    "inputs": {
+      "levelFrom": "当前 VIP 等级",
+      "levelTo": "目标 VIP 等级",
+      "currentPoints": "当前 VIP 点数"
+    },
+    "results": {
+      "pointsNeeded": "所需点数"
+    },
+    "labels": {
+      "level": "VIP {level}"
+    },
+    "warning": "目标等级必须高于当前等级。"
+  },
+  "commander": {
+    "meta": {
+      "title": "统帅 EXP 计算器 — 万国觉醒",
+      "description": "计算达到目标统帅等级所需的 EXP。"
+    },
+    "title": "统帅 EXP 计算器",
+    "subtitle": "计算达到目标统帅等级所需的 EXP。",
+    "inputs": {
+      "rarity": "统帅稀有度",
+      "levelFrom": "当前等级",
+      "levelTo": "目标等级",
+      "currentExp": "当前累计 EXP"
+    },
+    "results": {
+      "expNeeded": "所需 EXP"
+    },
+    "labels": {
+      "level": "等级 {level}",
+      "rarity": {
+        "legendary": "传说",
+        "epic": "史诗",
+        "elite": "精英",
+        "advanced": "进阶"
+      }
+    },
+    "warning": "目标等级必须高于当前等级。"
+  },
+  "building": {
+    "meta": {
+      "title": "建筑升级计算器 — 万国觉醒",
+      "description": "计算建筑升级的成本和时间。"
+    },
+    "title": "建筑升级计算器",
+    "subtitle": "计算建筑升级的成本和时间。",
+    "inputs": {
+      "building": "建筑",
+      "levelFrom": "当前等级",
+      "levelTo": "目标等级",
+      "speedBonus": "建造速度加成 (%)",
+      "allianceHelps": "联盟帮助"
+    },
+    "results": {
+      "total": "总计",
+      "totalDuration": "总时长",
+      "foodCost": "粮食",
+      "woodCost": "木材",
+      "stoneCost": "石料",
+      "goldCost": "金币",
+      "days": "天",
+      "hours": "小时",
+      "minutes": "分钟",
+      "powerReward": "战力",
+      "mgePointsReward": "MGE 点数"
+    },
+    "labels": {
+      "level": "等级 {level}"
+    },
+    "warning": "目标等级必须高于当前等级。"
+  },
+  "research": {
+    "meta": {
+      "title": "科技升级计算器 — 万国觉醒",
+      "description": "计算军事和经济科技升级的成本和时间。"
+    },
+    "title": "科技升级计算器",
+    "subtitle": "计算军事和经济科技升级的成本和时间。",
+    "inputs": {
+      "category": "类别",
+      "research": "科技",
+      "levelFrom": "当前等级",
+      "levelTo": "目标等级",
+      "speedBonus": "研究速度加成 (%)",
+      "allianceHelps": "联盟帮助"
+    },
+    "results": {
+      "total": "总计",
+      "totalDuration": "总时长",
+      "foodCost": "粮食",
+      "woodCost": "木材",
+      "stoneCost": "石料",
+      "goldCost": "金币",
+      "days": "天",
+      "hours": "小时",
+      "minutes": "分钟",
+      "powerReward": "战力",
+      "mgePointsReward": "MGE 点数"
+    },
+    "labels": {
+      "level": "等级 {level}",
+      "category": {
+        "military": "军事",
+        "economic": "经济"
+      }
+    },
+    "warning": "目标等级必须高于当前等级。"
+  },
+  "equipment": {
+    "meta": {
+      "title": "装备锻造计算器 — 万国觉醒",
+      "description": "计算所选装备的材料、金币和锻造时间。"
+    },
+    "title": "装备锻造计算器",
+    "subtitle": "计算所选装备的材料、金币和锻造时间。",
+    "inputs": {
+      "weapon": "武器",
+      "helmet": "头盔",
+      "chest": "胸甲",
+      "gloves": "手套",
+      "legs": "护腿",
+      "boots": "靴子",
+      "accessories": "饰品",
+      "speedBonus": "锻造速度加成 (%)",
+      "none": "无"
+    },
+    "advanced": {
+      "title": "已有材料",
+      "leather": "皮革",
+      "ironOne": "铁",
+      "animalBone": "兽骨",
+      "ebony": "乌木"
+    },
+    "results": {
+      "summary": "仍需",
+      "totalDuration": "总时长",
+      "piecesSelected": "已选件数",
+      "totalLeather": "皮革",
+      "totalIronOne": "铁",
+      "totalAnimalBone": "兽骨",
+      "totalEbony": "乌木",
+      "gold": "金币",
+      "days": "天",
+      "hours": "小时",
+      "minutes": "分钟"
+    },
+    "labels": {
+      "rarity": {
+        "C": "普通",
+        "UC": "优秀",
+        "R": "稀有",
+        "E": "史诗",
+        "M": "传说"
+      }
+    }
+  },
+  "tradingPost": {
+    "meta": {
+      "title": "贸易站计算器 — 万国觉醒",
+      "description": "计算扣税后发送和接收的资源。"
+    },
+    "title": "贸易站计算器",
+    "subtitle": "计算扣税后发送和接收的资源。",
+    "modes": {
+      "label": "计算模式",
+      "deliver": "送达 X 给接收方",
+      "send": "发送 X 能收到多少",
+      "deliverHint": "输入您希望对方收到的数量。",
+      "sendHint": "输入您希望发送的数量。"
+    },
+    "inputs": {
+      "level": "贸易站等级",
+      "food": "粮食",
+      "wood": "木材",
+      "stone": "石料",
+      "gold": "金币"
+    },
+    "results": {
+      "send": "需要发送",
+      "tax": "税费",
+      "delivered": "已送达"
+    },
+    "labels": {
+      "level": "等级 {level}",
+      "taxRate": "税率：{rate}"
+    }
+  },
+  "resources": {
+    "meta": {
+      "title": "资源包计算器 — 万国觉醒",
+      "description": "计算资源包的总价值。"
+    },
+    "title": "资源包计算器",
+    "subtitle": "计算资源包的总价值。",
+    "results": {
+      "totalResources": "资源总计",
+      "packagesSelected": "已选包裹"
+    },
+    "inputs": {
+      "quantity": "数量",
+      "lvl1A": "1A 级",
+      "lvl1B": "1B 级",
+      "lvl1C": "1C 级",
+      "lvl2": "2 级",
+      "lvl3": "3 级"
+    }
+  },
+  "healing": {
+    "meta": {
+      "title": "治疗计算器 — 万国觉醒",
+      "description": "计算治疗伤兵所需的资源和时间。"
+    },
+    "title": "治疗计算器",
+    "subtitle": "计算治疗伤兵所需的资源和时间。",
+    "results": {
+      "totalDuration": "总时长",
+      "totalFood": "粮食总计",
+      "totalWood": "木材总计",
+      "totalStone": "石料总计",
+      "totalGold": "金币总计",
+      "days": "天",
+      "hours": "小时",
+      "minutes": "分钟",
+      "seconds": "秒"
+    },
+    "inputs": {
+      "healingRssReduction": "资源减免 (%)",
+      "healingSpeedBonus": "治疗速度 (%)",
+      "allianceHelps": "联盟帮助",
+      "infantry": "步兵",
+      "archer": "弓兵",
+      "cavalry": "骑兵",
+      "siege": "攻城"
+    },
+    "labels": {
+      "tier": "T{tier}"
+    }
+  },
+  "training": {
+    "meta": {
+      "title": "MGE 训练计算器 — 万国觉醒",
+      "description": "根据资源和加速计算可训练的部队。"
+    },
+    "title": "MGE 训练计算器",
+    "subtitle": "根据您的资源和加速计算可训练的部队。",
+    "results": {
+      "troops": "可训练部队",
+      "spendFood": "消耗粮食",
+      "spendWood": "消耗木材",
+      "spendStone": "消耗石料",
+      "spendGold": "消耗金币",
+      "days": "天",
+      "hours": "小时",
+      "minutes": "分钟",
+      "seconds": "秒",
+      "totalPower": "总战力",
+      "totalMgePoints": "MGE 点数总计",
+      "totalKvkPoints": "KVK 点数总计"
+    },
+    "inputs": {
+      "tier": "训练等级",
+      "troopType": "兵种",
+      "food": "可用粮食",
+      "wood": "可用木材",
+      "stone": "可用石料",
+      "gold": "可用金币",
+      "speedup": "加速",
+      "speedupDays": "天",
+      "speedupHours": "小时",
+      "speedupMinutes": "分钟",
+      "trainingSpeedBonus": "训练速度加成 (%)"
+    },
+    "labels": {
+      "tier": "T{tier}",
+      "infantry": "步兵",
+      "archer": "弓兵",
+      "cavalry": "骑兵",
+      "siege": "攻城"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "关于 — ROK Tools",
+      "description": "谁创建了 ROK Tools？为什么？为万国觉醒玩家提供的免费计算器合集。"
+    },
+    "title": "关于",
+    "subtitle": "我为何以及如何创建这个网站。",
+    "body": [
+      "你好，我是 İsmail。我来自土耳其，和你们一样，我也是一名《万国觉醒》（Rise of Kingdoms）的玩家。大约两个月前我接触了这款游戏，坦白说，我没想到自己会这么喜欢它。目前我在 4066 服玩步兵——对我来说，制定战略、规划资源、在恰当的时机做出正确的行动，是游戏中最有意思的部分。",
+      "但过了一段时间，我发现自己总是在做同样的计算：需要多少加速、能训练多少部队、升级这个统帅需要多少经验值（EXP）……现有的工具大多要么已经过时，要么只有单语言版本，或者用起来太繁琐。于是我想：“我可以做一个更好用的”，就建立了这个网站。",
+      "我的目标很简单：让玩家不用绞尽脑汁，就能快速得出准确的结果。这里完全免费，无需注册，而且我尽量保持页面简洁。如果它也能为你的游戏带来便利，我会非常高兴。",
+      "如果你发现了任何错误或有任何建议，欢迎通过联系页面给我留言——每一条信息我都会认真阅读。"
+    ],
+    "developerRole": "开发者 & RoK 玩家",
+    "sectionTitles": [
+      "为什么做",
+      "有什么用",
+      "我的理念"
+    ],
+    "values": [
+      { "title": "免费" },
+      { "title": "无需注册" },
+      { "title": "9 种语言" }
+    ],
+    "supportNote": "如果你觉得这些工具有用，可以支持本项目。",
+    "supportButton": "支持"
+  },
+  "contact": {
+    "meta": {
+      "title": "联系 — ROK Tools",
+      "description": "联系 ROK Tools。报告错误、发送反馈或建议。"
+    },
+    "title": "联系",
+    "subtitle": "反馈、建议或错误报告请与我联系。",
+    "intro": "如发现错误、有建议或计算器遇到问题，请发邮件给我。我会尽快回复。",
+    "emailButton": "发送邮件",
+    "emailLabel": "邮箱",
+    "copyEmail": "复制",
+    "copiedEmail": "已复制",
+    "reasonsTitle": "可以写什么？",
+    "reasons": [
+      "错误反馈",
+      "建议",
+      "合作"
+    ],
+    "socialHint": "Discord 和社交媒体链接即将添加。"
+  },
+  "aooPlanner": {
+    "meta": {
+      "title": "AOO 阵型规划器 – 奥西里斯方舟地图编辑器",
+      "description": "为《万国觉醒》奥西里斯方舟规划团队阵型。免费的 AOO 战术编辑器：添加文字、箭头和标记，并下载图片。"
+    },
+    "h1": "AOO 阵型规划器",
+    "intro": "直接在地图上规划《万国觉醒》奥西里斯方舟的团队阵型。添加文字、箭头和标记，下载图片并分享给你的联盟。",
+    "title": "AOO Map Editor",
+    "subtitle": "Freely draw your team plan on the Ark of Osiris map with text, labels, arrows and icons.",
+    "mapAlt": "Ark of Osiris map",
+    "hint": "Use the tools above to add items on the map. Drag to move them, click a text/label to edit its text.",
+    "clearConfirm": "Remove all items?",
+    "tools": {
+      "text": "Text",
+      "label": "Label",
+      "arrow": "Arrow",
+      "delete": "Delete",
+      "clear": "Clear All",
+      "download": "Download Image",
+      "sizeUp": "Larger",
+      "sizeDown": "Smaller"
+    },
+    "icons": {
+      "swords": "Rally",
+      "shield": "Garrison",
+      "flag": "Ark",
+      "eye": "Scout",
+      "user": "Player",
+      "alert": "Alert"
+    },
+    "colors": {
+      "white": "White",
+      "black": "Black",
+      "amber": "Amber",
+      "red": "Red",
+      "blue": "Blue",
+      "green": "Green"
+    },
+    "defaults": {
+      "text": "Text",
+      "label": "LABEL"
+    }
+  }
+}

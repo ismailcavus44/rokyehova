@@ -1,0 +1,598 @@
+{
+  "header": {
+    "brand": "ROK 工具",
+    "languageLabel": "語言",
+    "openMenu": "開啟選單",
+    "closeMenu": "關閉選單",
+    "toolsLabel": "計算器",
+    "aboutLabel": "關於",
+    "contactLabel": "聯絡"
+  },
+  "support": {
+    "text": "I build these tools alone, for free. If they helped, you can buy me a coffee.",
+    "button": "Buy me a coffee",
+    "modalTitle": "Support the Project",
+    "modalText": "I build these tools alone, for free. Your support keeps me motivated.",
+    "usdtLabel": "USDT (TRC20)",
+    "copy": "Copy",
+    "copied": "Copied ✓",
+    "networkWarning": "Please use the TRC20 network only",
+    "close": "Close"
+  },
+  "meta": {
+    "title": "AP 計算器 — 萬國覺醒",
+    "description": "計算每日 AP、城堡攻擊次數和睡眠期間恢復的 AP。"
+  },
+  "home": {
+    "meta": {
+      "title": "ROK 工具 — 萬國覺醒計算器",
+      "description": "免費的萬國覺醒計算器，涵蓋 AP、加速、寶石、VIP 等。"
+    },
+    "title": "萬國覺醒計算器",
+    "subtitle": "實用的資源、時間和點數計算工具。",
+    "hero": {
+      "title": "萬國覺醒計算工具",
+      "subtitle": "秒速計算資源、時間、統帥與裝備——更聰明地規劃發展。",
+      "stats": [
+        "14 個工具",
+        "9 種語言",
+        "免費"
+      ]
+    },
+    "categories": {
+      "economy": "資源與經濟",
+      "military": "部隊與訓練",
+      "commander": "統帥與裝備",
+      "infrastructure": "建築與研究",
+      "team": "Team & Strategy"
+    },
+    "relatedCalculators": "相關計算器",
+    "seo": {
+      "title": "萬國覺醒一站式計算器",
+      "body": [
+        "ROK Tools 是為萬國覺醒玩家打造的免費計算器合集。從加速時長、統帥經驗到建築與研究成本、裝備鍛造——所需計算一應俱全，快速準確。",
+        "所有工具基於遊戲資料，即時顯示結果。無需註冊，廣告極少，讓你專注規劃，高效利用資源。"
+      ]
+    },
+    "items": {
+      "ap": {
+        "title": "AP 計算器",
+        "description": "每日 AP、城堡次數和睡眠恢復。"
+      },
+      "speedup": {
+        "title": "加速計算器",
+        "description": "加速道具的總時長。"
+      },
+      "gems": {
+        "title": "寶石計算器",
+        "description": "寶石道具的總價值。"
+      },
+      "tomes": {
+        "title": "知識之書",
+        "description": "知識之書庫存的總 EXP。"
+      },
+      "vip": {
+        "title": "VIP 計算器",
+        "description": "達到目標 VIP 等級所需的點數。"
+      },
+      "commander": {
+        "title": "統帥 EXP",
+        "description": "達到目標等級所需的統帥 EXP。"
+      },
+      "trading-post": {
+        "title": "貿易站",
+        "description": "扣稅後發送和接收的資源。"
+      },
+      "resources": {
+        "title": "資源包",
+        "description": "資源包的總價值。"
+      },
+      "healing": {
+        "title": "治療",
+        "description": "治療傷兵所需的資源和時間。"
+      },
+      "training": {
+        "title": "MGE 訓練",
+        "description": "根據資源和加速可訓練的部隊。"
+      },
+      "building": {
+        "title": "建築升級",
+        "description": "升級等級的成本和時間。"
+      },
+      "research": {
+        "title": "科技升級",
+        "description": "軍事和經濟科技的成本和時間。"
+      },
+      "equipment": {
+        "title": "裝備鍛造",
+        "description": "所選裝備的材料、金幣和時間。"
+      },
+      "aoo-planner": {
+        "title": "AOO Team Planner",
+        "description": "Lane, role, and teleport plan for Ark of Osiris."
+      }
+    },
+    "faq": {
+      "title": "常見問題",
+      "items": [
+        {
+          "question": "ROK Tools 的計算準確嗎？",
+          "answer": "是的。公式源自遊戲實際機制，結果與遊戲內數值一致。"
+        },
+        {
+          "question": "需要註冊嗎？",
+          "answer": "不需要。所有工具免費，無需註冊。"
+        },
+        {
+          "question": "計算資料是最新的嗎？",
+          "answer": "是的。資料與遊戲同步，遊戲更新時會刷新。"
+        },
+        {
+          "question": "有哪些計算器？",
+          "answer": "加速、資源、訓練、治療、統帥經驗、裝備、建築、研究、VIP、貿易站等。"
+        },
+        {
+          "question": "支援手機使用嗎？",
+          "answer": "支援。所有工具均適配行動裝置。"
+        },
+        {
+          "question": "這是官方網站嗎？",
+          "answer": "不是。這是玩家自製的免費工具，與 Lilith Games 無關。"
+        }
+      ]
+    }
+  },
+  "results": {
+    "dailyNatural": "每日自然恢復",
+    "dailyTotal": "每日總 AP",
+    "castles": "可攻擊城堡數",
+    "sleepAp": "睡眠期間 AP"
+  },
+  "inputs": {
+    "apRefillSeconds": "AP 恢復時間（秒）",
+    "dailyFreeAp": "每日免費 AP",
+    "castleApCost": "城堡 AP 消耗",
+    "sleepHours": "睡眠時長（小時）",
+    "maxApCapacity": "最大 AP 容量"
+  },
+  "warning": "警告：睡眠期間獲得的 AP 超過您的容量，點數可能會浪費！",
+  "ap": {},
+  "speedup": {
+    "meta": {
+      "title": "加速計算器 — 萬國覺醒",
+      "description": "計算加速道具的總時長。"
+    },
+    "title": "加速計算器",
+    "subtitle": "計算加速道具的總時長。",
+    "results": {
+      "totalDuration": "總時長",
+      "totalMinutes": "總分鐘",
+      "packagesSelected": "已選包裹",
+      "days": "天",
+      "hours": "小時",
+      "minutes": "分鐘"
+    },
+    "inputs": {
+      "quantity": "數量"
+    },
+    "labels": {
+      "minute": "分",
+      "hour": "時",
+      "day": "天"
+    }
+  },
+  "gems": {
+    "meta": {
+      "title": "寶石計算器 — 萬國覺醒",
+      "description": "計算寶石道具的總價值。"
+    },
+    "title": "寶石計算器",
+    "subtitle": "計算寶石道具的總價值。",
+    "results": {
+      "totalGems": "寶石總數",
+      "packagesSelected": "已選包裹"
+    },
+    "inputs": {
+      "quantity": "數量"
+    },
+    "labels": {
+      "gems": "寶石"
+    }
+  },
+  "tomes": {
+    "meta": {
+      "title": "知識之書計算器 — 萬國覺醒",
+      "description": "計算知識之書庫存的總 EXP。"
+    },
+    "title": "知識之書計算器",
+    "subtitle": "計算知識之書庫存的總 EXP。",
+    "results": {
+      "totalExp": "總 EXP",
+      "packagesSelected": "已選包裹"
+    },
+    "inputs": {
+      "quantity": "數量"
+    },
+    "labels": {
+      "exp": "EXP"
+    }
+  },
+  "vip": {
+    "meta": {
+      "title": "VIP 等級計算器 — 萬國覺醒",
+      "description": "計算達到目標 VIP 等級所需的點數。"
+    },
+    "title": "VIP 等級計算器",
+    "subtitle": "計算達到目標 VIP 等級所需的點數。",
+    "inputs": {
+      "levelFrom": "目前 VIP 等級",
+      "levelTo": "目標 VIP 等級",
+      "currentPoints": "目前 VIP 點數"
+    },
+    "results": {
+      "pointsNeeded": "所需點數"
+    },
+    "labels": {
+      "level": "VIP {level}"
+    },
+    "warning": "目標等級必須高於目前等級。"
+  },
+  "commander": {
+    "meta": {
+      "title": "統帥 EXP 計算器 — 萬國覺醒",
+      "description": "計算達到目標統帥等級所需的 EXP。"
+    },
+    "title": "統帥 EXP 計算器",
+    "subtitle": "計算達到目標統帥等級所需的 EXP。",
+    "inputs": {
+      "rarity": "統帥稀有度",
+      "levelFrom": "目前等級",
+      "levelTo": "目標等級",
+      "currentExp": "目前累計 EXP"
+    },
+    "results": {
+      "expNeeded": "所需 EXP"
+    },
+    "labels": {
+      "level": "等級 {level}",
+      "rarity": {
+        "legendary": "傳說",
+        "epic": "史詩",
+        "elite": "精英",
+        "advanced": "進階"
+      }
+    },
+    "warning": "目標等級必須高於目前等級。"
+  },
+  "building": {
+    "meta": {
+      "title": "建築升級計算器 — 萬國覺醒",
+      "description": "計算建築升級的成本和時間。"
+    },
+    "title": "建築升級計算器",
+    "subtitle": "計算建築升級的成本和時間。",
+    "inputs": {
+      "building": "建築",
+      "levelFrom": "目前等級",
+      "levelTo": "目標等級",
+      "speedBonus": "建造速度加成 (%)",
+      "allianceHelps": "聯盟幫助"
+    },
+    "results": {
+      "total": "總計",
+      "totalDuration": "總時長",
+      "foodCost": "糧食",
+      "woodCost": "木材",
+      "stoneCost": "石料",
+      "goldCost": "金幣",
+      "days": "天",
+      "hours": "小時",
+      "minutes": "分鐘",
+      "powerReward": "戰力",
+      "mgePointsReward": "MGE 點數"
+    },
+    "labels": {
+      "level": "等級 {level}"
+    },
+    "warning": "目標等級必須高於目前等級。"
+  },
+  "research": {
+    "meta": {
+      "title": "科技升級計算器 — 萬國覺醒",
+      "description": "計算軍事和經濟科技升級的成本和時間。"
+    },
+    "title": "科技升級計算器",
+    "subtitle": "計算軍事和經濟科技升級的成本和時間。",
+    "inputs": {
+      "category": "類別",
+      "research": "科技",
+      "levelFrom": "目前等級",
+      "levelTo": "目標等級",
+      "speedBonus": "研究速度加成 (%)",
+      "allianceHelps": "聯盟幫助"
+    },
+    "results": {
+      "total": "總計",
+      "totalDuration": "總時長",
+      "foodCost": "糧食",
+      "woodCost": "木材",
+      "stoneCost": "石料",
+      "goldCost": "金幣",
+      "days": "天",
+      "hours": "小時",
+      "minutes": "分鐘",
+      "powerReward": "戰力",
+      "mgePointsReward": "MGE 點數"
+    },
+    "labels": {
+      "level": "等級 {level}",
+      "category": {
+        "military": "軍事",
+        "economic": "經濟"
+      }
+    },
+    "warning": "目標等級必須高於目前等級。"
+  },
+  "equipment": {
+    "meta": {
+      "title": "裝備鍛造計算器 — 萬國覺醒",
+      "description": "計算所選裝備的材料、金幣和鍛造時間。"
+    },
+    "title": "裝備鍛造計算器",
+    "subtitle": "計算所選裝備的材料、金幣和鍛造時間。",
+    "inputs": {
+      "weapon": "武器",
+      "helmet": "頭盔",
+      "chest": "胸甲",
+      "gloves": "手套",
+      "legs": "護腿",
+      "boots": "靴子",
+      "accessories": "飾品",
+      "speedBonus": "鍛造速度加成 (%)",
+      "none": "無"
+    },
+    "advanced": {
+      "title": "已有材料",
+      "leather": "皮革",
+      "ironOne": "鐵",
+      "animalBone": "獸骨",
+      "ebony": "烏木"
+    },
+    "results": {
+      "summary": "仍需",
+      "totalDuration": "總時長",
+      "piecesSelected": "已選件數",
+      "totalLeather": "皮革",
+      "totalIronOne": "鐵",
+      "totalAnimalBone": "獸骨",
+      "totalEbony": "烏木",
+      "gold": "金幣",
+      "days": "天",
+      "hours": "小時",
+      "minutes": "分鐘"
+    },
+    "labels": {
+      "rarity": {
+        "C": "普通",
+        "UC": "優秀",
+        "R": "稀有",
+        "E": "史詩",
+        "M": "傳說"
+      }
+    }
+  },
+  "tradingPost": {
+    "meta": {
+      "title": "貿易站計算器 — 萬國覺醒",
+      "description": "計算扣稅後發送和接收的資源。"
+    },
+    "title": "貿易站計算器",
+    "subtitle": "計算扣稅後發送和接收的資源。",
+    "modes": {
+      "label": "計算模式",
+      "deliver": "送達 X 給接收方",
+      "send": "發送 X 能收到多少",
+      "deliverHint": "輸入您希望對方收到的數量。",
+      "sendHint": "輸入您希望發送的數量。"
+    },
+    "inputs": {
+      "level": "貿易站等級",
+      "food": "糧食",
+      "wood": "木材",
+      "stone": "石料",
+      "gold": "金幣"
+    },
+    "results": {
+      "send": "需要發送",
+      "tax": "稅費",
+      "delivered": "已送達"
+    },
+    "labels": {
+      "level": "等級 {level}",
+      "taxRate": "稅率：{rate}"
+    }
+  },
+  "resources": {
+    "meta": {
+      "title": "資源包計算器 — 萬國覺醒",
+      "description": "計算資源包的總價值。"
+    },
+    "title": "資源包計算器",
+    "subtitle": "計算資源包的總價值。",
+    "results": {
+      "totalResources": "資源總計",
+      "packagesSelected": "已選包裹"
+    },
+    "inputs": {
+      "quantity": "數量",
+      "lvl1A": "1A 級",
+      "lvl1B": "1B 級",
+      "lvl1C": "1C 級",
+      "lvl2": "2 級",
+      "lvl3": "3 級"
+    }
+  },
+  "healing": {
+    "meta": {
+      "title": "治療計算器 — 萬國覺醒",
+      "description": "計算治療傷兵所需的資源和時間。"
+    },
+    "title": "治療計算器",
+    "subtitle": "計算治療傷兵所需的資源和時間。",
+    "results": {
+      "totalDuration": "總時長",
+      "totalFood": "糧食總計",
+      "totalWood": "木材總計",
+      "totalStone": "石料總計",
+      "totalGold": "金幣總計",
+      "days": "天",
+      "hours": "小時",
+      "minutes": "分鐘",
+      "seconds": "秒"
+    },
+    "inputs": {
+      "healingRssReduction": "資源減免 (%)",
+      "healingSpeedBonus": "治療速度 (%)",
+      "allianceHelps": "聯盟幫助",
+      "infantry": "步兵",
+      "archer": "弓兵",
+      "cavalry": "騎兵",
+      "siege": "攻城"
+    },
+    "labels": {
+      "tier": "T{tier}"
+    }
+  },
+  "training": {
+    "meta": {
+      "title": "MGE 訓練計算器 — 萬國覺醒",
+      "description": "根據資源和加速計算可訓練的部隊。"
+    },
+    "title": "MGE 訓練計算器",
+    "subtitle": "根據您的資源和加速計算可訓練的部隊。",
+    "results": {
+      "troops": "可訓練部隊",
+      "spendFood": "消耗糧食",
+      "spendWood": "消耗木材",
+      "spendStone": "消耗石料",
+      "spendGold": "消耗金幣",
+      "days": "天",
+      "hours": "小時",
+      "minutes": "分鐘",
+      "seconds": "秒",
+      "totalPower": "總戰力",
+      "totalMgePoints": "MGE 點數總計",
+      "totalKvkPoints": "KVK 點數總計"
+    },
+    "inputs": {
+      "tier": "訓練等級",
+      "troopType": "兵種",
+      "food": "可用糧食",
+      "wood": "可用木材",
+      "stone": "可用石料",
+      "gold": "可用金幣",
+      "speedup": "加速",
+      "speedupDays": "天",
+      "speedupHours": "小時",
+      "speedupMinutes": "分鐘",
+      "trainingSpeedBonus": "訓練速度加成 (%)"
+    },
+    "labels": {
+      "tier": "T{tier}",
+      "infantry": "步兵",
+      "archer": "弓兵",
+      "cavalry": "騎兵",
+      "siege": "攻城"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "關於 — ROK Tools",
+      "description": "誰創建了 ROK Tools？為什麼？為萬國覺醒玩家提供的免費計算器合集。"
+    },
+    "title": "關於",
+    "subtitle": "我為何以及如何建立這個網站。",
+    "body": [
+      "你好，我是 İsmail。我來自土耳其，和你們一樣，我也是一名《萬國覺醒》（Rise of Kingdoms）的玩家。大約兩個月前我接觸了這款遊戲，坦白說，我沒想到自己會這麼喜歡它。目前我在 4066 伺服器玩步兵——對我來說，制定策略、規劃資源、在對的時機做出正確的行動，是遊戲中最享受的部份。",
+      "但過了一陣子，我發現自己總是在做重複的計算：需要多少加速、能訓練多少部隊、升級這位統帥需要多少經驗值（EXP）……現有的工具大多不是已經過時、只有單一語言，就是介面太難用。於是我心想：「我可以做一個更好用的」，便架設了這個網站。",
+      "我的目標很簡單：讓玩家不需傷腦筋，就能快速得到正確的結果。這裡完全免費，免註冊，而且我盡量保持介面簡潔。如果這能讓你的遊戲體驗更輕鬆，我會非常開心。",
+      "如果你發現任何 Bug 或有任何建議，歡迎透過聯絡頁面寫信給我——每一則訊息我都會親自閱讀。"
+    ],
+    "developerRole": "開發者 & RoK 玩家",
+    "sectionTitles": [
+      "為什麼做",
+      "有什麼用",
+      "我的理念"
+    ],
+    "values": [
+      { "title": "免費" },
+      { "title": "無需註冊" },
+      { "title": "9 種語言" }
+    ],
+    "supportNote": "如果你覺得這些工具有用，可以支持本專案。",
+    "supportButton": "支持"
+  },
+  "contact": {
+    "meta": {
+      "title": "聯絡 — ROK Tools",
+      "description": "聯絡 ROK Tools。回報錯誤、傳送回饋或建議。"
+    },
+    "title": "聯絡",
+    "subtitle": "回饋、建議或錯誤回報請與我聯絡。",
+    "intro": "如發現錯誤、有建議或計算器遇到問題，請寄信給我。我會盡快回覆。",
+    "emailButton": "傳送郵件",
+    "emailLabel": "電子郵件",
+    "copyEmail": "複製",
+    "copiedEmail": "已複製",
+    "reasonsTitle": "可以寫什麼？",
+    "reasons": [
+      "錯誤回報",
+      "建議",
+      "合作"
+    ],
+    "socialHint": "Discord 與社群連結即將新增。"
+  },
+  "aooPlanner": {
+    "meta": {
+      "title": "AOO 陣型規劃器 – 奧西里斯方舟地圖編輯器",
+      "description": "為《萬國覺醒》奧西里斯方舟規劃團隊陣型。免費的 AOO 戰術編輯器：新增文字、箭頭與標記，並下載圖片。"
+    },
+    "h1": "AOO 陣型規劃器",
+    "intro": "直接在地圖上規劃《萬國覺醒》奧西里斯方舟的團隊陣型。新增文字、箭頭與標記，下載圖片並分享給你的聯盟。",
+    "title": "AOO Map Editor",
+    "subtitle": "Freely draw your team plan on the Ark of Osiris map with text, labels, arrows and icons.",
+    "mapAlt": "Ark of Osiris map",
+    "hint": "Use the tools above to add items on the map. Drag to move them, click a text/label to edit its text.",
+    "clearConfirm": "Remove all items?",
+    "tools": {
+      "text": "Text",
+      "label": "Label",
+      "arrow": "Arrow",
+      "delete": "Delete",
+      "clear": "Clear All",
+      "download": "Download Image",
+      "sizeUp": "Larger",
+      "sizeDown": "Smaller"
+    },
+    "icons": {
+      "swords": "Rally",
+      "shield": "Garrison",
+      "flag": "Ark",
+      "eye": "Scout",
+      "user": "Player",
+      "alert": "Alert"
+    },
+    "colors": {
+      "white": "White",
+      "black": "Black",
+      "amber": "Amber",
+      "red": "Red",
+      "blue": "Blue",
+      "green": "Green"
+    },
+    "defaults": {
+      "text": "Text",
+      "label": "LABEL"
+    }
+  }
+}

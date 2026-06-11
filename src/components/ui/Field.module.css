@@ -1,0 +1,176 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  width: 100%;
+}
+
+.label {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: var(--text-mute);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.stepper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+}
+
+.stepBtn {
+  flex-shrink: 0;
+  width: 36px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background-color: var(--surface-2);
+  color: var(--text);
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1;
+  font-family: inherit;
+  cursor: pointer;
+  transition:
+    border-color 0.15s ease,
+    color 0.15s ease,
+    background-color 0.15s ease;
+}
+
+.stepBtn:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--accent);
+  background-color: var(--accent-soft);
+}
+
+.stepBtn:active:not(:disabled) {
+  transform: scale(0.96);
+}
+
+.stepBtn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.inputWrap {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: stretch;
+}
+
+.input,
+.select {
+  width: 100%;
+  min-height: 44px;
+  padding: 0 var(--space-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background-color: var(--surface-2);
+  font-size: 0.9375rem;
+  font-family: inherit;
+  color: var(--text);
+  outline: none;
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease,
+    background-color 0.15s ease;
+}
+
+.input {
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inputWrapWithUnit .input {
+  padding-right: calc(var(--space-4) + 2.5rem);
+  text-align: right;
+}
+
+.input:hover,
+.select:hover {
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--border));
+}
+
+.input:focus,
+.select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--ring);
+  background-color: var(--surface);
+}
+
+.input::placeholder {
+  color: var(--text-mute);
+}
+
+.select {
+  padding-right: calc(var(--space-4) + 0.5rem);
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%239A9AA5' d='M1 1l5 5 5-5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right var(--space-2) center;
+}
+
+.unit {
+  position: absolute;
+  right: var(--space-2);
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: var(--text-mute);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  pointer-events: none;
+}
+
+/* Compact variant — dense grids (package cells, healing troops, equipment mats) */
+.fieldCompact .label {
+  font-size: 0.625rem;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fieldCompact .stepper {
+  height: 32px;
+}
+
+.fieldCompact .stepBtn {
+  width: 28px;
+  height: 28px;
+  font-size: 1rem;
+  border-radius: 6px;
+  background-color: var(--surface);
+}
+
+.fieldCompact .input {
+  min-height: 28px;
+  height: 28px;
+  padding: 0 4px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.fieldCompact .input:focus {
+  border-color: var(--border);
+  background-color: var(--surface);
+  box-shadow: none;
+}

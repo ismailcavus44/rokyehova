@@ -1,0 +1,450 @@
+{
+  "1": {
+    "infantry": {
+      "food": 800,
+      "wood": 800,
+      "stone": 0,
+      "gold": 400
+    },
+    "archer": {
+      "food": 0,
+      "wood": 800,
+      "stone": 600,
+      "gold": 400
+    },
+    "cavalry": {
+      "food": 800,
+      "wood": 0,
+      "stone": 600,
+      "gold": 400
+    },
+    "siege": {
+      "food": 500,
+      "wood": 500,
+      "stone": 400,
+      "gold": 400
+    },
+    "_common": {
+      "time": 120,
+      "kvk": 20,
+      "power": 10,
+      "mgePoints": 100
+    }
+  },
+  "2": {
+    "infantry": {
+      "food": 500,
+      "wood": 500,
+      "stone": 0,
+      "gold": 380
+    },
+    "archer": {
+      "food": 0,
+      "wood": 500,
+      "stone": 375,
+      "gold": 380
+    },
+    "cavalry": {
+      "food": 500,
+      "wood": 0,
+      "stone": 375,
+      "gold": 380
+    },
+    "siege": {
+      "food": 300,
+      "wood": 300,
+      "stone": 250,
+      "gold": 380
+    },
+    "_common": {
+      "time": 40,
+      "kvk": 12,
+      "power": 6,
+      "mgePoints": 60
+    }
+  },
+  "3": {
+    "infantry": {
+      "food": 300,
+      "wood": 300,
+      "stone": 0,
+      "gold": 20
+    },
+    "archer": {
+      "food": 0,
+      "wood": 300,
+      "stone": 225,
+      "gold": 20
+    },
+    "cavalry": {
+      "food": 300,
+      "wood": 0,
+      "stone": 225,
+      "gold": 20
+    },
+    "siege": {
+      "food": 200,
+      "wood": 200,
+      "stone": 150,
+      "gold": 20
+    },
+    "_common": {
+      "time": 80,
+      "kvk": 8,
+      "power": 4,
+      "mgePoints": 40
+    }
+  },
+  "4": {
+    "infantry": {
+      "food": 150,
+      "wood": 150,
+      "stone": 0,
+      "gold": 10
+    },
+    "archer": {
+      "food": 0,
+      "wood": 150,
+      "stone": 113,
+      "gold": 10
+    },
+    "cavalry": {
+      "food": 150,
+      "wood": 0,
+      "stone": 113,
+      "gold": 10
+    },
+    "siege": {
+      "food": 100,
+      "wood": 100,
+      "stone": 75,
+      "gold": 10
+    },
+    "_common": {
+      "time": 20,
+      "kvk": 4,
+      "power": 1,
+      "mgePoints": 20
+    }
+  },
+  "5": {
+    "infantry": {
+      "food": 150,
+      "wood": 150,
+      "stone": 0,
+      "gold": 10
+    },
+    "archer": {
+      "food": 0,
+      "wood": 150,
+      "stone": 112,
+      "gold": 10
+    },
+    "cavalry": {
+      "food": 150,
+      "wood": 0,
+      "stone": 112,
+      "gold": 10
+    },
+    "siege": {
+      "food": 100,
+      "wood": 100,
+      "stone": 75,
+      "gold": 10
+    },
+    "_common": {
+      "time": 60,
+      "kvk": 4,
+      "power": 3,
+      "mgePoints": 20
+    }
+  },
+  "6": {
+    "infantry": {
+      "food": 50,
+      "wood": 50,
+      "stone": 0,
+      "gold": 10
+    },
+    "archer": {
+      "food": 0,
+      "wood": 50,
+      "stone": 37,
+      "gold": 10
+    },
+    "cavalry": {
+      "food": 50,
+      "wood": 0,
+      "stone": 37,
+      "gold": 10
+    },
+    "siege": {
+      "food": 35,
+      "wood": 35,
+      "stone": 25,
+      "gold": 10
+    },
+    "_common": {
+      "time": 30,
+      "kvk": 2,
+      "power": 1,
+      "mgePoints": 10
+    }
+  },
+  "7": {
+    "infantry": {
+      "food": 100,
+      "wood": 100,
+      "stone": 0,
+      "gold": 0
+    },
+    "archer": {
+      "food": 0,
+      "wood": 100,
+      "stone": 75,
+      "gold": 0
+    },
+    "cavalry": {
+      "food": 100,
+      "wood": 0,
+      "stone": 75,
+      "gold": 0
+    },
+    "siege": {
+      "food": 65,
+      "wood": 65,
+      "stone": 50,
+      "gold": 0
+    },
+    "_common": {
+      "time": 30,
+      "kvk": 4,
+      "power": 2,
+      "mgePoints": 10
+    }
+  },
+  "8": {
+    "infantry": {
+      "food": 50,
+      "wood": 50,
+      "stone": 0,
+      "gold": 0
+    },
+    "archer": {
+      "food": 0,
+      "wood": 40,
+      "stone": 75,
+      "gold": 0
+    },
+    "cavalry": {
+      "food": 40,
+      "wood": 0,
+      "stone": 75,
+      "gold": 0
+    },
+    "siege": {
+      "food": 5,
+      "wood": 5,
+      "stone": 50,
+      "gold": 0
+    },
+    "_common": {
+      "time": 15,
+      "kvk": 3,
+      "power": 1,
+      "mgePoints": 5
+    }
+  },
+  "9": {
+    "infantry": {
+      "food": 50,
+      "wood": 50,
+      "stone": 0,
+      "gold": 0
+    },
+    "archer": {
+      "food": 40,
+      "wood": 60,
+      "stone": 0,
+      "gold": 0
+    },
+    "cavalry": {
+      "food": 60,
+      "wood": 40,
+      "stone": 0,
+      "gold": 0
+    },
+    "siege": {
+      "food": 60,
+      "wood": 60,
+      "stone": 0,
+      "gold": 0
+    },
+    "_common": {
+      "time": 15,
+      "kvk": 1,
+      "power": 1,
+      "mgePoints": 5
+    }
+  },
+  "10": {
+    "infantry": {
+      "food": 650,
+      "wood": 650,
+      "stone": 0,
+      "gold": 390
+    },
+    "archer": {
+      "food": 0,
+      "wood": 650,
+      "stone": 488,
+      "gold": 390
+    },
+    "cavalry": {
+      "food": 650,
+      "wood": 0,
+      "stone": 488,
+      "gold": 390
+    },
+    "siege": {
+      "food": 400,
+      "wood": 400,
+      "stone": 325,
+      "gold": 390
+    },
+    "_common": {
+      "time": 60,
+      "kvk": 16,
+      "power": 7,
+      "mgePoints": 80
+    }
+  },
+  "11": {
+    "infantry": {
+      "food": 700,
+      "wood": 700,
+      "stone": 0,
+      "gold": 400
+    },
+    "archer": {
+      "food": 0,
+      "wood": 700,
+      "stone": 525,
+      "gold": 400
+    },
+    "cavalry": {
+      "food": 700,
+      "wood": 0,
+      "stone": 525,
+      "gold": 400
+    },
+    "siege": {
+      "food": 435,
+      "wood": 435,
+      "stone": 350,
+      "gold": 400
+    },
+    "_common": {
+      "time": 80,
+      "kvk": 18,
+      "power": 8,
+      "mgePoints": 90
+    }
+  },
+  "12": {
+    "infantry": {
+      "food": 750,
+      "wood": 750,
+      "stone": 0,
+      "gold": 400
+    },
+    "archer": {
+      "food": 0,
+      "wood": 740,
+      "stone": 600,
+      "gold": 400
+    },
+    "cavalry": {
+      "food": 740,
+      "wood": 0,
+      "stone": 600,
+      "gold": 400
+    },
+    "siege": {
+      "food": 440,
+      "wood": 440,
+      "stone": 400,
+      "gold": 400
+    },
+    "_common": {
+      "time": 115,
+      "kvk": 19,
+      "power": 9,
+      "mgePoints": 95
+    }
+  },
+  "13": {
+    "infantry": {
+      "food": 200,
+      "wood": 200,
+      "stone": 0,
+      "gold": 20
+    },
+    "archer": {
+      "food": 0,
+      "wood": 200,
+      "stone": 150,
+      "gold": 20
+    },
+    "cavalry": {
+      "food": 200,
+      "wood": 0,
+      "stone": 150,
+      "gold": 20
+    },
+    "siege": {
+      "food": 135,
+      "wood": 135,
+      "stone": 100,
+      "gold": 20
+    },
+    "_common": {
+      "time": 50,
+      "kvk": 6,
+      "power": 2,
+      "mgePoints": 30
+    }
+  },
+  "14": {
+    "infantry": {
+      "food": 250,
+      "wood": 250,
+      "stone": 0,
+      "gold": 20
+    },
+    "archer": {
+      "food": 0,
+      "wood": 240,
+      "stone": 225,
+      "gold": 20
+    },
+    "cavalry": {
+      "food": 240,
+      "wood": 0,
+      "stone": 225,
+      "gold": 20
+    },
+    "siege": {
+      "food": 140,
+      "wood": 140,
+      "stone": 150,
+      "gold": 20
+    },
+    "_common": {
+      "time": 65,
+      "kvk": 7,
+      "power": 3,
+      "mgePoints": 35
+    }
+  }
+}

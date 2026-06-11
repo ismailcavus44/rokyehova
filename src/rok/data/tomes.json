@@ -1,0 +1,11 @@
+{
+  "expValues": [
+    100,
+    500,
+    1000,
+    5000,
+    10000,
+    50000
+  ],
+  "formula": "toplam_exp = SUM(exp_degeri * adet)"
+}

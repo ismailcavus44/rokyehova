@@ -1,0 +1,598 @@
+{
+  "header": {
+    "brand": "Công cụ ROK",
+    "languageLabel": "Ngôn ngữ",
+    "openMenu": "Mở menu",
+    "closeMenu": "Đóng menu",
+    "toolsLabel": "Máy tính",
+    "aboutLabel": "Giới thiệu",
+    "contactLabel": "Liên hệ"
+  },
+  "support": {
+    "text": "I build these tools alone, for free. If they helped, you can buy me a coffee.",
+    "button": "Buy me a coffee",
+    "modalTitle": "Support the Project",
+    "modalText": "I build these tools alone, for free. Your support keeps me motivated.",
+    "usdtLabel": "USDT (TRC20)",
+    "copy": "Copy",
+    "copied": "Copied ✓",
+    "networkWarning": "Please use the TRC20 network only",
+    "close": "Close"
+  },
+  "meta": {
+    "title": "Máy tính AP — Rise of Kingdoms",
+    "description": "Tính AP hàng ngày, tấn công lâu đài và hồi AP khi ngủ."
+  },
+  "home": {
+    "meta": {
+      "title": "Công cụ ROK — Máy tính Rise of Kingdoms",
+      "description": "Máy tính Rise of Kingdoms miễn phí cho AP, tăng tốc, ngọc, VIP và hơn thế nữa."
+    },
+    "title": "Máy tính Rise of Kingdoms",
+    "subtitle": "Công cụ thực tế để tính tài nguyên, thời gian và điểm.",
+    "hero": {
+      "title": "Công cụ tính toán Rise of Kingdoms",
+      "subtitle": "Tính tài nguyên, thời gian, chỉ huy và trang bị trong vài giây — lập kế hoạch thông minh hơn.",
+      "stats": [
+        "14 công cụ",
+        "9 ngôn ngữ",
+        "Miễn phí"
+      ]
+    },
+    "categories": {
+      "economy": "Tài nguyên & Kinh tế",
+      "military": "Quân đội & Huấn luyện",
+      "commander": "Chỉ huy & Trang bị",
+      "infrastructure": "Xây dựng & Nghiên cứu",
+      "team": "Team & Strategy"
+    },
+    "relatedCalculators": "Máy tính liên quan",
+    "seo": {
+      "title": "Bộ máy tính tổng hợp cho Rise of Kingdoms",
+      "body": [
+        "ROK Tools là bộ sưu tập máy tính miễn phí dành cho người chơi Rise of Kingdoms. Từ thời gian tăng tốc và EXP chỉ huy đến chi phí xây dựng, nghiên cứu và chế tạo trang bị — mọi phép tính bạn cần ở một nơi, nhanh và chính xác.",
+        "Mỗi công cụ hoạt động với dữ liệu trong game và hiển thị kết quả ngay lập tức. Không cần đăng ký, quảng cáo tối thiểu — tập trung lập kế hoạch và sử dụng tài nguyên hiệu quả nhất."
+      ]
+    },
+    "items": {
+      "ap": {
+        "title": "Máy tính AP",
+        "description": "AP hàng ngày, lâu đài và hồi AP khi ngủ."
+      },
+      "speedup": {
+        "title": "Máy tính Tăng tốc",
+        "description": "Tổng thời gian của các vật phẩm tăng tốc."
+      },
+      "gems": {
+        "title": "Máy tính Ngọc",
+        "description": "Tổng giá trị ngọc của bạn."
+      },
+      "tomes": {
+        "title": "Tomes of Knowledge",
+        "description": "Tổng EXP từ kho sách của bạn."
+      },
+      "vip": {
+        "title": "Máy tính VIP",
+        "description": "Điểm cần thiết cho cấp VIP mục tiêu."
+      },
+      "commander": {
+        "title": "EXP Tướng",
+        "description": "EXP tướng cần thiết để đạt cấp mục tiêu."
+      },
+      "trading-post": {
+        "title": "Trạm Giao dịch",
+        "description": "Tài nguyên gửi và nhận sau thuế."
+      },
+      "resources": {
+        "title": "Gói Tài nguyên",
+        "description": "Tổng giá trị các gói tài nguyên."
+      },
+      "healing": {
+        "title": "Chữa thương",
+        "description": "Tài nguyên và thời gian chữa binh bị thương."
+      },
+      "training": {
+        "title": "Huấn luyện MGE",
+        "description": "Binh lính có thể huấn luyện theo tài nguyên và tăng tốc."
+      },
+      "building": {
+        "title": "Nâng cấp Công trình",
+        "description": "Chi phí và thời gian nâng cấp cấp."
+      },
+      "research": {
+        "title": "Nâng cấp Nghiên cứu",
+        "description": "Chi phí và thời gian nghiên cứu quân sự và kinh tế."
+      },
+      "equipment": {
+        "title": "Chế tạo Trang bị",
+        "description": "Nguyên liệu, vàng và thời gian cho các món đã chọn."
+      },
+      "aoo-planner": {
+        "title": "AOO Team Planner",
+        "description": "Lane, role, and teleport plan for Ark of Osiris."
+      }
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "items": [
+        {
+          "question": "Tính toán của ROK Tools có chính xác không?",
+          "answer": "Có. Công thức dựa trên cơ chế thực tế của game, kết quả khớp với giá trị trong game."
+        },
+        {
+          "question": "Tôi có cần đăng ký không?",
+          "answer": "Không. Tất cả công cụ miễn phí và không yêu cầu đăng ký."
+        },
+        {
+          "question": "Dữ liệu tính toán có cập nhật không?",
+          "answer": "Có. Dữ liệu đồng bộ với game và được làm mới khi game cập nhật."
+        },
+        {
+          "question": "Có những máy tính nào?",
+          "answer": "Tăng tốc, tài nguyên, huấn luyện, chữa thương, EXP chỉ huy, trang bị, xây dựng, nghiên cứu, VIP, trạm giao dịch và hơn thế nữa."
+        },
+        {
+          "question": "Có dùng được trên điện thoại không?",
+          "answer": "Có. Tất cả công cụ đều tương thích di động."
+        },
+        {
+          "question": "Đây có phải trang web chính thức không?",
+          "answer": "Không. Đây là công cụ miễn phí do fan làm cho người chơi, không liên kết với Lilith Games."
+        }
+      ]
+    }
+  },
+  "results": {
+    "dailyNatural": "Hồi AP Tự nhiên Hàng ngày",
+    "dailyTotal": "Tổng AP Hàng ngày",
+    "castles": "Lâu đài Có thể",
+    "sleepAp": "AP Khi Ngủ"
+  },
+  "inputs": {
+    "apRefillSeconds": "Thời gian Hồi AP (Giây)",
+    "dailyFreeAp": "AP Miễn phí Hàng ngày",
+    "castleApCost": "Chi phí AP Lâu đài",
+    "sleepHours": "Thời gian Ngủ (Giờ)",
+    "maxApCapacity": "Dung lượng AP Tối đa"
+  },
+  "warning": "Cảnh báo: AP nhận được khi ngủ vượt quá dung lượng của bạn — điểm có thể bị lãng phí!",
+  "ap": {},
+  "speedup": {
+    "meta": {
+      "title": "Máy tính Tăng tốc — Rise of Kingdoms",
+      "description": "Tính tổng thời gian của các vật phẩm tăng tốc."
+    },
+    "title": "Máy tính Tăng tốc",
+    "subtitle": "Tính tổng thời gian của các vật phẩm tăng tốc.",
+    "results": {
+      "totalDuration": "Tổng Thời gian",
+      "totalMinutes": "Tổng Phút",
+      "packagesSelected": "Gói Đã chọn",
+      "days": "Ngày",
+      "hours": "Giờ",
+      "minutes": "Phút"
+    },
+    "inputs": {
+      "quantity": "SL"
+    },
+    "labels": {
+      "minute": "phút",
+      "hour": "giờ",
+      "day": "ngày"
+    }
+  },
+  "gems": {
+    "meta": {
+      "title": "Máy tính Ngọc — Rise of Kingdoms",
+      "description": "Tính tổng giá trị ngọc của bạn."
+    },
+    "title": "Máy tính Ngọc",
+    "subtitle": "Tính tổng giá trị ngọc của bạn.",
+    "results": {
+      "totalGems": "Tổng Ngọc",
+      "packagesSelected": "Gói Đã chọn"
+    },
+    "inputs": {
+      "quantity": "SL"
+    },
+    "labels": {
+      "gems": "Ngọc"
+    }
+  },
+  "tomes": {
+    "meta": {
+      "title": "Máy tính Tomes of Knowledge — Rise of Kingdoms",
+      "description": "Tính tổng EXP từ kho sách của bạn."
+    },
+    "title": "Máy tính Tomes of Knowledge",
+    "subtitle": "Tính tổng EXP từ kho sách của bạn.",
+    "results": {
+      "totalExp": "Tổng EXP",
+      "packagesSelected": "Gói Đã chọn"
+    },
+    "inputs": {
+      "quantity": "SL"
+    },
+    "labels": {
+      "exp": "EXP"
+    }
+  },
+  "vip": {
+    "meta": {
+      "title": "Máy tính Cấp VIP — Rise of Kingdoms",
+      "description": "Tính điểm cần thiết để đạt cấp VIP mục tiêu."
+    },
+    "title": "Máy tính Cấp VIP",
+    "subtitle": "Tính điểm cần thiết để đạt cấp VIP mục tiêu.",
+    "inputs": {
+      "levelFrom": "Cấp VIP Hiện tại",
+      "levelTo": "Cấp VIP Mục tiêu",
+      "currentPoints": "Điểm VIP Hiện tại"
+    },
+    "results": {
+      "pointsNeeded": "Điểm Cần thiết"
+    },
+    "labels": {
+      "level": "VIP {level}"
+    },
+    "warning": "Mục tiêu phải cao hơn cấp hiện tại."
+  },
+  "commander": {
+    "meta": {
+      "title": "Máy tính EXP Tướng — Rise of Kingdoms",
+      "description": "Tính EXP cần thiết để đạt cấp tướng mục tiêu."
+    },
+    "title": "Máy tính EXP Tướng",
+    "subtitle": "Tính EXP cần thiết để đạt cấp tướng mục tiêu.",
+    "inputs": {
+      "rarity": "Độ hiếm Tướng",
+      "levelFrom": "Cấp Hiện tại",
+      "levelTo": "Cấp Mục tiêu",
+      "currentExp": "EXP Tích lũy Hiện tại"
+    },
+    "results": {
+      "expNeeded": "EXP Cần thiết"
+    },
+    "labels": {
+      "level": "Cấp {level}",
+      "rarity": {
+        "legendary": "Huyền thoại",
+        "epic": "Sử thi",
+        "elite": "Tinh anh",
+        "advanced": "Cao cấp"
+      }
+    },
+    "warning": "Mục tiêu phải cao hơn cấp hiện tại."
+  },
+  "building": {
+    "meta": {
+      "title": "Máy tính Nâng cấp Công trình — Rise of Kingdoms",
+      "description": "Tính chi phí và thời gian nâng cấp cấp công trình."
+    },
+    "title": "Máy tính Nâng cấp Công trình",
+    "subtitle": "Tính chi phí và thời gian nâng cấp cấp công trình.",
+    "inputs": {
+      "building": "Công trình",
+      "levelFrom": "Cấp Hiện tại",
+      "levelTo": "Cấp Mục tiêu",
+      "speedBonus": "Thưởng Tốc độ Xây dựng (%)",
+      "allianceHelps": "Hỗ trợ Liên minh"
+    },
+    "results": {
+      "total": "Tổng",
+      "totalDuration": "Tổng Thời gian",
+      "foodCost": "Lương thực",
+      "woodCost": "Gỗ",
+      "stoneCost": "Đá",
+      "goldCost": "Vàng",
+      "days": "Ngày",
+      "hours": "Giờ",
+      "minutes": "Phút",
+      "powerReward": "Sức mạnh",
+      "mgePointsReward": "Điểm MGE"
+    },
+    "labels": {
+      "level": "Cấp {level}"
+    },
+    "warning": "Mục tiêu phải cao hơn cấp hiện tại."
+  },
+  "research": {
+    "meta": {
+      "title": "Máy tính Nâng cấp Nghiên cứu — Rise of Kingdoms",
+      "description": "Tính chi phí và thời gian nâng cấp nghiên cứu quân sự và kinh tế."
+    },
+    "title": "Máy tính Nâng cấp Nghiên cứu",
+    "subtitle": "Tính chi phí và thời gian nâng cấp nghiên cứu quân sự và kinh tế.",
+    "inputs": {
+      "category": "Danh mục",
+      "research": "Nghiên cứu",
+      "levelFrom": "Cấp Hiện tại",
+      "levelTo": "Cấp Mục tiêu",
+      "speedBonus": "Thưởng Tốc độ Nghiên cứu (%)",
+      "allianceHelps": "Hỗ trợ Liên minh"
+    },
+    "results": {
+      "total": "Tổng",
+      "totalDuration": "Tổng Thời gian",
+      "foodCost": "Lương thực",
+      "woodCost": "Gỗ",
+      "stoneCost": "Đá",
+      "goldCost": "Vàng",
+      "days": "Ngày",
+      "hours": "Giờ",
+      "minutes": "Phút",
+      "powerReward": "Sức mạnh",
+      "mgePointsReward": "Điểm MGE"
+    },
+    "labels": {
+      "level": "Cấp {level}",
+      "category": {
+        "military": "Quân sự",
+        "economic": "Kinh tế"
+      }
+    },
+    "warning": "Mục tiêu phải cao hơn cấp hiện tại."
+  },
+  "equipment": {
+    "meta": {
+      "title": "Máy tính Chế tạo Trang bị — Rise of Kingdoms",
+      "description": "Tính nguyên liệu, vàng và thời gian chế tạo các món trang bị đã chọn."
+    },
+    "title": "Máy tính Chế tạo Trang bị",
+    "subtitle": "Tính nguyên liệu, vàng và thời gian chế tạo các món trang bị đã chọn.",
+    "inputs": {
+      "weapon": "Vũ khí",
+      "helmet": "Mũ",
+      "chest": "Giáp ngực",
+      "gloves": "Găng tay",
+      "legs": "Quần giáp",
+      "boots": "Giày",
+      "accessories": "Phụ kiện",
+      "speedBonus": "Thưởng Tốc độ Chế tạo (%)",
+      "none": "Không"
+    },
+    "advanced": {
+      "title": "Nguyên liệu Đang có",
+      "leather": "Da",
+      "ironOne": "Sắt",
+      "animalBone": "Xương",
+      "ebony": "Gỗ mun"
+    },
+    "results": {
+      "summary": "Còn thiếu",
+      "totalDuration": "Tổng Thời gian",
+      "piecesSelected": "Món Đã chọn",
+      "totalLeather": "Da",
+      "totalIronOne": "Sắt",
+      "totalAnimalBone": "Xương",
+      "totalEbony": "Gỗ mun",
+      "gold": "Vàng",
+      "days": "Ngày",
+      "hours": "Giờ",
+      "minutes": "Phút"
+    },
+    "labels": {
+      "rarity": {
+        "C": "Thường",
+        "UC": "Không thường",
+        "R": "Hiếm",
+        "E": "Sử thi",
+        "M": "Huyền thoại"
+      }
+    }
+  },
+  "tradingPost": {
+    "meta": {
+      "title": "Máy tính Trạm Giao dịch — Rise of Kingdoms",
+      "description": "Tính tài nguyên gửi và nhận sau thuế giao dịch."
+    },
+    "title": "Máy tính Trạm Giao dịch",
+    "subtitle": "Tính tài nguyên gửi và nhận sau thuế giao dịch.",
+    "modes": {
+      "label": "Chế độ tính",
+      "deliver": "Giao X cho người nhận",
+      "send": "Nếu gửi X, nhận được bao nhiêu",
+      "deliverHint": "Nhập số lượng bạn muốn đến đích.",
+      "sendHint": "Nhập số lượng bạn muốn gửi."
+    },
+    "inputs": {
+      "level": "Cấp Trạm Giao dịch",
+      "food": "Lương thực",
+      "wood": "Gỗ",
+      "stone": "Đá",
+      "gold": "Vàng"
+    },
+    "results": {
+      "send": "Bạn Phải Gửi",
+      "tax": "Thuế",
+      "delivered": "Đã giao"
+    },
+    "labels": {
+      "level": "Cấp {level}",
+      "taxRate": "Tỷ lệ thuế: {rate}"
+    }
+  },
+  "resources": {
+    "meta": {
+      "title": "Máy tính Gói Tài nguyên — Rise of Kingdoms",
+      "description": "Tính tổng giá trị các gói tài nguyên của bạn."
+    },
+    "title": "Máy tính Gói Tài nguyên",
+    "subtitle": "Tính tổng giá trị các gói tài nguyên của bạn.",
+    "results": {
+      "totalResources": "Tổng Tài nguyên",
+      "packagesSelected": "Gói Đã chọn"
+    },
+    "inputs": {
+      "quantity": "SL",
+      "lvl1A": "Cấp 1A",
+      "lvl1B": "Cấp 1B",
+      "lvl1C": "Cấp 1C",
+      "lvl2": "Cấp 2",
+      "lvl3": "Cấp 3"
+    }
+  },
+  "healing": {
+    "meta": {
+      "title": "Máy tính Chữa thương — Rise of Kingdoms",
+      "description": "Tính tài nguyên và thời gian chữa binh bị thương."
+    },
+    "title": "Máy tính Chữa thương",
+    "subtitle": "Tính tài nguyên và thời gian cần thiết để chữa binh bị thương.",
+    "results": {
+      "totalDuration": "Tổng Thời gian",
+      "totalFood": "Tổng Lương thực",
+      "totalWood": "Tổng Gỗ",
+      "totalStone": "Tổng Đá",
+      "totalGold": "Tổng Vàng",
+      "days": "Ngày",
+      "hours": "Giờ",
+      "minutes": "Phút",
+      "seconds": "Giây"
+    },
+    "inputs": {
+      "healingRssReduction": "Giảm Tài nguyên (%)",
+      "healingSpeedBonus": "Tốc độ Chữa thương (%)",
+      "allianceHelps": "Hỗ trợ Liên minh",
+      "infantry": "Bộ binh",
+      "archer": "Cung thủ",
+      "cavalry": "Kỵ binh",
+      "siege": "Công thành"
+    },
+    "labels": {
+      "tier": "T{tier}"
+    }
+  },
+  "training": {
+    "meta": {
+      "title": "Máy tính Huấn luyện MGE — Rise of Kingdoms",
+      "description": "Tính binh lính có thể huấn luyện theo tài nguyên và tăng tốc."
+    },
+    "title": "Máy tính Huấn luyện MGE",
+    "subtitle": "Tính binh lính có thể huấn luyện theo tài nguyên và tăng tốc của bạn.",
+    "results": {
+      "troops": "Binh lính Có thể Huấn luyện",
+      "spendFood": "Lương thực Đã dùng",
+      "spendWood": "Gỗ Đã dùng",
+      "spendStone": "Đá Đã dùng",
+      "spendGold": "Vàng Đã dùng",
+      "days": "Ngày",
+      "hours": "Giờ",
+      "minutes": "Phút",
+      "seconds": "Giây",
+      "totalPower": "Tổng Sức mạnh",
+      "totalMgePoints": "Tổng Điểm MGE",
+      "totalKvkPoints": "Tổng Điểm KVK"
+    },
+    "inputs": {
+      "tier": "Cấp Huấn luyện",
+      "troopType": "Loại Binh lính",
+      "food": "Lương thực Có sẵn",
+      "wood": "Gỗ Có sẵn",
+      "stone": "Đá Có sẵn",
+      "gold": "Vàng Có sẵn",
+      "speedup": "Tăng tốc",
+      "speedupDays": "Ngày",
+      "speedupHours": "Giờ",
+      "speedupMinutes": "Phút",
+      "trainingSpeedBonus": "Thưởng Tốc độ Huấn luyện (%)"
+    },
+    "labels": {
+      "tier": "T{tier}",
+      "infantry": "Bộ binh",
+      "archer": "Cung thủ",
+      "cavalry": "Kỵ binh",
+      "siege": "Công thành"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "Giới thiệu — ROK Tools",
+      "description": "Ai đã tạo ROK Tools và tại sao? Bộ máy tính miễn phí cho người chơi Rise of Kingdoms."
+    },
+    "title": "Giới thiệu",
+    "subtitle": "Tại sao và cách tôi xây dựng trang này.",
+    "body": [
+      "Xin chào, tôi là İsmail. Tôi đến từ Thổ Nhĩ Kỳ và cũng là một người chơi Rise of Kingdoms giống như bạn. Tôi mới biết đến trò chơi này khoảng hai tháng trước và thành thật mà nói, tôi không ngờ mình lại thích nó đến vậy. Hiện tại, tôi đang chơi chuyên bộ binh ở vương quốc 4066 — việc lập chiến lược, quản lý tài nguyên và tung ra các nước đi đúng thời điểm là phần thú vị nhất của trò chơi đối với tôi.",
+      "Nhưng sau một thời gian, tôi nhận ra mình liên tục phải tính toán những con số giống nhau: cần bao nhiêu tăng tốc, tôi có thể huấn luyện bao nhiêu lính, cần bao nhiêu EXP để nâng cấp chỉ huy này... Hầu hết các công cụ hiện có đều đã lỗi thời, chỉ hỗ trợ một ngôn ngữ hoặc rất cồng kềnh khi sử dụng. Vì vậy, tôi tự nhủ \"mình có thể làm tốt hơn thế này\" và đã tạo ra trang web này.",
+      "Mục tiêu của tôi rất đơn giản: giúp người chơi có được kết quả chính xác một cách nhanh chóng mà không phải đau đầu tính toán. Tất cả đều miễn phí, không cần đăng ký và tôi đã cố gắng giữ cho giao diện đơn giản nhất có thể. Tôi sẽ rất vui nếu công cụ này cũng giúp ích cho bạn trong trò chơi.",
+      "Nếu bạn thấy lỗi hoặc có bất kỳ góp ý nào, bạn có thể nhắn cho tôi qua trang liên hệ — tôi luôn đọc từng tin nhắn."
+    ],
+    "developerRole": "Nhà phát triển & người chơi RoK",
+    "sectionTitles": [
+      "Tại sao tôi làm",
+      "Dùng để làm gì",
+      "Cách tiếp cận"
+    ],
+    "values": [
+      { "title": "Miễn phí" },
+      { "title": "Không đăng ký" },
+      { "title": "9 ngôn ngữ" }
+    ],
+    "supportNote": "Nếu thấy các công cụ hữu ích, bạn có thể ủng hộ dự án.",
+    "supportButton": "Ủng hộ"
+  },
+  "contact": {
+    "meta": {
+      "title": "Liên hệ — ROK Tools",
+      "description": "Liên hệ ROK Tools. Báo lỗi, gửi phản hồi hoặc đề xuất."
+    },
+    "title": "Liên hệ",
+    "subtitle": "Liên hệ để góp ý, đề xuất hoặc báo lỗi.",
+    "intro": "Nếu bạn tìm thấy lỗi, có đề xuất hoặc gặp vấn đề với máy tính — hãy gửi email cho tôi. Tôi cố gắng trả lời sớm nhất có thể.",
+    "emailButton": "Gửi email",
+    "emailLabel": "Email",
+    "copyEmail": "Sao chép",
+    "copiedEmail": "Đã sao chép",
+    "reasonsTitle": "Bạn có thể viết về gì?",
+    "reasons": [
+      "Báo lỗi",
+      "Đề xuất",
+      "Hợp tác"
+    ],
+    "socialHint": "Liên kết Discord và mạng xã hội sẽ sớm có."
+  },
+  "aooPlanner": {
+    "meta": {
+      "title": "Trình lập đội hình AOO – Trình chỉnh sửa bản đồ Ark of Osiris",
+      "description": "Lên kế hoạch đội hình cho Ark of Osiris trong Rise of Kingdoms. Trình chỉnh sửa chiến thuật AOO miễn phí; thêm văn bản, mũi tên, ký hiệu và tải ảnh xuống."
+    },
+    "h1": "Trình lập đội hình AOO",
+    "intro": "Lên kế hoạch đội hình Ark of Osiris trong Rise of Kingdoms ngay trên bản đồ. Thêm văn bản, mũi tên, ký hiệu rồi tải ảnh xuống và chia sẻ với liên minh.",
+    "title": "AOO Map Editor",
+    "subtitle": "Freely draw your team plan on the Ark of Osiris map with text, labels, arrows and icons.",
+    "mapAlt": "Ark of Osiris map",
+    "hint": "Use the tools above to add items on the map. Drag to move them, click a text/label to edit its text.",
+    "clearConfirm": "Remove all items?",
+    "tools": {
+      "text": "Text",
+      "label": "Label",
+      "arrow": "Arrow",
+      "delete": "Delete",
+      "clear": "Clear All",
+      "download": "Download Image",
+      "sizeUp": "Larger",
+      "sizeDown": "Smaller"
+    },
+    "icons": {
+      "swords": "Rally",
+      "shield": "Garrison",
+      "flag": "Ark",
+      "eye": "Scout",
+      "user": "Player",
+      "alert": "Alert"
+    },
+    "colors": {
+      "white": "White",
+      "black": "Black",
+      "amber": "Amber",
+      "red": "Red",
+      "blue": "Blue",
+      "green": "Green"
+    },
+    "defaults": {
+      "text": "Text",
+      "label": "LABEL"
+    }
+  }
+}

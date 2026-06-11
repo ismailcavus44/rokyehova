@@ -2,6 +2,14 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { defaultLocale, locales, type Locale } from "@/i18n/config";
 
+const METADATA_PATHS = ["/icon", "/apple-icon", "/opengraph-image", "/robots.txt", "/sitemap.xml"];
+
+function isMetadataPath(pathname: string): boolean {
+  return METADATA_PATHS.some(
+    (route) => pathname === route || pathname.startsWith(`${route}?`),
+  );
+}
+
 function getLocaleFromPath(pathname: string): Locale | null {
   const segment = pathname.split("/")[1];
   if (locales.includes(segment as Locale)) {
@@ -16,7 +24,8 @@ export function middleware(request: NextRequest) {
   if (
     pathname.startsWith("/_next") ||
     pathname.startsWith("/api") ||
-    pathname.includes(".")
+    pathname.includes(".") ||
+    isMetadataPath(pathname)
   ) {
     return NextResponse.next();
   }

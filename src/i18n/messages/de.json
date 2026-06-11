@@ -1,0 +1,598 @@
+{
+  "header": {
+    "brand": "ROK Tools",
+    "languageLabel": "Sprache",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "toolsLabel": "Rechner",
+    "aboutLabel": "Über uns",
+    "contactLabel": "Kontakt"
+  },
+  "support": {
+    "text": "I build these tools alone, for free. If they helped, you can buy me a coffee.",
+    "button": "Buy me a coffee",
+    "modalTitle": "Support the Project",
+    "modalText": "I build these tools alone, for free. Your support keeps me motivated.",
+    "usdtLabel": "USDT (TRC20)",
+    "copy": "Copy",
+    "copied": "Copied ✓",
+    "networkWarning": "Please use the TRC20 network only",
+    "close": "Close"
+  },
+  "meta": {
+    "title": "AP-Rechner — Rise of Kingdoms",
+    "description": "Berechne tägliches AP, Burgangriffe und AP-Auffüllung im Schlaf."
+  },
+  "home": {
+    "meta": {
+      "title": "ROK Tools — Rise of Kingdoms Rechner",
+      "description": "Kostenlose Rise of Kingdoms Rechner für AP, Beschleuniger, Edelsteine, VIP und mehr."
+    },
+    "title": "Rise of Kingdoms Rechner",
+    "subtitle": "Praktische Tools für Ressourcen-, Zeit- und Punkteberechnungen.",
+    "hero": {
+      "title": "Rise of Kingdoms Berechnungstools",
+      "subtitle": "Berechne Ressourcen, Zeit, Kommandanten und Ausrüstung in Sekunden — und plane smarter.",
+      "stats": [
+        "14 Tools",
+        "9 Sprachen",
+        "Kostenlos"
+      ]
+    },
+    "categories": {
+      "economy": "Ressourcen & Wirtschaft",
+      "military": "Truppen & Training",
+      "commander": "Kommandanten & Ausrüstung",
+      "infrastructure": "Gebäude & Forschung",
+      "team": "Team & Strategy"
+    },
+    "relatedCalculators": "Verwandte Rechner",
+    "seo": {
+      "title": "All-in-One-Rechner für Rise of Kingdoms",
+      "body": [
+        "ROK Tools ist eine kostenlose Sammlung von Rechnern für Rise of Kingdoms-Spieler. Von Beschleunigungsdauern und Kommandanten-EXP bis zu Gebäude- und Forschungskosten und Ausrüstungsherstellung — alle Berechnungen an einem Ort, schnell und genau.",
+        "Jedes Tool arbeitet mit Spieldaten und zeigt Ergebnisse sofort. Keine Anmeldung nötig, Werbung wird minimal gehalten — konzentriere dich auf die Planung und nutze deine Ressourcen so effizient wie möglich."
+      ]
+    },
+    "items": {
+      "ap": {
+        "title": "AP-Rechner",
+        "description": "Tägliches AP, Burgen und Auffüllung im Schlaf."
+      },
+      "speedup": {
+        "title": "Beschleuniger-Rechner",
+        "description": "Gesamtdauer deiner Beschleuniger."
+      },
+      "gems": {
+        "title": "Edelstein-Rechner",
+        "description": "Gesamtwert deiner Edelsteine."
+      },
+      "tomes": {
+        "title": "Tomes of Knowledge",
+        "description": "Gesamt-EXP aus deinem Tom-Bestand."
+      },
+      "vip": {
+        "title": "VIP-Rechner",
+        "description": "Punkte für dein Ziel-VIP-Level."
+      },
+      "commander": {
+        "title": "Kommandanten-EXP",
+        "description": "Kommandanten-EXP für dein Ziellevel."
+      },
+      "trading-post": {
+        "title": "Handelsposten",
+        "description": "Zu sendende und empfangene Ressourcen nach Steuer."
+      },
+      "resources": {
+        "title": "Ressourcenpaket",
+        "description": "Gesamtwert der Ressourcenpakete."
+      },
+      "healing": {
+        "title": "Heilung",
+        "description": "Ressourcen und Zeit zur Heilung verwundeter Truppen."
+      },
+      "training": {
+        "title": "MGE-Training",
+        "description": "Ausbildbare Truppen nach Ressourcen und Beschleunigern."
+      },
+      "building": {
+        "title": "Gebäude-Upgrade",
+        "description": "Kosten und Dauer des Level-Upgrades."
+      },
+      "research": {
+        "title": "Forschungs-Upgrade",
+        "description": "Kosten und Dauer militärischer und wirtschaftlicher Forschung."
+      },
+      "equipment": {
+        "title": "Ausrüstungsherstellung",
+        "description": "Materialien, Gold und Zeit für ausgewählte Teile."
+      },
+      "aoo-planner": {
+        "title": "AOO Team Planner",
+        "description": "Lane, role, and teleport plan for Ark of Osiris."
+      }
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "items": [
+        {
+          "question": "Sind die Berechnungen von ROK Tools genau?",
+          "answer": "Ja. Die Formeln basieren auf der tatsächlichen Spielmechanik, die Ergebnisse stimmen mit den Werten im Spiel überein."
+        },
+        {
+          "question": "Muss ich mich registrieren?",
+          "answer": "Nein. Alle Tools sind kostenlos und erfordern keine Anmeldung."
+        },
+        {
+          "question": "Sind die Berechnungsdaten aktuell?",
+          "answer": "Ja. Die Daten sind mit dem Spiel abgestimmt und werden bei Spielupdates aktualisiert."
+        },
+        {
+          "question": "Welche Rechner sind verfügbar?",
+          "answer": "Beschleunigungen, Ressourcen, Training, Heilung, Kommandanten-EXP, Ausrüstung, Gebäude, Forschung, VIP, Handelsposten und mehr."
+        },
+        {
+          "question": "Funktioniert es auf dem Handy?",
+          "answer": "Ja. Alle Tools sind mobilfreundlich."
+        },
+        {
+          "question": "Ist das eine offizielle Seite?",
+          "answer": "Nein. Dies ist ein kostenloses Fan-Tool für Spieler ohne Verbindung zu Lilith Games."
+        }
+      ]
+    }
+  },
+  "results": {
+    "dailyNatural": "Tägliche natürliche Auffüllung",
+    "dailyTotal": "Tägliches Gesamt-AP",
+    "castles": "Mögliche Burgen",
+    "sleepAp": "AP im Schlaf"
+  },
+  "inputs": {
+    "apRefillSeconds": "AP-Auffüllzeit (Sek.)",
+    "dailyFreeAp": "Tägliches kostenloses AP",
+    "castleApCost": "Burg-AP-Kosten",
+    "sleepHours": "Schlafdauer (Stunden)",
+    "maxApCapacity": "Max. AP-Kapazität"
+  },
+  "warning": "Achtung: AP im Schlaf übersteigt deine Kapazität — Punkte können verloren gehen!",
+  "ap": {},
+  "speedup": {
+    "meta": {
+      "title": "Beschleuniger-Rechner — Rise of Kingdoms",
+      "description": "Berechne die Gesamtdauer deiner Beschleuniger."
+    },
+    "title": "Beschleuniger-Rechner",
+    "subtitle": "Berechne die Gesamtdauer deiner Beschleuniger.",
+    "results": {
+      "totalDuration": "Gesamtdauer",
+      "totalMinutes": "Gesamtminuten",
+      "packagesSelected": "Ausgewählte Pakete",
+      "days": "Tage",
+      "hours": "Stunden",
+      "minutes": "Minuten"
+    },
+    "inputs": {
+      "quantity": "Anz."
+    },
+    "labels": {
+      "minute": "Min.",
+      "hour": "Std.",
+      "day": "T."
+    }
+  },
+  "gems": {
+    "meta": {
+      "title": "Edelstein-Rechner — Rise of Kingdoms",
+      "description": "Berechne den Gesamtwert deiner Edelsteine."
+    },
+    "title": "Edelstein-Rechner",
+    "subtitle": "Berechne den Gesamtwert deiner Edelsteine.",
+    "results": {
+      "totalGems": "Edelsteine gesamt",
+      "packagesSelected": "Ausgewählte Pakete"
+    },
+    "inputs": {
+      "quantity": "Anz."
+    },
+    "labels": {
+      "gems": "Edelsteine"
+    }
+  },
+  "tomes": {
+    "meta": {
+      "title": "Tomes of Knowledge Rechner — Rise of Kingdoms",
+      "description": "Berechne den Gesamt-EXP-Wert deines Tom-Bestands."
+    },
+    "title": "Tomes of Knowledge Rechner",
+    "subtitle": "Berechne den Gesamt-EXP-Wert deines Tom-Bestands.",
+    "results": {
+      "totalExp": "EXP gesamt",
+      "packagesSelected": "Ausgewählte Pakete"
+    },
+    "inputs": {
+      "quantity": "Anz."
+    },
+    "labels": {
+      "exp": "EXP"
+    }
+  },
+  "vip": {
+    "meta": {
+      "title": "VIP-Level-Rechner — Rise of Kingdoms",
+      "description": "Berechne die Punkte für dein Ziel-VIP-Level."
+    },
+    "title": "VIP-Level-Rechner",
+    "subtitle": "Berechne die Punkte für dein Ziel-VIP-Level.",
+    "inputs": {
+      "levelFrom": "Aktuelles VIP-Level",
+      "levelTo": "Ziel-VIP-Level",
+      "currentPoints": "Aktuelle VIP-Punkte"
+    },
+    "results": {
+      "pointsNeeded": "Benötigte Punkte"
+    },
+    "labels": {
+      "level": "VIP {level}"
+    },
+    "warning": "Das Ziel muss höher als dein aktuelles Level sein."
+  },
+  "commander": {
+    "meta": {
+      "title": "Kommandanten-EXP-Rechner — Rise of Kingdoms",
+      "description": "Berechne EXP für dein Ziel-Kommandantenlevel."
+    },
+    "title": "Kommandanten-EXP-Rechner",
+    "subtitle": "Berechne EXP für dein Ziel-Kommandantenlevel.",
+    "inputs": {
+      "rarity": "Kommandanten-Seltenheit",
+      "levelFrom": "Aktuelles Level",
+      "levelTo": "Ziellevel",
+      "currentExp": "Aktuell gesammelte EXP"
+    },
+    "results": {
+      "expNeeded": "Benötigte EXP"
+    },
+    "labels": {
+      "level": "Level {level}",
+      "rarity": {
+        "legendary": "Legendär",
+        "epic": "Episch",
+        "elite": "Elite",
+        "advanced": "Fortgeschritten"
+      }
+    },
+    "warning": "Das Ziel muss höher als dein aktuelles Level sein."
+  },
+  "building": {
+    "meta": {
+      "title": "Gebäude-Upgrade-Rechner — Rise of Kingdoms",
+      "description": "Berechne Kosten und Zeit für Gebäude-Upgrades."
+    },
+    "title": "Gebäude-Upgrade-Rechner",
+    "subtitle": "Berechne Kosten und Dauer für Gebäude-Upgrades.",
+    "inputs": {
+      "building": "Gebäude",
+      "levelFrom": "Aktuelles Level",
+      "levelTo": "Ziellevel",
+      "speedBonus": "Baugeschwindigkeitsbonus (%)",
+      "allianceHelps": "Allianzhilfen"
+    },
+    "results": {
+      "total": "Gesamt",
+      "totalDuration": "Gesamtdauer",
+      "foodCost": "Nahrung",
+      "woodCost": "Holz",
+      "stoneCost": "Stein",
+      "goldCost": "Gold",
+      "days": "Tage",
+      "hours": "Stunden",
+      "minutes": "Minuten",
+      "powerReward": "Macht",
+      "mgePointsReward": "MGE-Punkte"
+    },
+    "labels": {
+      "level": "Level {level}"
+    },
+    "warning": "Das Ziel muss höher als dein aktuelles Level sein."
+  },
+  "research": {
+    "meta": {
+      "title": "Forschungs-Upgrade-Rechner — Rise of Kingdoms",
+      "description": "Berechne Kosten und Zeit für militärische und wirtschaftliche Forschung."
+    },
+    "title": "Forschungs-Upgrade-Rechner",
+    "subtitle": "Berechne Kosten und Dauer für militärische und wirtschaftliche Forschung.",
+    "inputs": {
+      "category": "Kategorie",
+      "research": "Forschung",
+      "levelFrom": "Aktuelles Level",
+      "levelTo": "Ziellevel",
+      "speedBonus": "Forschungsgeschwindigkeitsbonus (%)",
+      "allianceHelps": "Allianzhilfen"
+    },
+    "results": {
+      "total": "Gesamt",
+      "totalDuration": "Gesamtdauer",
+      "foodCost": "Nahrung",
+      "woodCost": "Holz",
+      "stoneCost": "Stein",
+      "goldCost": "Gold",
+      "days": "Tage",
+      "hours": "Stunden",
+      "minutes": "Minuten",
+      "powerReward": "Macht",
+      "mgePointsReward": "MGE-Punkte"
+    },
+    "labels": {
+      "level": "Level {level}",
+      "category": {
+        "military": "Militärisch",
+        "economic": "Wirtschaftlich"
+      }
+    },
+    "warning": "Das Ziel muss höher als dein aktuelles Level sein."
+  },
+  "equipment": {
+    "meta": {
+      "title": "Ausrüstungsherstellungs-Rechner — Rise of Kingdoms",
+      "description": "Berechne Materialien, Gold und Herstellungszeit für ausgewählte Ausrüstung."
+    },
+    "title": "Ausrüstungsherstellungs-Rechner",
+    "subtitle": "Berechne Materialien, Gold und Herstellungszeit für ausgewählte Ausrüstung.",
+    "inputs": {
+      "weapon": "Waffe",
+      "helmet": "Helm",
+      "chest": "Brust",
+      "gloves": "Handschuhe",
+      "legs": "Beine",
+      "boots": "Stiefel",
+      "accessories": "Accessoires",
+      "speedBonus": "Herstellungsgeschwindigkeitsbonus (%)",
+      "none": "Keine"
+    },
+    "advanced": {
+      "title": "Vorhandene Materialien",
+      "leather": "Leder",
+      "ironOne": "Eisen",
+      "animalBone": "Knochen",
+      "ebony": "Ebenholz"
+    },
+    "results": {
+      "summary": "Noch benötigt",
+      "totalDuration": "Gesamtdauer",
+      "piecesSelected": "Ausgewählte Teile",
+      "totalLeather": "Leder",
+      "totalIronOne": "Eisen",
+      "totalAnimalBone": "Knochen",
+      "totalEbony": "Ebenholz",
+      "gold": "Gold",
+      "days": "Tage",
+      "hours": "Stunden",
+      "minutes": "Minuten"
+    },
+    "labels": {
+      "rarity": {
+        "C": "Gewöhnlich",
+        "UC": "Ungewöhnlich",
+        "R": "Selten",
+        "E": "Episch",
+        "M": "Legendär"
+      }
+    }
+  },
+  "tradingPost": {
+    "meta": {
+      "title": "Handelsposten-Rechner — Rise of Kingdoms",
+      "description": "Berechne zu sendende und empfangene Ressourcen nach Handelssteuer."
+    },
+    "title": "Handelsposten-Rechner",
+    "subtitle": "Berechne zu sendende und empfangene Ressourcen nach Handelssteuer.",
+    "modes": {
+      "label": "Berechnungsmodus",
+      "deliver": "X an Empfänger liefern",
+      "send": "Wenn ich X sende, was ankommt",
+      "deliverHint": "Gib die Menge ein, die am Ziel ankommen soll.",
+      "sendHint": "Gib die Menge ein, die du senden möchtest."
+    },
+    "inputs": {
+      "level": "Handelsposten-Level",
+      "food": "Nahrung",
+      "wood": "Holz",
+      "stone": "Stein",
+      "gold": "Gold"
+    },
+    "results": {
+      "send": "Du musst senden",
+      "tax": "Steuer",
+      "delivered": "Geliefert"
+    },
+    "labels": {
+      "level": "Level {level}",
+      "taxRate": "Steuersatz: {rate}"
+    }
+  },
+  "resources": {
+    "meta": {
+      "title": "Ressourcenpaket-Rechner — Rise of Kingdoms",
+      "description": "Berechne den Gesamtwert deiner Ressourcenpakete."
+    },
+    "title": "Ressourcenpaket-Rechner",
+    "subtitle": "Berechne den Gesamtwert deiner Ressourcenpakete.",
+    "results": {
+      "totalResources": "Ressourcen gesamt",
+      "packagesSelected": "Ausgewählte Pakete"
+    },
+    "inputs": {
+      "quantity": "Anz.",
+      "lvl1A": "Lvl 1A",
+      "lvl1B": "Lvl 1B",
+      "lvl1C": "Lvl 1C",
+      "lvl2": "Lvl 2",
+      "lvl3": "Lvl 3"
+    }
+  },
+  "healing": {
+    "meta": {
+      "title": "Heilungs-Rechner — Rise of Kingdoms",
+      "description": "Berechne Ressourcen und Zeit zur Heilung verwundeter Truppen."
+    },
+    "title": "Heilungs-Rechner",
+    "subtitle": "Berechne Ressourcen und Zeit zur Heilung verwundeter Truppen.",
+    "results": {
+      "totalDuration": "Gesamtdauer",
+      "totalFood": "Nahrung gesamt",
+      "totalWood": "Holz gesamt",
+      "totalStone": "Stein gesamt",
+      "totalGold": "Gold gesamt",
+      "days": "Tage",
+      "hours": "Stunden",
+      "minutes": "Minuten",
+      "seconds": "Sekunden"
+    },
+    "inputs": {
+      "healingRssReduction": "Ressourcenreduktion (%)",
+      "healingSpeedBonus": "Heilungsgeschwindigkeit (%)",
+      "allianceHelps": "Allianzhilfen",
+      "infantry": "Infanterie",
+      "archer": "Bogenschütze",
+      "cavalry": "Kavallerie",
+      "siege": "Belagerung"
+    },
+    "labels": {
+      "tier": "T{tier}"
+    }
+  },
+  "training": {
+    "meta": {
+      "title": "MGE-Trainings-Rechner — Rise of Kingdoms",
+      "description": "Berechne ausbildbare Truppen nach Ressourcen und Beschleunigern."
+    },
+    "title": "MGE-Trainings-Rechner",
+    "subtitle": "Berechne ausbildbare Truppen nach deinen Ressourcen und Beschleunigern.",
+    "results": {
+      "troops": "Ausbildbare Truppen",
+      "spendFood": "Nahrung verbraucht",
+      "spendWood": "Holz verbraucht",
+      "spendStone": "Stein verbraucht",
+      "spendGold": "Gold verbraucht",
+      "days": "Tage",
+      "hours": "Stunden",
+      "minutes": "Minuten",
+      "seconds": "Sekunden",
+      "totalPower": "Gesamtmacht",
+      "totalMgePoints": "MGE-Punkte gesamt",
+      "totalKvkPoints": "KVK-Punkte gesamt"
+    },
+    "inputs": {
+      "tier": "Trainingsstufe",
+      "troopType": "Truppentyp",
+      "food": "Verfügbare Nahrung",
+      "wood": "Verfügbares Holz",
+      "stone": "Verfügbarer Stein",
+      "gold": "Verfügbares Gold",
+      "speedup": "Beschleuniger",
+      "speedupDays": "Tage",
+      "speedupHours": "Stunden",
+      "speedupMinutes": "Minuten",
+      "trainingSpeedBonus": "Trainingsgeschwindigkeitsbonus (%)"
+    },
+    "labels": {
+      "tier": "T{tier}",
+      "infantry": "Infanterie",
+      "archer": "Bogenschütze",
+      "cavalry": "Kavallerie",
+      "siege": "Belagerung"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "Über uns — ROK Tools",
+      "description": "Wer hat ROK Tools gebaut und warum? Eine kostenlose Rechner-Sammlung für Rise of Kingdoms-Spieler."
+    },
+    "title": "Über uns",
+    "subtitle": "Warum und wie ich diese Seite gebaut habe.",
+    "body": [
+      "Hallo, ich bin İsmail. Ich schreibe aus der Türkei und bin genau wie du ein Rise of Kingdoms-Spieler. Ich habe das Spiel vor etwa zwei Monaten für mich entdeckt und ehrlich gesagt hätte ich nicht erwartet, dass es mir so gut gefallen würde. Aktuell spiele ich hauptsächlich Infanterie im Königreich 4066 – Strategien entwickeln, Ressourcen planen und im richtigen Moment den perfekten Zug zu machen, ist für mich der absolut beste Teil des Spiels.",
+      "Aber nach einer Weile habe ich gemerkt, dass ich ständig dieselben Berechnungen anstelle: Wie viele Beschleunigungen brauche ich, wie viele Truppen kann ich ausbilden, wie viel EP kostet es, diesen Kommandanten aufzuwerten... Die meisten vorhandenen Tools waren entweder veraltet, nur in einer Sprache verfügbar oder einfach umständlich zu bedienen. Also dachte ich mir: „Das kann ich besser“ und habe diese Website gegründet.",
+      "Mein Ziel ist simpel: Ich möchte es Spielern ermöglichen, schnell und ohne Kopfzerbrechen zu genauen Ergebnissen zu kommen. Alles ist kostenlos, erfordert keine Registrierung und ich habe versucht, es so übersichtlich wie möglich zu halten. Es würde mich freuen, wenn es dir dein Gameplay ebenfalls erleichtert.",
+      "Wenn du einen Fehler findest oder einen Vorschlag hast, kannst du mir über die Kontaktseite schreiben – ich lese jede einzelne Nachricht."
+    ],
+    "developerRole": "Entwickler & RoK-Spieler",
+    "sectionTitles": [
+      "Warum ich es gebaut habe",
+      "Wofür es da ist",
+      "Mein Ansatz"
+    ],
+    "values": [
+      { "title": "Kostenlos" },
+      { "title": "Keine Anmeldung" },
+      { "title": "9 Sprachen" }
+    ],
+    "supportNote": "Wenn dir diese Tools helfen, kannst du das Projekt unterstützen.",
+    "supportButton": "Unterstützen"
+  },
+  "contact": {
+    "meta": {
+      "title": "Kontakt — ROK Tools",
+      "description": "Kontaktiere ROK Tools. Melde Fehler, sende Feedback oder Vorschläge."
+    },
+    "title": "Kontakt",
+    "subtitle": "Schreib für Feedback, Vorschläge oder Fehlermeldungen.",
+    "intro": "Wenn du einen Fehler gefunden hast, einen Vorschlag hast oder ein Problem mit einem Rechner — schreib mir eine E-Mail. Ich antworte so schnell wie möglich.",
+    "emailButton": "E-Mail senden",
+    "emailLabel": "E-Mail",
+    "copyEmail": "Kopieren",
+    "copiedEmail": "Kopiert",
+    "reasonsTitle": "Wofür kannst du schreiben?",
+    "reasons": [
+      "Fehlermeldung",
+      "Vorschlag",
+      "Zusammenarbeit"
+    ],
+    "socialHint": "Discord- und Social-Media-Links folgen bald."
+  },
+  "aooPlanner": {
+    "meta": {
+      "title": "AOO Formations-Planer – Ark of Osiris Karten-Editor",
+      "description": "Plane deine Team-Formation für Ark of Osiris in Rise of Kingdoms. Kostenloser AOO-Strategie-Editor für Allianzführer: Text, Pfeile und Markierungen hinzufügen und Bild herunterladen."
+    },
+    "h1": "AOO Formations-Planer",
+    "intro": "Plane deine Ark-of-Osiris-Formation in Rise of Kingdoms direkt auf der Karte. Füge Text, Pfeile und Markierungen hinzu, lade das Bild herunter und teile es mit deiner Allianz.",
+    "title": "AOO Map Editor",
+    "subtitle": "Freely draw your team plan on the Ark of Osiris map with text, labels, arrows and icons.",
+    "mapAlt": "Ark of Osiris map",
+    "hint": "Use the tools above to add items on the map. Drag to move them, click a text/label to edit its text.",
+    "clearConfirm": "Remove all items?",
+    "tools": {
+      "text": "Text",
+      "label": "Label",
+      "arrow": "Arrow",
+      "delete": "Delete",
+      "clear": "Clear All",
+      "download": "Download Image",
+      "sizeUp": "Larger",
+      "sizeDown": "Smaller"
+    },
+    "icons": {
+      "swords": "Rally",
+      "shield": "Garrison",
+      "flag": "Ark",
+      "eye": "Scout",
+      "user": "Player",
+      "alert": "Alert"
+    },
+    "colors": {
+      "white": "White",
+      "black": "Black",
+      "amber": "Amber",
+      "red": "Red",
+      "blue": "Blue",
+      "green": "Green"
+    },
+    "defaults": {
+      "text": "Text",
+      "label": "LABEL"
+    }
+  }
+}

@@ -1,138 +1,140 @@
-.container {
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.05);
-  padding: 40px;
-  width: 100%;
-  max-width: 850px;
-  color: #333;
+.shell {
+  gap: var(--space-2) !important;
 }
 
-.resultsGrid {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  border-top: 1px solid #eaeaea;
-  border-bottom: 1px solid #eaeaea;
-  padding: 25px 0;
-  margin-bottom: 40px;
+.shell > div {
+  gap: var(--space-2) !important;
 }
 
-.resultItem {
-  flex: 1;
+.resultStrip {
+  display: none;
 }
 
-.resultLabel {
-  font-size: 14px;
-  color: #555;
-  margin-bottom: 15px;
+@media (min-width: 768px) {
+  .resultStrip {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-3);
+    position: sticky;
+    top: 16px;
+    z-index: 10;
+    min-height: 100px;
+    max-height: 120px;
+    padding: var(--space-2) var(--space-3);
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow:
+      var(--highlight-top),
+      var(--shadow-subtle),
+      inset 3px 0 0 var(--accent);
+  }
+
+  .resultMain {
+    flex: 0 1 auto;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .resultLabel {
+    font-size: 0.625rem;
+    font-weight: 600;
+    color: var(--text-mute);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .resultValue {
+    font-size: clamp(1.75rem, 3vw, 2.5rem);
+    font-weight: 800;
+    line-height: 1.1;
+    color: var(--accent);
+    letter-spacing: -0.02em;
+    animation: resultFade 0.2s ease;
+    text-shadow: 0 0 32px rgba(245, 166, 35, 0.12);
+  }
+
+  .resultMeta {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+  }
+
+  .metaItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+    min-width: 72px;
+  }
+
+  .metaLabel {
+    font-size: 0.625rem;
+    font-weight: 600;
+    color: var(--text-mute);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: right;
+    line-height: 1.2;
+  }
+
+  .metaValue {
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: var(--text);
+    font-variant-numeric: tabular-nums;
+  }
 }
 
-.resultValue {
-  font-size: 20px;
-  color: #2c3e50;
+.inputPanel {
+  padding: var(--space-2) var(--space-3) !important;
 }
 
 .inputsGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 25px 50px;
-}
-
-.inputGroup {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  gap: var(--space-2);
 }
 
 .fullWidth {
-  grid-column: 1 / span 2;
-  width: 47%;
-}
-
-.inputLabel {
-  font-size: 14px;
-  width: 160px;
-  color: #333;
-}
-
-.sliderContainer {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  margin: 0 15px;
-}
-
-.sliderContainer input[type="range"] {
-  width: 100%;
-  -webkit-appearance: none;
-  appearance: none;
-  height: 4px;
-  background: #ddd;
-  border-radius: 5px;
-  outline: none;
-}
-
-.sliderContainer input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 16px;
-  height: 24px;
-  border-radius: 4px;
-  background: #333;
-  cursor: pointer;
-}
-
-.sliderContainer input[type="range"]::-moz-range-thumb {
-  width: 16px;
-  height: 24px;
-  border-radius: 4px;
-  background: #333;
-  cursor: pointer;
-  border: none;
-}
-
-.numberInput {
-  width: 65px;
-  padding: 12px 5px;
-  border: none;
-  background-color: #f4f5f7;
-  border-radius: 12px;
-  text-align: center;
-  font-size: 14px;
-  font-family: inherit;
-  color: #333;
-  outline: none;
+  grid-column: 1 / -1;
+  max-width: 360px;
 }
 
 .warning {
-  color: #e74c3c;
+  color: var(--accent);
   text-align: center;
-  margin-top: 30px;
+  font-size: 0.875rem;
   font-weight: 500;
-  font-size: 15px;
+  line-height: 1.5;
+  padding: var(--space-2);
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--border));
+  border-radius: var(--radius-sm);
+  background-color: var(--accent-soft);
 }
 
-@media (max-width: 768px) {
-  .container {
-    padding: 24px;
-  }
-
-  .resultsGrid {
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-
-  .resultItem {
-    flex: 1 1 40%;
-  }
-
+@media (max-width: 767px) {
   .inputsGrid {
     grid-template-columns: 1fr;
   }
 
   .fullWidth {
-    width: 100%;
-    grid-column: 1;
+    max-width: none;
+  }
+}
+
+@keyframes resultFade {
+  from {
+    opacity: 0;
+    transform: translateY(3px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
