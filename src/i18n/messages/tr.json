@@ -106,43 +106,43 @@
         "description": "Gems paketlerinin toplam değeri."
       },
       "tomes": {
-        "title": "Tomes of Knowledge",
-        "description": "Tome envanterinin toplam EXP değeri."
+        "title": "Bilgi Kitabı Hesaplayıcı",
+        "description": "Bilgi kitabı envanterinin toplam EXP değeri."
       },
       "vip": {
         "title": "VIP Seviye Hesaplayıcı",
         "description": "Hedef VIP seviyesi için gereken puan."
       },
       "commander": {
-        "title": "Komutan EXP",
+        "title": "Komutan EXP Hesaplayıcı",
         "description": "Hedef seviyeye ulaşmak için gereken komutan EXP."
       },
       "trading-post": {
-        "title": "Ticaret Merkezi",
+        "title": "Ticaret Merkezi Hesaplayıcı",
         "description": "Vergi sonrası gönderilecek ve ulaşacak kaynak."
       },
       "resources": {
-        "title": "Kaynak Paketi",
+        "title": "Kaynak Paketi Hesaplayıcı",
         "description": "Kaynak paketlerinin toplam değeri."
       },
       "healing": {
-        "title": "İyileştirme",
+        "title": "İyileştirme Hesaplayıcı",
         "description": "Yaralı askerler için kaynak ve süre."
       },
       "training": {
-        "title": "MGE Eğitim",
+        "title": "MGE Eğitim Hesaplayıcı",
         "description": "Kaynak ve hızlandırmaya göre eğitilebilir asker."
       },
       "building": {
-        "title": "Bina Geliştirme",
+        "title": "MGE Bina Geliştirme Hesaplayıcı",
         "description": "Seviye atlama maliyeti ve süresi."
       },
       "research": {
-        "title": "Araştırma Geliştirme",
+        "title": "MGE Araştırma Geliştirme Hesaplayıcı",
         "description": "Askeri ve ekonomik araştırma maliyeti ve süresi."
       },
       "equipment": {
-        "title": "Ekipman Üretimi",
+        "title": "Ekipman Üretim Hesaplayıcı",
         "description": "Seçili parçalar için malzeme, altın ve süre."
       },
       "aoo-planner": {
@@ -277,11 +277,11 @@
   },
   "tomes": {
     "meta": {
-      "title": "Rise of Kingdoms Tomes of Knowledge Hesaplayıcı",
-      "description": "Tome envanterinizin toplam EXP değerini hesaplayın."
+      "title": "Rise of Kingdoms Bilgi Kitabı Hesaplayıcı",
+      "description": "Bilgi kitabı envanterinizin toplam komutan EXP değerini hesaplayın."
     },
-    "title": "Tomes of Knowledge Hesaplayıcı",
-    "subtitle": "Tome envanterinizin toplam EXP değerini hesaplayın.",
+    "title": "Bilgi Kitabı Hesaplayıcı",
+    "subtitle": "Envanterinizdeki bilgi kitaplarının toplam komutan EXP değerini hesaplayın.",
     "results": {
       "totalExp": "Toplam EXP",
       "packagesSelected": "Seçili Paket"
@@ -342,10 +342,10 @@
   },
   "building": {
     "meta": {
-      "title": "Rise of Kingdoms Bina Geliştirme Hesaplayıcı",
+      "title": "Rise of Kingdoms MGE Bina Geliştirme Hesaplayıcı",
       "description": "Bina seviyesi yükseltme maliyetini ve süresini hesaplayın."
     },
-    "title": "Bina Geliştirme Hesaplayıcı",
+    "title": "MGE Bina Geliştirme Hesaplayıcı",
     "subtitle": "Bina seviyesi yükseltme maliyetini ve süresini hesaplayın.",
     "inputs": {
       "building": "Bina",
@@ -374,10 +374,10 @@
   },
   "research": {
     "meta": {
-      "title": "Rise of Kingdoms Araştırma Geliştirme Hesaplayıcı",
+      "title": "Rise of Kingdoms MGE Araştırma Geliştirme Hesaplayıcı",
       "description": "Askeri ve ekonomik araştırma seviyesi yükseltme maliyetini ve süresini hesaplayın."
     },
-    "title": "Araştırma Geliştirme Hesaplayıcı",
+    "title": "MGE Araştırma Geliştirme Hesaplayıcı",
     "subtitle": "Askeri ve ekonomik araştırma seviyesi yükseltme maliyetini ve süresini hesaplayın.",
     "inputs": {
       "category": "Kategori",

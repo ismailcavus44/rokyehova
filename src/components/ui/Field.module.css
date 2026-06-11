@@ -148,7 +148,12 @@
 }
 
 .fieldCompact .stepper {
+  display: grid;
+  grid-template-columns: 44px minmax(48px, 1fr) 44px;
+  gap: 4px;
   height: 44px;
+  align-items: center;
+  width: 100%;
 }
 
 .fieldCompact .stepBtn {
@@ -159,14 +164,20 @@
   background-color: var(--surface);
 }
 
+.fieldCompact .inputWrap {
+  min-width: 0;
+  width: 100%;
+}
+
 .fieldCompact .input {
   min-height: 44px;
   height: 44px;
-  padding: 0 4px;
+  min-width: 48px;
+  padding: 0 6px;
   font-size: 0.875rem;
   font-weight: 600;
-  border-color: transparent;
-  background-color: transparent;
+  border: 1px solid var(--border);
+  background-color: var(--surface-2);
 }
 
 .fieldCompact .input:focus {

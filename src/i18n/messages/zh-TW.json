@@ -77,43 +77,43 @@
         "description": "寶石道具的總價值。"
       },
       "tomes": {
-        "title": "知識之書",
+        "title": "知識之書計算器",
         "description": "知識之書庫存的總 EXP。"
       },
       "vip": {
-        "title": "VIP 計算器",
+        "title": "VIP 等級計算器",
         "description": "達到目標 VIP 等級所需的點數。"
       },
       "commander": {
-        "title": "統帥 EXP",
+        "title": "統帥 EXP 計算器",
         "description": "達到目標等級所需的統帥 EXP。"
       },
       "trading-post": {
-        "title": "貿易站",
+        "title": "貿易站計算器",
         "description": "扣稅後發送和接收的資源。"
       },
       "resources": {
-        "title": "資源包",
+        "title": "資源包計算器",
         "description": "資源包的總價值。"
       },
       "healing": {
-        "title": "治療",
+        "title": "治療計算器",
         "description": "治療傷兵所需的資源和時間。"
       },
       "training": {
-        "title": "MGE 訓練",
+        "title": "MGE 訓練計算器",
         "description": "根據資源和加速可訓練的部隊。"
       },
       "building": {
-        "title": "建築升級",
+        "title": "MGE 建築升級計算器",
         "description": "升級等級的成本和時間。"
       },
       "research": {
-        "title": "科技升級",
+        "title": "MGE 科技升級計算器",
         "description": "軍事和經濟科技的成本和時間。"
       },
       "equipment": {
-        "title": "裝備鍛造",
+        "title": "裝備鍛造計算器",
         "description": "所選裝備的材料、金幣和時間。"
       },
       "aoo-planner": {
@@ -275,10 +275,10 @@
   },
   "building": {
     "meta": {
-      "title": "建築升級計算器 — 萬國覺醒",
+      "title": "MGE 建築升級計算器 — 萬國覺醒",
       "description": "計算建築升級的成本和時間。"
     },
-    "title": "建築升級計算器",
+    "title": "MGE 建築升級計算器",
     "subtitle": "計算建築升級的成本和時間。",
     "inputs": {
       "building": "建築",
@@ -307,10 +307,10 @@
   },
   "research": {
     "meta": {
-      "title": "科技升級計算器 — 萬國覺醒",
+      "title": "MGE 科技升級計算器 — 萬國覺醒",
       "description": "計算軍事和經濟科技升級的成本和時間。"
     },
-    "title": "科技升級計算器",
+    "title": "MGE 科技升級計算器",
     "subtitle": "計算軍事和經濟科技升級的成本和時間。",
     "inputs": {
       "category": "類別",

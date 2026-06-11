@@ -77,43 +77,43 @@
         "description": "宝石道具的总价值。"
       },
       "tomes": {
-        "title": "知识之书",
+        "title": "知识之书计算器",
         "description": "知识之书库存的总 EXP。"
       },
       "vip": {
-        "title": "VIP 计算器",
+        "title": "VIP 等级计算器",
         "description": "达到目标 VIP 等级所需的点数。"
       },
       "commander": {
-        "title": "统帅 EXP",
+        "title": "统帅 EXP 计算器",
         "description": "达到目标等级所需的统帅 EXP。"
       },
       "trading-post": {
-        "title": "贸易站",
+        "title": "贸易站计算器",
         "description": "扣税后发送和接收的资源。"
       },
       "resources": {
-        "title": "资源包",
+        "title": "资源包计算器",
         "description": "资源包的总价值。"
       },
       "healing": {
-        "title": "治疗",
+        "title": "治疗计算器",
         "description": "治疗伤兵所需的资源和时间。"
       },
       "training": {
-        "title": "MGE 训练",
+        "title": "MGE 训练计算器",
         "description": "根据资源和加速可训练的部队。"
       },
       "building": {
-        "title": "建筑升级",
+        "title": "MGE 建筑升级计算器",
         "description": "升级等级的成本和时间。"
       },
       "research": {
-        "title": "科技升级",
+        "title": "MGE 科技升级计算器",
         "description": "军事和经济科技的成本和时间。"
       },
       "equipment": {
-        "title": "装备锻造",
+        "title": "装备锻造计算器",
         "description": "所选装备的材料、金币和时间。"
       },
       "aoo-planner": {
@@ -275,10 +275,10 @@
   },
   "building": {
     "meta": {
-      "title": "建筑升级计算器 — 万国觉醒",
+      "title": "MGE 建筑升级计算器 — 万国觉醒",
       "description": "计算建筑升级的成本和时间。"
     },
-    "title": "建筑升级计算器",
+    "title": "MGE 建筑升级计算器",
     "subtitle": "计算建筑升级的成本和时间。",
     "inputs": {
       "building": "建筑",
@@ -307,10 +307,10 @@
   },
   "research": {
     "meta": {
-      "title": "科技升级计算器 — 万国觉醒",
+      "title": "MGE 科技升级计算器 — 万国觉醒",
       "description": "计算军事和经济科技升级的成本和时间。"
     },
-    "title": "科技升级计算器",
+    "title": "MGE 科技升级计算器",
     "subtitle": "计算军事和经济科技升级的成本和时间。",
     "inputs": {
       "category": "类别",

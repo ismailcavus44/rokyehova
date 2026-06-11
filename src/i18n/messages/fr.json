@@ -77,43 +77,43 @@
         "description": "Valeur totale de vos gemmes."
       },
       "tomes": {
-        "title": "Tomes of Knowledge",
-        "description": "EXP total de votre inventaire de tomes."
+        "title": "Calculateur Tomes de savoir",
+        "description": "EXP total de votre inventaire de tomes de savoir."
       },
       "vip": {
-        "title": "Calculateur VIP",
+        "title": "Calculateur de Niveau VIP",
         "description": "Points nécessaires pour votre niveau VIP cible."
       },
       "commander": {
-        "title": "EXP Commandant",
+        "title": "Calculateur EXP Commandant",
         "description": "EXP commandant pour atteindre votre niveau cible."
       },
       "trading-post": {
-        "title": "Poste de Commerce",
+        "title": "Calculateur du Poste de Commerce",
         "description": "Ressources à envoyer et recevoir après taxe."
       },
       "resources": {
-        "title": "Pack de Ressources",
+        "title": "Calculateur de Packs de Ressources",
         "description": "Valeur totale des packs de ressources."
       },
       "healing": {
-        "title": "Soins",
+        "title": "Calculateur de Soins",
         "description": "Ressources et temps pour soigner les troupes blessées."
       },
       "training": {
-        "title": "Entraînement MGE",
+        "title": "Calculateur d'Entraînement MGE",
         "description": "Troupes entraînables selon ressources et accélérations."
       },
       "building": {
-        "title": "Amélioration de Bâtiment",
+        "title": "MGE Calculateur d'Amélioration de Bâtiment",
         "description": "Coût et durée de montée de niveau."
       },
       "research": {
-        "title": "Amélioration de Recherche",
+        "title": "MGE Calculateur d'Amélioration de Recherche",
         "description": "Coût et durée de recherche militaire et économique."
       },
       "equipment": {
-        "title": "Fabrication d'Équipement",
+        "title": "Calculateur de Fabrication d'Équipement",
         "description": "Matériaux, or et temps pour les pièces sélectionnées."
       },
       "aoo-planner": {
@@ -210,11 +210,11 @@
   },
   "tomes": {
     "meta": {
-      "title": "Calculateur Tomes of Knowledge — Rise of Kingdoms",
-      "description": "Calculez l'EXP total de votre inventaire de tomes."
+      "title": "Calculateur Tomes de savoir — Rise of Kingdoms",
+      "description": "Calculez l'EXP total de commandant de votre inventaire de tomes de savoir."
     },
-    "title": "Calculateur Tomes of Knowledge",
-    "subtitle": "Calculez l'EXP total de votre inventaire de tomes.",
+    "title": "Calculateur Tomes de savoir",
+    "subtitle": "Calculez l'EXP total de commandant de vos tomes de savoir.",
     "results": {
       "totalExp": "EXP Total",
       "packagesSelected": "Paquets Sélectionnés"
@@ -275,10 +275,10 @@
   },
   "building": {
     "meta": {
-      "title": "Calculateur d'Amélioration de Bâtiment — Rise of Kingdoms",
+      "title": "MGE Calculateur d'Amélioration de Bâtiment — Rise of Kingdoms",
       "description": "Calculez le coût et le temps d'amélioration des bâtiments."
     },
-    "title": "Calculateur d'Amélioration de Bâtiment",
+    "title": "MGE Calculateur d'Amélioration de Bâtiment",
     "subtitle": "Calculez le coût et la durée d'amélioration des bâtiments.",
     "inputs": {
       "building": "Bâtiment",
@@ -307,10 +307,10 @@
   },
   "research": {
     "meta": {
-      "title": "Calculateur d'Amélioration de Recherche — Rise of Kingdoms",
+      "title": "MGE Calculateur d'Amélioration de Recherche — Rise of Kingdoms",
       "description": "Calculez le coût et le temps de recherche militaire et économique."
     },
-    "title": "Calculateur d'Amélioration de Recherche",
+    "title": "MGE Calculateur d'Amélioration de Recherche",
     "subtitle": "Calculez le coût et la durée de recherche militaire et économique.",
     "inputs": {
       "category": "Catégorie",

@@ -106,7 +106,7 @@
         "description": "Total value of your gem items."
       },
       "tomes": {
-        "title": "Tomes of Knowledge",
+        "title": "Tomes of Knowledge Calculator",
         "description": "Total EXP from your tome inventory."
       },
       "vip": {
@@ -114,35 +114,35 @@
         "description": "Points needed for your target VIP level."
       },
       "commander": {
-        "title": "Commander EXP",
+        "title": "Commander EXP Calculator",
         "description": "Commander EXP needed to reach your target level."
       },
       "trading-post": {
-        "title": "Trading Post",
+        "title": "Trading Post Calculator",
         "description": "Resources to send and receive after tax."
       },
       "resources": {
-        "title": "Resource Pack",
+        "title": "Resource Pack Calculator",
         "description": "Total value of resource packs."
       },
       "healing": {
-        "title": "Healing",
+        "title": "Healing Calculator",
         "description": "Resources and time to heal wounded troops."
       },
       "training": {
-        "title": "MGE Training",
+        "title": "MGE Training Calculator",
         "description": "Trainable troops from resources and speedups."
       },
       "building": {
-        "title": "Building Upgrade",
+        "title": "MGE Building Upgrade Calculator",
         "description": "Level upgrade cost and duration."
       },
       "research": {
-        "title": "Research Upgrade",
+        "title": "MGE Research Upgrade Calculator",
         "description": "Military and economic research cost and duration."
       },
       "equipment": {
-        "title": "Equipment Crafting",
+        "title": "Equipment Crafting Calculator",
         "description": "Materials, gold, and time for selected pieces."
       },
       "aoo-planner": {
@@ -319,10 +319,10 @@
   },
   "building": {
     "meta": {
-      "title": "Rise of Kingdoms Building Upgrade Calculator",
+      "title": "Rise of Kingdoms MGE Building Upgrade Calculator",
       "description": "Calculate building level upgrade costs and time."
     },
-    "title": "Building Upgrade Calculator",
+    "title": "MGE Building Upgrade Calculator",
     "subtitle": "Calculate building level upgrade cost and duration.",
     "inputs": {
       "building": "Building",
@@ -351,10 +351,10 @@
   },
   "research": {
     "meta": {
-      "title": "Rise of Kingdoms Research Upgrade Calculator",
+      "title": "Rise of Kingdoms MGE Research Upgrade Calculator",
       "description": "Calculate military and economic research level upgrade costs and time."
     },
-    "title": "Research Upgrade Calculator",
+    "title": "MGE Research Upgrade Calculator",
     "subtitle": "Calculate military and economic research upgrade cost and duration.",
     "inputs": {
       "category": "Category",

@@ -77,43 +77,43 @@
         "description": "Gesamtwert deiner Edelsteine."
       },
       "tomes": {
-        "title": "Tomes of Knowledge",
-        "description": "Gesamt-EXP aus deinem Tom-Bestand."
+        "title": "Bände des Wissens Rechner",
+        "description": "Gesamt-EXP aus deinem Bände-des-Wissens-Bestand."
       },
       "vip": {
-        "title": "VIP-Rechner",
+        "title": "VIP-Level-Rechner",
         "description": "Punkte für dein Ziel-VIP-Level."
       },
       "commander": {
-        "title": "Kommandanten-EXP",
+        "title": "Kommandanten-EXP-Rechner",
         "description": "Kommandanten-EXP für dein Ziellevel."
       },
       "trading-post": {
-        "title": "Handelsposten",
+        "title": "Handelsposten-Rechner",
         "description": "Zu sendende und empfangene Ressourcen nach Steuer."
       },
       "resources": {
-        "title": "Ressourcenpaket",
+        "title": "Ressourcenpaket-Rechner",
         "description": "Gesamtwert der Ressourcenpakete."
       },
       "healing": {
-        "title": "Heilung",
+        "title": "Heilungs-Rechner",
         "description": "Ressourcen und Zeit zur Heilung verwundeter Truppen."
       },
       "training": {
-        "title": "MGE-Training",
+        "title": "MGE-Trainings-Rechner",
         "description": "Ausbildbare Truppen nach Ressourcen und Beschleunigern."
       },
       "building": {
-        "title": "Gebäude-Upgrade",
+        "title": "MGE Gebäude-Upgrade-Rechner",
         "description": "Kosten und Dauer des Level-Upgrades."
       },
       "research": {
-        "title": "Forschungs-Upgrade",
+        "title": "MGE Forschungs-Upgrade-Rechner",
         "description": "Kosten und Dauer militärischer und wirtschaftlicher Forschung."
       },
       "equipment": {
-        "title": "Ausrüstungsherstellung",
+        "title": "Ausrüstungsherstellungs-Rechner",
         "description": "Materialien, Gold und Zeit für ausgewählte Teile."
       },
       "aoo-planner": {
@@ -210,11 +210,11 @@
   },
   "tomes": {
     "meta": {
-      "title": "Tomes of Knowledge Rechner — Rise of Kingdoms",
-      "description": "Berechne den Gesamt-EXP-Wert deines Tom-Bestands."
+      "title": "Bände des Wissens Rechner — Rise of Kingdoms",
+      "description": "Berechne den Gesamt-Kommandanten-EXP-Wert deines Bände-des-Wissens-Bestands."
     },
-    "title": "Tomes of Knowledge Rechner",
-    "subtitle": "Berechne den Gesamt-EXP-Wert deines Tom-Bestands.",
+    "title": "Bände des Wissens Rechner",
+    "subtitle": "Berechne den Gesamt-Kommandanten-EXP-Wert deiner Bände des Wissens.",
     "results": {
       "totalExp": "EXP gesamt",
       "packagesSelected": "Ausgewählte Pakete"
@@ -275,10 +275,10 @@
   },
   "building": {
     "meta": {
-      "title": "Gebäude-Upgrade-Rechner — Rise of Kingdoms",
+      "title": "MGE Gebäude-Upgrade-Rechner — Rise of Kingdoms",
       "description": "Berechne Kosten und Zeit für Gebäude-Upgrades."
     },
-    "title": "Gebäude-Upgrade-Rechner",
+    "title": "MGE Gebäude-Upgrade-Rechner",
     "subtitle": "Berechne Kosten und Dauer für Gebäude-Upgrades.",
     "inputs": {
       "building": "Gebäude",
@@ -307,10 +307,10 @@
   },
   "research": {
     "meta": {
-      "title": "Forschungs-Upgrade-Rechner — Rise of Kingdoms",
+      "title": "MGE Forschungs-Upgrade-Rechner — Rise of Kingdoms",
       "description": "Berechne Kosten und Zeit für militärische und wirtschaftliche Forschung."
     },
-    "title": "Forschungs-Upgrade-Rechner",
+    "title": "MGE Forschungs-Upgrade-Rechner",
     "subtitle": "Berechne Kosten und Dauer für militärische und wirtschaftliche Forschung.",
     "inputs": {
       "category": "Kategorie",

@@ -77,43 +77,43 @@
         "description": "Tổng giá trị ngọc của bạn."
       },
       "tomes": {
-        "title": "Tomes of Knowledge",
-        "description": "Tổng EXP từ kho sách của bạn."
+        "title": "Máy tính Cuốn Kiến Thức",
+        "description": "Tổng EXP chỉ huy từ cuốn kiến thức trong kho."
       },
       "vip": {
-        "title": "Máy tính VIP",
+        "title": "Máy tính Cấp VIP",
         "description": "Điểm cần thiết cho cấp VIP mục tiêu."
       },
       "commander": {
-        "title": "EXP Tướng",
+        "title": "Máy tính EXP Tướng",
         "description": "EXP tướng cần thiết để đạt cấp mục tiêu."
       },
       "trading-post": {
-        "title": "Trạm Giao dịch",
+        "title": "Máy tính Trạm Giao dịch",
         "description": "Tài nguyên gửi và nhận sau thuế."
       },
       "resources": {
-        "title": "Gói Tài nguyên",
+        "title": "Máy tính Gói Tài nguyên",
         "description": "Tổng giá trị các gói tài nguyên."
       },
       "healing": {
-        "title": "Chữa thương",
+        "title": "Máy tính Chữa thương",
         "description": "Tài nguyên và thời gian chữa binh bị thương."
       },
       "training": {
-        "title": "Huấn luyện MGE",
+        "title": "Máy tính Huấn luyện MGE",
         "description": "Binh lính có thể huấn luyện theo tài nguyên và tăng tốc."
       },
       "building": {
-        "title": "Nâng cấp Công trình",
+        "title": "MGE Máy tính Nâng cấp Công trình",
         "description": "Chi phí và thời gian nâng cấp cấp."
       },
       "research": {
-        "title": "Nâng cấp Nghiên cứu",
+        "title": "MGE Máy tính Nâng cấp Nghiên cứu",
         "description": "Chi phí và thời gian nghiên cứu quân sự và kinh tế."
       },
       "equipment": {
-        "title": "Chế tạo Trang bị",
+        "title": "Máy tính Chế tạo Trang bị",
         "description": "Nguyên liệu, vàng và thời gian cho các món đã chọn."
       },
       "aoo-planner": {
@@ -210,11 +210,11 @@
   },
   "tomes": {
     "meta": {
-      "title": "Máy tính Tomes of Knowledge — Rise of Kingdoms",
-      "description": "Tính tổng EXP từ kho sách của bạn."
+      "title": "Máy tính Cuốn Kiến Thức — Rise of Kingdoms",
+      "description": "Tính tổng EXP chỉ huy từ cuốn kiến thức trong kho của bạn."
     },
-    "title": "Máy tính Tomes of Knowledge",
-    "subtitle": "Tính tổng EXP từ kho sách của bạn.",
+    "title": "Máy tính Cuốn Kiến Thức",
+    "subtitle": "Tính tổng EXP chỉ huy từ cuốn kiến thức trong kho của bạn.",
     "results": {
       "totalExp": "Tổng EXP",
       "packagesSelected": "Gói Đã chọn"
@@ -275,10 +275,10 @@
   },
   "building": {
     "meta": {
-      "title": "Máy tính Nâng cấp Công trình — Rise of Kingdoms",
+      "title": "MGE Máy tính Nâng cấp Công trình — Rise of Kingdoms",
       "description": "Tính chi phí và thời gian nâng cấp cấp công trình."
     },
-    "title": "Máy tính Nâng cấp Công trình",
+    "title": "MGE Máy tính Nâng cấp Công trình",
     "subtitle": "Tính chi phí và thời gian nâng cấp cấp công trình.",
     "inputs": {
       "building": "Công trình",
@@ -307,10 +307,10 @@
   },
   "research": {
     "meta": {
-      "title": "Máy tính Nâng cấp Nghiên cứu — Rise of Kingdoms",
+      "title": "MGE Máy tính Nâng cấp Nghiên cứu — Rise of Kingdoms",
       "description": "Tính chi phí và thời gian nâng cấp nghiên cứu quân sự và kinh tế."
     },
-    "title": "Máy tính Nâng cấp Nghiên cứu",
+    "title": "MGE Máy tính Nâng cấp Nghiên cứu",
     "subtitle": "Tính chi phí và thời gian nâng cấp nghiên cứu quân sự và kinh tế.",
     "inputs": {
       "category": "Danh mục",
