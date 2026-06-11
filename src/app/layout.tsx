@@ -12,6 +12,10 @@ export const metadata: Metadata = {
 
   description: "Free Rise of Kingdoms calculators for AP, speedups, gems, and more.",
 
+  verification: {
+    google: "gTOjxGOxVPLNvq97G03mEAZ8KhYHzw3mwl9Vj7XuXwA",
+  },
+
 };
 
 
