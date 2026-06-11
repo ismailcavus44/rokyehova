@@ -8,15 +8,15 @@ import { locales } from "@/i18n/config";
 export const OG_SIZE = { width: 1200, height: 630 } as const;
 
 const BRAND_BY_LOCALE: Record<Locale, string> = {
-  tr: "ROK Araçları",
-  en: "ROK Tools",
-  es: "Herramientas ROK",
-  ru: "Инструменты ROK",
-  vi: "Công cụ ROK",
-  "zh-CN": "ROK 工具",
-  "zh-TW": "ROK 工具",
-  de: "ROK Tools",
-  fr: "Outils ROK",
+  tr: "ROK Math",
+  en: "ROK Math",
+  es: "ROK Math",
+  ru: "ROK Math",
+  vi: "ROK Math",
+  "zh-CN": "ROK Math",
+  "zh-TW": "ROK Math",
+  de: "ROK Math",
+  fr: "ROK Math",
 };
 
 const TAGLINE = "Rise of Kingdoms Calculators";

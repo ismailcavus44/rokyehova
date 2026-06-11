@@ -1,4 +1,5 @@
 .header {
+  --header-bar-height: 72px;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -23,7 +24,8 @@
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 24px;
-  height: 64px;
+  height: var(--header-bar-height);
+  min-height: var(--header-bar-height);
 }
 
 .brand {
@@ -264,8 +266,50 @@
   transform: rotate(-45deg);
 }
 
-.mobileOverlay {
-  display: none;
+.mobileAooCard {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  margin-bottom: var(--space-2);
+  padding: 14px 48px 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid var(--accent);
+  border-radius: var(--radius-sm);
+  background: var(--accent-soft);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 25%, transparent);
+  transition:
+    border-color 0.15s ease,
+    background-color 0.15s ease,
+    filter 0.15s ease;
+}
+
+.mobileAooCard:hover {
+  filter: brightness(1.06);
+  background: color-mix(in srgb, var(--accent-soft) 80%, var(--accent));
+}
+
+.mobileAooBadge {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  padding: 2px 7px;
+  border-radius: 4px;
+  background: #22c55e;
+  color: #0b0b0f;
+  font-size: 0.5625rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 1.3;
+}
+
+.mobileAooTitle {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.3;
 }
 
 .mobileToolsLabel {
@@ -275,13 +319,6 @@
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--text-mute);
-}
-
-.mobileNavLinks {
-  margin: var(--space-3) 0 0;
-  padding: var(--space-2) 0 0;
-  border-top: 1px solid var(--border);
-  list-style: none;
 }
 
 .mobileNavLink {
@@ -303,10 +340,21 @@
   background: var(--accent-soft);
 }
 
+@media (min-width: 1024px) {
+  .brandLogo {
+    height: 48px;
+  }
+}
+
 @media (max-width: 1023px) {
+  .header {
+    --header-bar-height: 76px;
+  }
+
   .inner {
     padding: 0 16px;
-    height: 56px;
+    height: var(--header-bar-height);
+    min-height: var(--header-bar-height);
   }
 
   .desktopNav {
@@ -318,47 +366,61 @@
   }
 
   .mobileOverlay {
-    display: block;
-    position: fixed;
-    inset: 56px 0 0;
-    background: rgba(0, 0, 0, 0.6);
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.2s, visibility 0.2s;
-  }
-
-  .mobileOverlayOpen {
-    opacity: 1;
-    visibility: visible;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 90;
+    height: calc(100dvh - var(--header-bar-height));
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+    overflow: hidden;
   }
 
   .mobilePanel {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: min(320px, 88vw);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     height: 100%;
     overflow-y: auto;
-    background: var(--surface);
-    border-left: 1px solid var(--border);
-    padding: 20px 16px;
-    box-shadow: -8px 0 32px rgba(0, 0, 0, 0.45);
-    transform: translateX(100%);
-    transition: transform 0.25s ease;
+    overscroll-behavior: contain;
+    padding: var(--space-2) var(--space-2) var(--space-3);
+    -webkit-overflow-scrolling: touch;
   }
 
-  .mobileOverlayOpen .mobilePanel {
-    transform: translateX(0);
+  .mobileCategoryGrid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-2);
+    width: 100%;
   }
 
-  .toolsMenu {
-    grid-template-columns: 1fr;
-    gap: var(--space-3);
+  .mobileCategoryGrid .toolsGroup {
+    min-width: 0;
+    padding: var(--space-2);
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
   }
 
-  .toolsGroup + .toolsGroup {
+  .mobileCategoryGrid .toolsGroupTitle {
+    margin-bottom: var(--space-1);
+  }
+
+  .mobileFooterLinks {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-2);
+    margin-top: var(--space-3);
     padding-top: var(--space-2);
     border-top: 1px solid var(--border);
+  }
+
+  .mobileFooterLinks .mobileNavLink {
+    text-align: center;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
   }
 
   .toolsLink {

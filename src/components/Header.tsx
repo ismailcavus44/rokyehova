@@ -17,18 +17,28 @@ type Props = {
   home: Dictionary["home"];
 };
 
+const MOBILE_NAV_CATEGORIES = NAV_CATEGORIES.filter(
+  (category) => category.id !== "team",
+);
+
 function ToolsMenu({
   locale,
   home,
   onNavigate,
+  mobile = false,
 }: {
   locale: Locale;
   home: Dictionary["home"];
   onNavigate?: () => void;
+  mobile?: boolean;
 }) {
+  const categories = mobile ? MOBILE_NAV_CATEGORIES : NAV_CATEGORIES;
+
   return (
-    <div className={styles.toolsMenu}>
-      {NAV_CATEGORIES.map((category) => (
+    <div
+      className={mobile ? styles.mobileCategoryGrid : styles.toolsMenu}
+    >
+      {categories.map((category) => (
         <div key={category.id} className={styles.toolsGroup}>
           <p className={styles.toolsGroupTitle}>
             {home.categories[category.id]}
@@ -100,9 +110,30 @@ export function Header({ locale, header, home }: Props) {
   }, []);
 
   useEffect(() => {
-    document.body.style.overflow = menuOpen ? "hidden" : "";
+    if (!menuOpen) return;
+
+    const scrollY = window.scrollY;
+    const { style } = document.body;
+    const prev = {
+      position: style.position,
+      top: style.top,
+      width: style.width,
+      overflow: style.overflow,
+    };
+
+    style.position = "fixed";
+    style.top = `-${scrollY}px`;
+    style.width = "100%";
+    style.overflow = "hidden";
+    document.documentElement.style.overflow = "hidden";
+
     return () => {
-      document.body.style.overflow = "";
+      style.position = prev.position;
+      style.top = prev.top;
+      style.width = prev.width;
+      style.overflow = prev.overflow;
+      document.documentElement.style.overflow = "";
+      window.scrollTo(0, scrollY);
     };
   }, [menuOpen]);
 
@@ -233,34 +264,31 @@ export function Header({ locale, header, home }: Props) {
         </div>
       </div>
 
-      <div
-        id="mobile-nav"
-        className={`${styles.mobileOverlay} ${menuOpen ? styles.mobileOverlayOpen : ""}`}
-        aria-hidden={!menuOpen}
-        onClick={() => setMenuOpen(false)}
-      >
-        <nav
-          className={styles.mobilePanel}
-          aria-label="Main"
-          onClick={(e) => e.stopPropagation()}
+      {menuOpen ? (
+        <div
+          id="mobile-nav"
+          className={styles.mobileOverlay}
+          aria-hidden={false}
         >
-          <p className={styles.mobileToolsLabel}>{header.toolsLabel}</p>
-          <ToolsMenu
-            locale={locale}
-            home={home}
-            onNavigate={() => setMenuOpen(false)}
-          />
-          <ul className={styles.mobileNavLinks}>
-            <li>
-              <Link
-                href={`/${locale}/aoo-planner`}
-                className={styles.mobileNavLink}
-                onClick={() => setMenuOpen(false)}
-              >
+          <nav className={styles.mobilePanel} aria-label="Main">
+            <Link
+              href={`/${locale}/aoo-planner`}
+              className={styles.mobileAooCard}
+              onClick={() => setMenuOpen(false)}
+            >
+              <span className={styles.mobileAooBadge}>{header.newBadge}</span>
+              <span className={styles.mobileAooTitle}>
                 {home.items["aoo-planner"].title}
-              </Link>
-            </li>
-            <li>
+              </span>
+            </Link>
+            <p className={styles.mobileToolsLabel}>{header.toolsLabel}</p>
+            <ToolsMenu
+              locale={locale}
+              home={home}
+              mobile
+              onNavigate={() => setMenuOpen(false)}
+            />
+            <div className={styles.mobileFooterLinks}>
               <Link
                 href={`/${locale}/about`}
                 className={styles.mobileNavLink}
@@ -268,8 +296,6 @@ export function Header({ locale, header, home }: Props) {
               >
                 {header.aboutLabel}
               </Link>
-            </li>
-            <li>
               <Link
                 href={`/${locale}/contact`}
                 className={styles.mobileNavLink}
@@ -277,10 +303,10 @@ export function Header({ locale, header, home }: Props) {
               >
                 {header.contactLabel}
               </Link>
-            </li>
-          </ul>
-        </nav>
-      </div>
+            </div>
+          </nav>
+        </div>
+      ) : null}
     </header>
   );
 }

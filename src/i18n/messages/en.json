@@ -5,13 +5,14 @@
     "backHome": "Back to Home"
   },
   "header": {
-    "brand": "ROK Tools",
+    "brand": "ROK Math",
     "languageLabel": "Language",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
     "toolsLabel": "Calculators",
     "aboutLabel": "About",
-    "contactLabel": "Contact"
+    "contactLabel": "Contact",
+    "newBadge": "NEW"
   },
   "support": {
     "text": "I build these tools alone, for free. You can support my next goal.",
@@ -33,7 +34,7 @@
   },
   "home": {
     "meta": {
-      "title": "ROK Tools — Rise of Kingdoms Calculators",
+      "title": "ROK Math — Rise of Kingdoms Calculators",
       "description": "Free Rise of Kingdoms calculators for AP, speedups, gems, VIP, and more."
     },
     "title": "Rise of Kingdoms Calculators",
@@ -58,7 +59,7 @@
     "seo": {
       "title": "All-in-One Calculators for Rise of Kingdoms (ROK)",
       "body": [
-        "ROK Tools is a free, comprehensive collection of calculators built specifically for Rise of Kingdoms players. From speedup durations and commander EXP to building upgrades, research costs, and equipment crafting, you can find every calculation you need in one place — fast, accurate, and completely free.",
+        "ROK Math is a free, comprehensive collection of calculators built specifically for Rise of Kingdoms players. From speedup durations and commander EXP to building upgrades, research costs, and equipment crafting, you can find every calculation you need in one place — fast, accurate, and completely free.",
         "Every tool uses precise in-game data to deliver instant results. With no sign-up required and minimal ads, you can focus entirely on planning your account progression and spending your resources with maximum efficiency."
       ]
     },
@@ -66,12 +67,12 @@
       "title": "Frequently Asked Questions",
       "items": [
         {
-          "question": "Are ROK Tools calculations accurate?",
+          "question": "Are ROK Math calculations accurate?",
           "answer": "Yes, absolutely. All calculations are based on exact in-game data and mechanics from Rise of Kingdoms, ensuring your resource and speedup planning is 100% accurate."
         },
         {
           "question": "Do I need to register or create an account?",
-          "answer": "No, sign-up is never required. ROK Tools is entirely free to use, allowing you to access all calculators instantly without logging in."
+          "answer": "No, sign-up is never required. ROK Math is entirely free to use, allowing you to access all calculators instantly without logging in."
         },
         {
           "question": "Is the calculation data up to date?",
@@ -82,12 +83,12 @@
           "answer": "We offer a wide range of tools, including Speedup Calculators, Commander EXP Calculators, Resource Planners, VIP Point Calculators, and Building/Research cost estimators."
         },
         {
-          "question": "Does ROK Tools work on mobile devices?",
+          "question": "Does ROK Math work on mobile devices?",
           "answer": "Yes! Our website is fully optimized and responsive for mobile devices, so you can easily calculate your ROK stats on the go while playing the game."
         },
         {
           "question": "Is this an official Rise of Kingdoms website?",
-          "answer": "No, ROK Tools is a fan-made project created by players, for players. We are not officially affiliated with, endorsed, or sponsored by Lilith Games."
+          "answer": "No, ROK Math is a fan-made project created by players, for players. We are not officially affiliated with, endorsed, or sponsored by Lilith Games."
         }
       ]
     },
@@ -559,8 +560,8 @@
   },
   "about": {
     "meta": {
-      "title": "About — ROK Tools",
-      "description": "Who built ROK Tools and why? A free calculator collection for Rise of Kingdoms players."
+      "title": "About — ROK Math",
+      "description": "Who built ROK Math and why? A free calculator collection for Rise of Kingdoms players."
     },
     "title": "About",
     "subtitle": "Why and how I built this site.",
@@ -586,8 +587,8 @@
   },
   "contact": {
     "meta": {
-      "title": "Contact — ROK Tools",
-      "description": "Get in touch with ROK Tools. Report bugs, send feedback, or share suggestions."
+      "title": "Contact — ROK Math",
+      "description": "Get in touch with ROK Math. Report bugs, send feedback, or share suggestions."
     },
     "title": "Contact",
     "subtitle": "You can reach me for any feedback, suggestions or bugs.",

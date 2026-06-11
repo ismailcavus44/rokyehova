@@ -5,13 +5,14 @@
     "backHome": ""
   },
   "header": {
-    "brand": "ROK Tools",
+    "brand": "ROK Math",
     "languageLabel": "Language",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
     "toolsLabel": "",
     "aboutLabel": "",
-    "contactLabel": ""
+    "contactLabel": "",
+    "newBadge": ""
   },
   "support": {
     "text": "",

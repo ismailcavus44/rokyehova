@@ -5,27 +5,28 @@
     "backHome": "Back to Home"
   },
   "header": {
-    "brand": "Công cụ ROK",
+    "brand": "ROK Math",
     "languageLabel": "Ngôn ngữ",
     "openMenu": "Mở menu",
     "closeMenu": "Đóng menu",
     "toolsLabel": "Máy tính",
     "aboutLabel": "Giới thiệu",
-    "contactLabel": "Liên hệ"
+    "contactLabel": "Liên hệ",
+    "newBadge": "MỚI"
   },
   "support": {
-    "text": "I build these tools alone, for free. You can support my next goal.",
-    "button": "Support",
+    "text": "Tôi tự mình phát triển các công cụ này miễn phí. Bạn có thể ủng hộ mục tiêu tiếp theo của tôi.",
+    "button": "Ủng hộ",
     "goal": {
-      "title": "My goal: Upgrade my computer",
-      "text": "I build these tools alone, on an aging computer. I'd like to upgrade my setup so I can work faster and add new tools. Your support goes directly into this project.",
-      "reached": "Goal reached — thank you! 🙏"
+      "title": "Mục tiêu của tôi: Nâng cấp máy tính",
+      "text": "Tôi tự mình phát triển các công cụ này trên một chiếc máy tính cũ. Tôi muốn nâng cấp thiết bị để làm việc nhanh hơn và thêm công cụ mới. Sự ủng hộ của bạn đi trực tiếp vào dự án này.",
+      "reached": "Đã đạt mục tiêu — cảm ơn bạn! 🙏"
     },
     "usdtLabel": "USDT (TRC20)",
-    "copy": "Copy",
-    "copied": "Copied ✓",
-    "networkWarning": "Please use the TRC20 network only",
-    "close": "Close"
+    "copy": "Sao chép",
+    "copied": "Đã sao chép ✓",
+    "networkWarning": "Vui lòng chỉ sử dụng mạng TRC20",
+    "close": "Đóng"
   },
   "meta": {
     "title": "Máy tính AP — Rise of Kingdoms",
@@ -33,7 +34,7 @@
   },
   "home": {
     "meta": {
-      "title": "Công cụ ROK — Máy tính Rise of Kingdoms",
+      "title": "ROK Math — Máy tính Rise of Kingdoms",
       "description": "Máy tính Rise of Kingdoms miễn phí cho AP, tăng tốc, ngọc, VIP và hơn thế nữa."
     },
     "title": "Máy tính Rise of Kingdoms",
@@ -58,7 +59,7 @@
     "seo": {
       "title": "Bộ máy tính tổng hợp cho Rise of Kingdoms",
       "body": [
-        "ROK Tools là bộ sưu tập máy tính miễn phí dành cho người chơi Rise of Kingdoms. Từ thời gian tăng tốc và EXP chỉ huy đến chi phí xây dựng, nghiên cứu và chế tạo trang bị — mọi phép tính bạn cần ở một nơi, nhanh và chính xác.",
+        "ROK Math là bộ sưu tập máy tính miễn phí dành cho người chơi Rise of Kingdoms. Từ thời gian tăng tốc và EXP chỉ huy đến chi phí xây dựng, nghiên cứu và chế tạo trang bị — mọi phép tính bạn cần ở một nơi, nhanh và chính xác.",
         "Mỗi công cụ hoạt động với dữ liệu trong game và hiển thị kết quả ngay lập tức. Không cần đăng ký, quảng cáo tối thiểu — tập trung lập kế hoạch và sử dụng tài nguyên hiệu quả nhất."
       ]
     },
@@ -124,7 +125,7 @@
       "title": "Câu hỏi thường gặp",
       "items": [
         {
-          "question": "Tính toán của ROK Tools có chính xác không?",
+          "question": "Tính toán của ROK Math có chính xác không?",
           "answer": "Có. Công thức dựa trên cơ chế thực tế của game, kết quả khớp với giá trị trong game."
         },
         {
@@ -515,8 +516,8 @@
   },
   "about": {
     "meta": {
-      "title": "Giới thiệu — ROK Tools",
-      "description": "Ai đã tạo ROK Tools và tại sao? Bộ máy tính miễn phí cho người chơi Rise of Kingdoms."
+      "title": "Giới thiệu — ROK Math",
+      "description": "Ai đã tạo ROK Math và tại sao? Bộ máy tính miễn phí cho người chơi Rise of Kingdoms."
     },
     "title": "Giới thiệu",
     "subtitle": "Tại sao và cách tôi xây dựng trang này.",
@@ -542,8 +543,8 @@
   },
   "contact": {
     "meta": {
-      "title": "Liên hệ — ROK Tools",
-      "description": "Liên hệ ROK Tools. Báo lỗi, gửi phản hồi hoặc đề xuất."
+      "title": "Liên hệ — ROK Math",
+      "description": "Liên hệ ROK Math. Báo lỗi, gửi phản hồi hoặc đề xuất."
     },
     "title": "Liên hệ",
     "subtitle": "You can reach me for any feedback, suggestions or bugs.",
@@ -581,8 +582,8 @@
       "label": "Label",
       "arrow": "Arrow",
       "delete": "Delete",
-      "clear": "Clear All",
-      "download": "Download Image",
+      "clear": "Xóa tất cả",
+      "download": "Tải ảnh",
       "sizeUp": "Larger",
       "sizeDown": "Smaller"
     },

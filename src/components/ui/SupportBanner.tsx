@@ -23,11 +23,13 @@ export function SupportBanner({ text, button, goal, className }: Props) {
       aria-label={button}
     >
       <div className={styles.content}>
-        <span className={styles.iconWrap} aria-hidden>
-          <Coffee className={styles.icon} strokeWidth={2} />
-        </span>
         <div className={styles.textBlock}>
-          <p className={styles.text}>{text}</p>
+          <p className={styles.text}>
+            <span className={styles.iconWrap} aria-hidden>
+              <Coffee className={styles.icon} strokeWidth={2} />
+            </span>
+            <span className={styles.textInner}>{text}</span>
+          </p>
           <SupportGoalBar goal={goal} compact />
         </div>
       </div>

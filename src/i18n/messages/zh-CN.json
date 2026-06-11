@@ -5,27 +5,28 @@
     "backHome": "Back to Home"
   },
   "header": {
-    "brand": "ROK 工具",
+    "brand": "ROK Math",
     "languageLabel": "语言",
     "openMenu": "打开菜单",
     "closeMenu": "关闭菜单",
     "toolsLabel": "计算器",
     "aboutLabel": "关于",
-    "contactLabel": "联系"
+    "contactLabel": "联系",
+    "newBadge": "新"
   },
   "support": {
-    "text": "I build these tools alone, for free. You can support my next goal.",
-    "button": "Support",
+    "text": "我独自免费开发这些工具。你可以支持我的下一个目标。",
+    "button": "支持",
     "goal": {
-      "title": "My goal: Upgrade my computer",
-      "text": "I build these tools alone, on an aging computer. I'd like to upgrade my setup so I can work faster and add new tools. Your support goes directly into this project.",
-      "reached": "Goal reached — thank you! 🙏"
+      "title": "我的目标：升级电脑",
+      "text": "我独自在一台老旧电脑上开发这些工具。我想升级设备，以便更快地工作并添加新工具。你的支持将直接用于本项目。",
+      "reached": "目标已达成，感谢！🙏"
     },
     "usdtLabel": "USDT (TRC20)",
-    "copy": "Copy",
-    "copied": "Copied ✓",
-    "networkWarning": "Please use the TRC20 network only",
-    "close": "Close"
+    "copy": "复制",
+    "copied": "已复制 ✓",
+    "networkWarning": "请仅使用 TRC20 网络",
+    "close": "关闭"
   },
   "meta": {
     "title": "AP 计算器 — 万国觉醒",
@@ -33,7 +34,7 @@
   },
   "home": {
     "meta": {
-      "title": "ROK 工具 — 万国觉醒计算器",
+      "title": "ROK Math — 万国觉醒计算器",
       "description": "免费的万国觉醒计算器，涵盖 AP、加速、宝石、VIP 等。"
     },
     "title": "万国觉醒计算器",
@@ -58,7 +59,7 @@
     "seo": {
       "title": "万国觉醒一站式计算器",
       "body": [
-        "ROK Tools 是为万国觉醒玩家打造的免费计算器合集。从加速时长、统帅经验到建筑与研究成本、装备锻造——所需计算一应俱全，快速准确。",
+        "ROK Math 是为万国觉醒玩家打造的免费计算器合集。从加速时长、统帅经验到建筑与研究成本、装备锻造——所需计算一应俱全，快速准确。",
         "所有工具基于游戏数据，即时显示结果。无需注册，广告极少，让你专注规划，高效利用资源。"
       ]
     },
@@ -124,7 +125,7 @@
       "title": "常见问题",
       "items": [
         {
-          "question": "ROK Tools 的计算准确吗？",
+          "question": "ROK Math 的计算准确吗？",
           "answer": "是的。公式源自游戏实际机制，结果与游戏内数值一致。"
         },
         {
@@ -515,8 +516,8 @@
   },
   "about": {
     "meta": {
-      "title": "关于 — ROK Tools",
-      "description": "谁创建了 ROK Tools？为什么？为万国觉醒玩家提供的免费计算器合集。"
+      "title": "关于 — ROK Math",
+      "description": "谁创建了 ROK Math？为什么？为万国觉醒玩家提供的免费计算器合集。"
     },
     "title": "关于",
     "subtitle": "我为何以及如何创建这个网站。",
@@ -542,8 +543,8 @@
   },
   "contact": {
     "meta": {
-      "title": "联系 — ROK Tools",
-      "description": "联系 ROK Tools。报告错误、发送反馈或建议。"
+      "title": "联系 — ROK Math",
+      "description": "联系 ROK Math。报告错误、发送反馈或建议。"
     },
     "title": "联系",
     "subtitle": "You can reach me for any feedback, suggestions or bugs.",
@@ -581,8 +582,8 @@
       "label": "Label",
       "arrow": "Arrow",
       "delete": "Delete",
-      "clear": "Clear All",
-      "download": "Download Image",
+      "clear": "全部清除",
+      "download": "下载图片",
       "sizeUp": "Larger",
       "sizeDown": "Smaller"
     },

@@ -5,27 +5,28 @@
     "backHome": "Back to Home"
   },
   "header": {
-    "brand": "Outils ROK",
+    "brand": "ROK Math",
     "languageLabel": "Langue",
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu",
     "toolsLabel": "Calculateurs",
     "aboutLabel": "À propos",
-    "contactLabel": "Contact"
+    "contactLabel": "Contact",
+    "newBadge": "NOUVEAU"
   },
   "support": {
-    "text": "I build these tools alone, for free. You can support my next goal.",
-    "button": "Support",
+    "text": "Je développe ces outils seul et gratuitement. Tu peux soutenir mon prochain objectif.",
+    "button": "Soutenir",
     "goal": {
-      "title": "My goal: Upgrade my computer",
-      "text": "I build these tools alone, on an aging computer. I'd like to upgrade my setup so I can work faster and add new tools. Your support goes directly into this project.",
-      "reached": "Goal reached — thank you! 🙏"
+      "title": "Mon objectif : Mettre à niveau mon ordinateur",
+      "text": "Je développe ces outils seul, sur un ordinateur vieillissant. J'aimerais améliorer mon équipement pour travailler plus vite et ajouter de nouveaux outils. Ton soutien va directement à ce projet.",
+      "reached": "Objectif atteint — merci ! 🙏"
     },
     "usdtLabel": "USDT (TRC20)",
-    "copy": "Copy",
-    "copied": "Copied ✓",
-    "networkWarning": "Please use the TRC20 network only",
-    "close": "Close"
+    "copy": "Copier",
+    "copied": "Copié ✓",
+    "networkWarning": "Veuillez utiliser uniquement le réseau TRC20",
+    "close": "Fermer"
   },
   "meta": {
     "title": "Calculateur PA — Rise of Kingdoms",
@@ -33,7 +34,7 @@
   },
   "home": {
     "meta": {
-      "title": "Outils ROK — Calculateurs Rise of Kingdoms",
+      "title": "ROK Math — Calculateurs Rise of Kingdoms",
       "description": "Calculateurs Rise of Kingdoms gratuits pour PA, accélérations, gemmes, VIP et plus."
     },
     "title": "Calculateurs Rise of Kingdoms",
@@ -58,7 +59,7 @@
     "seo": {
       "title": "Calculateurs tout-en-un pour Rise of Kingdoms",
       "body": [
-        "ROK Tools est une collection gratuite de calculateurs conçue pour les joueurs de Rise of Kingdoms. Des durées d'accélération et l'EXP des commandants aux coûts de bâtiments et de recherche et à la fabrication d'équipement — tous les calculs dont vous avez besoin en un seul endroit, rapidement et avec précision.",
+        "ROK Math est une collection gratuite de calculateurs conçue pour les joueurs de Rise of Kingdoms. Des durées d'accélération et l'EXP des commandants aux coûts de bâtiments et de recherche et à la fabrication d'équipement — tous les calculs dont vous avez besoin en un seul endroit, rapidement et avec précision.",
         "Chaque outil fonctionne avec les données du jeu et affiche les résultats instantanément. Aucune inscription requise et les publicités sont minimales, pour vous concentrer sur la planification et utiliser vos ressources le plus efficacement possible."
       ]
     },
@@ -124,7 +125,7 @@
       "title": "Questions fréquentes",
       "items": [
         {
-          "question": "Les calculs de ROK Tools sont-ils précis ?",
+          "question": "Les calculs de ROK Math sont-ils précis ?",
           "answer": "Oui. Les formules sont dérivées de la mécanique réelle du jeu et les résultats correspondent aux valeurs en jeu."
         },
         {
@@ -515,8 +516,8 @@
   },
   "about": {
     "meta": {
-      "title": "À propos — ROK Tools",
-      "description": "Qui a créé ROK Tools et pourquoi ? Une collection gratuite de calculateurs pour les joueurs de Rise of Kingdoms."
+      "title": "À propos — ROK Math",
+      "description": "Qui a créé ROK Math et pourquoi ? Une collection gratuite de calculateurs pour les joueurs de Rise of Kingdoms."
     },
     "title": "À propos",
     "subtitle": "Pourquoi et comment j'ai créé ce site.",
@@ -542,8 +543,8 @@
   },
   "contact": {
     "meta": {
-      "title": "Contact — ROK Tools",
-      "description": "Contactez ROK Tools. Signalez des bugs, envoyez des retours ou des suggestions."
+      "title": "Contact — ROK Math",
+      "description": "Contactez ROK Math. Signalez des bugs, envoyez des retours ou des suggestions."
     },
     "title": "Contact",
     "subtitle": "You can reach me for any feedback, suggestions or bugs.",
@@ -581,8 +582,8 @@
       "label": "Label",
       "arrow": "Arrow",
       "delete": "Delete",
-      "clear": "Clear All",
-      "download": "Download Image",
+      "clear": "Tout effacer",
+      "download": "Télécharger l'image",
       "sizeUp": "Larger",
       "sizeDown": "Smaller"
     },

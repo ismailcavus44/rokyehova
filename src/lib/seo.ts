@@ -114,7 +114,7 @@ export function buildPageMetadata(
       title: meta.title,
       description: meta.description,
       url,
-      siteName: "ROK Tools",
+      siteName: "ROK Math",
       locale: OG_LOCALE[locale],
       type: "website",
       images: [

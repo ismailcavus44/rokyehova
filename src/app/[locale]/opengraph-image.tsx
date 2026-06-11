@@ -1,6 +1,6 @@
 import { createOgImage, OG_SIZE } from "@/lib/og-image";
 
-export const alt = "ROK Tools — Rise of Kingdoms Calculators";
+export const alt = "ROK Math — Rise of Kingdoms Calculators";
 export const size = OG_SIZE;
 export const contentType = "image/png";
 

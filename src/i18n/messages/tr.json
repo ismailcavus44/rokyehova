@@ -5,13 +5,14 @@
     "backHome": "Ana Sayfaya Dön"
   },
   "header": {
-    "brand": "ROK Araçları",
+    "brand": "ROK Math",
     "languageLabel": "Dil",
     "openMenu": "Menüyü aç",
     "closeMenu": "Menüyü kapat",
     "toolsLabel": "Hesaplayıcılar",
     "aboutLabel": "Hakkımda",
-    "contactLabel": "İletişim"
+    "contactLabel": "İletişim",
+    "newBadge": "YENİ"
   },
   "support": {
     "text": "Bu araçları tek başıma, ücretsiz geliştiriyorum. Bir sonraki hedefime destek olabilirsin.",
@@ -33,7 +34,7 @@
   },
   "home": {
     "meta": {
-      "title": "ROK Araçları — Rise of Kingdoms Hesaplayıcılar",
+      "title": "ROK Math — Rise of Kingdoms Hesaplayıcılar",
       "description": "AP, speedup, gems, VIP ve daha fazlası için ücretsiz Rise of Kingdoms hesaplayıcıları."
     },
     "title": "Rise of Kingdoms Hesaplayıcıları",
@@ -58,7 +59,7 @@
     "seo": {
       "title": "Rise of Kingdoms (ROK) İçin Kapsamlı Hesaplama Araçları",
       "body": [
-        "ROK Tools, Rise of Kingdoms oyuncuları için özel olarak geliştirilmiş ücretsiz ve kapsamlı bir hesaplama araçları koleksiyonudur. Hızlandırma (speedup) süreleri ve komutan TP (EXP) gereksinimlerinden; inşaat yükseltmelerine, araştırma maliyetlerine ve ekipman üretimine kadar ihtiyacınız olan tüm hesaplamaları tek bir yerde, hızlı ve doğru bir şekilde yapabilirsiniz.",
+        "ROK Math, Rise of Kingdoms oyuncuları için özel olarak geliştirilmiş ücretsiz ve kapsamlı bir hesaplama araçları koleksiyonudur. Hızlandırma (speedup) süreleri ve komutan TP (EXP) gereksinimlerinden; inşaat yükseltmelerine, araştırma maliyetlerine ve ekipman üretimine kadar ihtiyacınız olan tüm hesaplamaları tek bir yerde, hızlı ve doğru bir şekilde yapabilirsiniz.",
         "Her aracımız, anında sonuç vermek için doğrudan oyun içi verileri kullanır. Üye olma zorunluluğu yoktur ve reklamlar minimum düzeyde tutulmuştur. Böylece tamamen hesabınızın gelişimini planlamaya odaklanabilir ve kaynaklarınızı en verimli şekilde harcayabilirsiniz."
       ]
     },
@@ -66,12 +67,12 @@
       "title": "Sıkça Sorulan Sorular (SSS)",
       "items": [
         {
-          "question": "ROK Tools hesaplamaları doğru ve güvenilir mi?",
+          "question": "ROK Math hesaplamaları doğru ve güvenilir mi?",
           "answer": "Evet, kesinlikle. Tüm hesaplamalarımız doğrudan Rise of Kingdoms'ın oyun içi verilerine ve mekaniklerine dayanmaktadır, bu sayede kaynak ve hızlandırma planlamalarınız %100 doğru sonuç verir."
         },
         {
           "question": "Kayıt olmam veya hesap açmam gerekiyor mu?",
-          "answer": "Hayır, kayıt olmanıza gerek yoktur. ROK Tools tamamen ücretsizdir ve tüm hesaplama araçlarına giriş yapmadan anında erişebilirsiniz."
+          "answer": "Hayır, kayıt olmanıza gerek yoktur. ROK Math tamamen ücretsizdir ve tüm hesaplama araçlarına giriş yapmadan anında erişebilirsiniz."
         },
         {
           "question": "Hesaplama verileri güncel mi?",
@@ -87,7 +88,7 @@
         },
         {
           "question": "Bu resmi bir Rise of Kingdoms sitesi mi?",
-          "answer": "Hayır, ROK Tools oyuncular tarafından yine oyuncular için yapılmış bağımsız bir projedir. Lilith Games ile resmi bir bağlantısı veya sponsorluk anlaşması bulunmamaktadır."
+          "answer": "Hayır, ROK Math oyuncular tarafından yine oyuncular için yapılmış bağımsız bir projedir. Lilith Games ile resmi bir bağlantısı veya sponsorluk anlaşması bulunmamaktadır."
         }
       ]
     },
@@ -582,8 +583,8 @@
   },
   "about": {
     "meta": {
-      "title": "Hakkında — ROK Araçları",
-      "description": "ROK Araçları kim tarafından ve neden yapıldı? Rise of Kingdoms oyuncuları için ücretsiz hesaplayıcı koleksiyonu."
+      "title": "Hakkında — ROK Math",
+      "description": "ROK Math kim tarafından ve neden yapıldı? Rise of Kingdoms oyuncuları için ücretsiz hesaplayıcı koleksiyonu."
     },
     "title": "Hakkında",
     "subtitle": "Bu siteyi neden ve nasıl yaptım.",
@@ -609,8 +610,8 @@
   },
   "contact": {
     "meta": {
-      "title": "İletişim — ROK Araçları",
-      "description": "ROK Araçları ile iletişime geçin. Şikayet, öneri ve hata bildirimleri için."
+      "title": "İletişim — ROK Math",
+      "description": "ROK Math ile iletişime geçin. Şikayet, öneri ve hata bildirimleri için."
     },
     "title": "İletişim",
     "subtitle": "Şikayet, öneri ve hatalar için bana ulaşabilirsin.",

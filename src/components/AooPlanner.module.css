@@ -152,6 +152,107 @@
   box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px var(--ring);
 }
 
+.colorGroupDesktop {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.colorPickerMobile {
+  display: none;
+  position: relative;
+}
+
+.colorPickerToggle {
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 2px solid var(--border);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.15s ease;
+}
+
+.colorPickerToggleOpen {
+  border-color: var(--text);
+  box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px var(--ring);
+}
+
+.colorPickerMenu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 30;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: max-content;
+  max-width: min(220px, 70vw);
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background-color: var(--surface);
+  box-shadow: var(--shadow-panel);
+}
+
+.colorPickerOption {
+  flex-shrink: 0;
+}
+
+.toolBtnLabel {
+  /* visible on desktop */
+}
+
+.toolBtnIconOnly {
+  display: none;
+}
+
+.toolbarActionsDesktop {
+  /* visible on desktop */
+}
+
+.mapActions {
+  display: none;
+}
+
+.mapActionBtn,
+.mapActionBtnPrimary {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 0 12px;
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: border-color 0.15s ease, color 0.15s ease, opacity 0.15s ease;
+}
+
+.mapActionBtn {
+  border: 1px solid var(--border);
+  background-color: var(--surface-2);
+  color: var(--text);
+}
+
+.mapActionBtn:hover {
+  border-color: color-mix(in srgb, var(--accent) 50%, var(--border));
+  color: var(--accent);
+}
+
+.mapActionBtnPrimary {
+  border: none;
+  background-color: var(--accent);
+  color: var(--accent-text);
+}
+
+.mapActionBtnPrimary:hover {
+  opacity: 0.92;
+}
+
 .labelSwatch {
   width: 15px;
   height: 12px;
@@ -380,31 +481,49 @@
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .toolbar {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    overscroll-behavior-x: contain;
-    -webkit-overflow-scrolling: touch;
-    padding: var(--space-2);
-    gap: var(--space-2);
-    scrollbar-width: thin;
+    flex-wrap: wrap;
+    overflow-x: visible;
+    padding: 10px;
+    gap: 6px 4px;
   }
 
   .toolGroup {
     flex-shrink: 0;
-    padding-right: var(--space-2);
+    gap: 4px;
+    padding-right: 8px;
+    border-right: none;
+  }
+
+  .toolGroup:not(:last-child) {
+    padding-right: 8px;
+    margin-right: 4px;
+    border-right: 1px solid var(--border);
   }
 
   .toolGroupEnd {
     margin-left: 0;
-    flex-shrink: 0;
   }
 
-  .toolBtn,
-  .primaryBtn {
+  .toolbarActionsDesktop {
+    display: none;
+  }
+
+  .toolBtn {
+    justify-content: center;
+    min-width: 44px;
     min-height: 44px;
-    font-size: 0.8125rem;
+    padding: 0 10px;
+    gap: 0;
+  }
+
+  .toolBtnLabel {
+    display: none;
+  }
+
+  .toolBtnIconOnly {
+    display: block;
   }
 
   .iconBtn,
@@ -414,10 +533,26 @@
     min-width: 44px;
   }
 
-  .colorBtn {
+  .colorGroupDesktop {
+    display: none;
+  }
+
+  .colorPickerMobile {
+    display: block;
+  }
+
+  .colorPickerMenu .colorBtn {
     width: 40px;
     height: 40px;
-    flex-shrink: 0;
+  }
+
+  .mapActions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    padding-top: var(--space-1);
   }
 
   .stage {

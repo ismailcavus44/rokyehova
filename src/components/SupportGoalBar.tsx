@@ -18,7 +18,8 @@ type Props = {
 export function SupportGoalBar({ goal, compact = false }: Props) {
   const percent = getSupportGoalPercent();
   const reached = isSupportGoalReached();
-  const progressLabel = `${percent}% — ${SUPPORT_GOAL_CURRENCY}${SUPPORT_GOAL_CURRENT} / ${SUPPORT_GOAL_CURRENCY}${SUPPORT_GOAL_TARGET}`;
+  const amountLabel = `${SUPPORT_GOAL_CURRENCY}${SUPPORT_GOAL_CURRENT} / ${SUPPORT_GOAL_CURRENCY}${SUPPORT_GOAL_TARGET}`;
+  const progressLabel = `${percent}% — ${amountLabel}`;
 
   if (compact) {
     return (
@@ -29,7 +30,10 @@ export function SupportGoalBar({ goal, compact = false }: Props) {
             style={{ width: `${percent}%` }}
           />
         </div>
-        <span className={styles.compactLabel}>{progressLabel}</span>
+        <span className={styles.compactLabel}>
+          <span className={styles.labelPercent}>{percent}% — </span>
+          {amountLabel}
+        </span>
       </div>
     );
   }
@@ -41,7 +45,10 @@ export function SupportGoalBar({ goal, compact = false }: Props) {
       </h2>
       <p className={styles.text}>{goal.text}</p>
       <div className={styles.progressWrap}>
-        <p className={styles.progressLabel}>{progressLabel}</p>
+        <p className={styles.progressLabel}>
+          <span className={styles.labelPercent}>{percent}% — </span>
+          {amountLabel}
+        </p>
         <div
           className={styles.track}
           role="progressbar"

@@ -94,8 +94,18 @@
   word-break: break-word;
 }
 
-@media (max-width: 639px) {
+@media (max-width: 767px) {
+  .labelPercent {
+    display: none;
+  }
+
+  .compact {
+    align-items: center;
+    text-align: center;
+  }
+
   .compactLabel {
-    font-size: 0.625rem;
+    font-size: 0.6875rem;
+    text-align: center;
   }
 }

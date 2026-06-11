@@ -10,10 +10,12 @@ import {
   type PointerEvent as ReactPointerEvent,
 } from "react";
 import {
+  Download,
   Eye,
   Flag,
   Shield,
   Swords,
+  Trash2,
   TriangleAlert,
   Type,
   User,
@@ -329,8 +331,10 @@ export function AooPlanner({ dict, locale }: Props) {
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [editingId, setEditingId] = useState<string | null>(null);
   const [activeColor, setActiveColor] = useState<ColorKey>("amber");
+  const [colorPickerOpen, setColorPickerOpen] = useState(false);
 
   const stageRef = useRef<HTMLDivElement>(null);
+  const colorPickerRef = useRef<HTMLDivElement>(null);
   const dragRef = useRef<Drag | null>(null);
   const editRef = useRef<HTMLTextAreaElement>(null);
 
@@ -343,6 +347,20 @@ export function AooPlanner({ dict, locale }: Props) {
     if (!hydrated) return;
     localStorage.setItem(STORAGE_KEY, JSON.stringify(elements));
   }, [elements, hydrated]);
+
+  useEffect(() => {
+    if (!colorPickerOpen) return;
+    const onPointerDown = (e: PointerEvent) => {
+      if (
+        colorPickerRef.current &&
+        !colorPickerRef.current.contains(e.target as Node)
+      ) {
+        setColorPickerOpen(false);
+      }
+    };
+    document.addEventListener("pointerdown", onPointerDown);
+    return () => document.removeEventListener("pointerdown", onPointerDown);
+  }, [colorPickerOpen]);
 
   const selected = elements.find((el) => el.id === selectedId) ?? null;
 
@@ -409,6 +427,11 @@ export function AooPlanner({ dict, locale }: Props) {
   const chooseColor = (color: ColorKey) => {
     setActiveColor(color);
     if (selectedId) updateEl(selectedId, { color });
+  };
+
+  const pickColor = (color: ColorKey) => {
+    chooseColor(color);
+    setColorPickerOpen(false);
   };
 
   const deleteEl = useCallback((id: string) => {
@@ -1015,19 +1038,37 @@ export function AooPlanner({ dict, locale }: Props) {
       <div className={styles.editor}>
         <div className={styles.toolbar}>
           <div className={styles.toolGroup}>
-            <button type="button" className={styles.toolBtn} onClick={addText}>
+            <button
+              type="button"
+              className={styles.toolBtn}
+              onClick={addText}
+              title={t.tools.text}
+              aria-label={t.tools.text}
+            >
               <Type size={15} strokeWidth={2.5} aria-hidden />
-              {t.tools.text}
+              <span className={styles.toolBtnLabel}>{t.tools.text}</span>
             </button>
-            <button type="button" className={styles.toolBtn} onClick={addLabel}>
+            <button
+              type="button"
+              className={styles.toolBtn}
+              onClick={addLabel}
+              title={t.tools.label}
+              aria-label={t.tools.label}
+            >
               <span className={styles.labelSwatch} aria-hidden />
-              {t.tools.label}
+              <span className={styles.toolBtnLabel}>{t.tools.label}</span>
             </button>
-            <button type="button" className={styles.toolBtn} onClick={addArrow}>
+            <button
+              type="button"
+              className={styles.toolBtn}
+              onClick={addArrow}
+              title={t.tools.arrow}
+              aria-label={t.tools.arrow}
+            >
               <span className={styles.arrowSwatch} aria-hidden>
                 →
               </span>
-              {t.tools.arrow}
+              <span className={styles.toolBtnLabel}>{t.tools.arrow}</span>
             </button>
           </div>
 
@@ -1050,22 +1091,64 @@ export function AooPlanner({ dict, locale }: Props) {
           </div>
 
           <div className={styles.toolGroup}>
-            {COLOR_KEYS.map((key) => (
+            <div className={styles.colorGroupDesktop}>
+              {COLOR_KEYS.map((key) => (
+                <button
+                  key={key}
+                  type="button"
+                  className={[
+                    styles.colorBtn,
+                    activeColor === key ? styles.colorActive : "",
+                  ]
+                    .filter(Boolean)
+                    .join(" ")}
+                  style={{ backgroundColor: COLORS[key] }}
+                  onClick={() => chooseColor(key)}
+                  title={t.colors[key]}
+                  aria-label={t.colors[key]}
+                />
+              ))}
+            </div>
+            <div className={styles.colorPickerMobile} ref={colorPickerRef}>
               <button
-                key={key}
                 type="button"
                 className={[
-                  styles.colorBtn,
-                  activeColor === key ? styles.colorActive : "",
+                  styles.colorPickerToggle,
+                  colorPickerOpen ? styles.colorPickerToggleOpen : "",
                 ]
                   .filter(Boolean)
                   .join(" ")}
-                style={{ backgroundColor: COLORS[key] }}
-                onClick={() => chooseColor(key)}
-                title={t.colors[key]}
-                aria-label={t.colors[key]}
+                style={{ backgroundColor: COLORS[activeColor] }}
+                onClick={() => setColorPickerOpen((open) => !open)}
+                title={t.colors[activeColor]}
+                aria-label={t.colors[activeColor]}
+                aria-expanded={colorPickerOpen}
+                aria-haspopup="listbox"
               />
-            ))}
+              {colorPickerOpen ? (
+                <div className={styles.colorPickerMenu} role="listbox">
+                  {COLOR_KEYS.map((key) => (
+                    <button
+                      key={key}
+                      type="button"
+                      role="option"
+                      aria-selected={activeColor === key}
+                      className={[
+                        styles.colorBtn,
+                        styles.colorPickerOption,
+                        activeColor === key ? styles.colorActive : "",
+                      ]
+                        .filter(Boolean)
+                        .join(" ")}
+                      style={{ backgroundColor: COLORS[key] }}
+                      onClick={() => pickColor(key)}
+                      title={t.colors[key]}
+                      aria-label={t.colors[key]}
+                    />
+                  ))}
+                </div>
+              ) : null}
+            </div>
           </div>
 
           <div className={styles.toolGroup}>
@@ -1092,12 +1175,26 @@ export function AooPlanner({ dict, locale }: Props) {
               className={styles.toolBtn}
               onClick={() => selectedId && deleteEl(selectedId)}
               disabled={!selectedId}
+              title={t.tools.delete}
+              aria-label={t.tools.delete}
             >
-              {t.tools.delete}
+              <Trash2
+                className={styles.toolBtnIconOnly}
+                size={18}
+                strokeWidth={2}
+                aria-hidden
+              />
+              <span className={styles.toolBtnLabel}>{t.tools.delete}</span>
             </button>
           </div>
 
-          <div className={[styles.toolGroup, styles.toolGroupEnd].join(" ")}>
+          <div
+            className={[
+              styles.toolGroup,
+              styles.toolGroupEnd,
+              styles.toolbarActionsDesktop,
+            ].join(" ")}
+          >
             <button
               type="button"
               className={styles.toolBtn}
@@ -1137,6 +1234,29 @@ export function AooPlanner({ dict, locale }: Props) {
               <div className={styles.emptyHint}>{t.hint}</div>
             ) : null}
           </div>
+        </div>
+
+        <div className={styles.mapActions}>
+          <button
+            type="button"
+            className={styles.mapActionBtn}
+            onClick={clearAll}
+            title={t.tools.clear}
+            aria-label={t.tools.clear}
+          >
+            <Trash2 size={16} strokeWidth={2} aria-hidden />
+            <span>{t.tools.clear}</span>
+          </button>
+          <button
+            type="button"
+            className={styles.mapActionBtnPrimary}
+            onClick={handleDownload}
+            title={t.tools.download}
+            aria-label={t.tools.download}
+          >
+            <Download size={16} strokeWidth={2} aria-hidden />
+            <span>{t.tools.download}</span>
+          </button>
         </div>
       </div>
     </PageShell>
