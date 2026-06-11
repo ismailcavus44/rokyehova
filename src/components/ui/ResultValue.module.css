@@ -31,6 +31,33 @@
   text-shadow: 0 0 40px rgba(245, 166, 35, 0.15);
 }
 
+@media (max-width: 767px) {
+  .root {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .valueRow {
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .value {
+    font-size: clamp(1.5rem, 6.5vw, 2.25rem);
+    line-height: 1.15;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    text-align: center;
+  }
+
+  .unit {
+    font-size: 0.875rem;
+  }
+}
+
 .unit {
   font-size: 1rem;
   font-weight: 600;

@@ -148,20 +148,20 @@
 }
 
 .fieldCompact .stepper {
-  height: 32px;
+  height: 44px;
 }
 
 .fieldCompact .stepBtn {
-  width: 28px;
-  height: 28px;
+  width: 44px;
+  height: 44px;
   font-size: 1rem;
   border-radius: 6px;
   background-color: var(--surface);
 }
 
 .fieldCompact .input {
-  min-height: 28px;
-  height: 28px;
+  min-height: 44px;
+  height: 44px;
   padding: 0 4px;
   font-size: 0.875rem;
   font-weight: 600;

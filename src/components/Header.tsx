@@ -60,7 +60,7 @@ function useIsDesktopNav() {
   const [isDesktop, setIsDesktop] = useState(false);
 
   useEffect(() => {
-    const mq = window.matchMedia("(min-width: 769px)");
+    const mq = window.matchMedia("(min-width: 1024px)");
     const update = () => setIsDesktop(mq.matches);
     update();
     mq.addEventListener("change", update);
@@ -110,7 +110,7 @@ export function Header({ locale, header, home }: Props) {
 
   useEffect(() => {
     function onResize() {
-      if (window.innerWidth > 768) {
+      if (window.innerWidth > 1023) {
         setMenuOpen(false);
         setToolsOpen(false);
       }

@@ -4,6 +4,7 @@ import { X } from "lucide-react";
 import { QRCodeCanvas } from "qrcode.react";
 import { useCallback, useEffect, useId, useRef, useState } from "react";
 
+import { SupportGoalBar } from "@/components/SupportGoalBar";
 import { SUPPORT_USDT_ADDRESS } from "@/config/support";
 import type { Dictionary } from "@/i18n/get-dictionary";
 import styles from "./SupportModal.module.css";
@@ -88,7 +89,7 @@ export function SupportModal({ open, onClose, support }: Props) {
         className={styles.dialog}
         role="dialog"
         aria-modal="true"
-        aria-labelledby={titleId}
+        aria-labelledby="support-goal-title"
         onClick={(e) => e.stopPropagation()}
       >
         <button
@@ -101,13 +102,12 @@ export function SupportModal({ open, onClose, support }: Props) {
           <X size={16} aria-hidden />
         </button>
 
-        <h2 id={titleId} className={styles.title}>
-          {support.modalTitle}
-        </h2>
-        <p className={styles.intro}>{support.modalText}</p>
+        <SupportGoalBar goal={support.goal} />
 
-        <section>
-          <h3 className={styles.sectionTitle}>{support.usdtLabel}</h3>
+        <section aria-labelledby={titleId}>
+          <h2 id={titleId} className={styles.donateTitle}>
+            {support.usdtLabel}
+          </h2>
           <div className={styles.qrWrap}>
             <div className={styles.qrFrame}>
               <QRCodeCanvas

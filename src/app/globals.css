@@ -21,7 +21,7 @@
   --space-4: 32px;
   --space-6: 48px;
 
-  --sticky-bar-height: 72px;
+  --sticky-bar-height: 120px;
   --page-max-width: 720px;
   --sidebar-width: 320px;
   --shadow-subtle: 0 4px 24px rgba(0, 0, 0, 0.35);
@@ -34,6 +34,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  overflow-x: clip;
 }
 
 body {

@@ -1,5 +1,11 @@
 /** Site-wide links — update here when contact or support URLs change. */
-export const CONTACT_EMAIL = "iletisim@rokmath.com";
+export const CONTACT_EMAIL = "info@rokmath.com";
+
+/** In-game nickname — same in every locale (do not translate). */
+export const CONTACT_IN_GAME_NICK = "ᵀᴳYehova";
+
+/** In-game player ID — same in every locale (do not translate). */
+export const CONTACT_IN_GAME_ID = "223475643";
 
 export const KOFI_URL = "https://ko-fi.com/rokmath";
 

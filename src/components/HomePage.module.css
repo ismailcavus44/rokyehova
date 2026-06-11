@@ -2,32 +2,47 @@
   position: relative;
   z-index: 1;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: stretch;
   width: 100%;
-  padding: var(--space-4) var(--space-2) var(--space-6);
+  padding: 0 0 var(--space-6);
 }
 
 .inner {
   width: 100%;
   max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 var(--space-2);
 }
 
-/* ---------- Hero ---------- */
+/* ---------- Hero (full-width background) ---------- */
 .hero {
   position: relative;
-  text-align: center;
-  padding: var(--space-4) var(--space-2) var(--space-6);
+  width: 100%;
   overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    color-mix(in srgb, var(--surface) 18%, var(--bg)) 0%,
+    color-mix(in srgb, var(--surface) 8%, var(--bg)) 35%,
+    transparent 85%
+  );
+  pointer-events: none;
+  z-index: 0;
 }
 
 .heroGlow {
   position: absolute;
-  top: -45%;
+  top: -40%;
   left: 50%;
   transform: translateX(-50%);
-  width: 760px;
-  max-width: 130%;
-  height: 460px;
+  width: min(1400px, 100vw);
+  height: 520px;
   background: radial-gradient(
     ellipse at center,
     var(--accent-soft) 0%,
@@ -37,9 +52,18 @@
   z-index: 0;
 }
 
-.heroTitle {
+.heroInner {
   position: relative;
   z-index: 1;
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: var(--space-6) var(--space-2);
+  text-align: center;
+}
+
+.heroTitle {
+  position: relative;
   margin: 0 auto;
   max-width: 16ch;
   font-size: clamp(40px, 6vw, 72px);
@@ -50,8 +74,6 @@
 }
 
 .heroSubtitle {
-  position: relative;
-  z-index: 1;
   margin: var(--space-3) auto 0;
   max-width: 56ch;
   font-size: clamp(15px, 2.2vw, 19px);
@@ -60,8 +82,6 @@
 }
 
 .stats {
-  position: relative;
-  z-index: 1;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

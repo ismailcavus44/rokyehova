@@ -40,7 +40,7 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  min-height: 38px;
+  min-height: 40px;
   padding: 0 12px;
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
@@ -67,7 +67,7 @@
 .primaryBtn {
   display: inline-flex;
   align-items: center;
-  min-height: 38px;
+  min-height: 40px;
   padding: 0 16px;
   border: none;
   border-radius: var(--radius-sm);
@@ -93,8 +93,8 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 38px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   background-color: var(--surface-2);
@@ -109,8 +109,8 @@
 }
 
 .sizeBtn {
-  min-width: 38px;
-  height: 38px;
+  min-width: 40px;
+  height: 40px;
   padding: 0 8px;
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
@@ -134,8 +134,8 @@
 }
 
 .colorBtn {
-  width: 24px;
-  height: 24px;
+  width: 36px;
+  height: 36px;
   padding: 0;
   border: 2px solid var(--border);
   border-radius: 50%;
@@ -314,8 +314,8 @@
   top: 0;
   right: 0;
   transform: translate(50%, -50%);
-  width: 20px;
-  height: 20px;
+  width: 32px;
+  height: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -336,8 +336,8 @@
   right: 0;
   bottom: 0;
   transform: translate(50%, 50%);
-  width: 14px;
-  height: 14px;
+  width: 28px;
+  height: 28px;
   border: 2px solid var(--accent);
   border-radius: 3px;
   background-color: var(--bg);
@@ -380,23 +380,53 @@
   cursor: pointer;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .toolbar {
-    padding: var(--space-1);
-    gap: 6px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+    padding: var(--space-2);
+    gap: var(--space-2);
+    scrollbar-width: thin;
   }
 
   .toolGroup {
-    padding-right: 6px;
+    flex-shrink: 0;
+    padding-right: var(--space-2);
   }
 
   .toolGroupEnd {
     margin-left: 0;
+    flex-shrink: 0;
   }
 
   .toolBtn,
   .primaryBtn {
-    min-height: 34px;
-    font-size: 0.75rem;
+    min-height: 44px;
+    font-size: 0.8125rem;
+  }
+
+  .iconBtn,
+  .sizeBtn {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+  }
+
+  .colorBtn {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+
+  .stage {
+    min-height: min(52vh, 360px);
+  }
+
+  .arrowHandle {
+    transform: scale(1.75);
+    transform-box: fill-box;
+    transform-origin: center;
   }
 }

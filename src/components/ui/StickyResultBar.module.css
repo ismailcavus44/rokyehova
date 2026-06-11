@@ -17,6 +17,9 @@
       inset 0 1px 0 rgba(255, 255, 255, 0.04);
     padding: var(--space-2) var(--space-2);
     min-height: var(--sticky-bar-height);
+    max-height: min(40vh, 160px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   .bar::before {
@@ -39,8 +42,10 @@
     align-items: center;
     justify-content: center;
     gap: var(--space-2);
+    width: 100%;
     max-width: var(--page-max-width);
     margin: 0 auto;
     flex-wrap: wrap;
+    min-width: 0;
   }
 }

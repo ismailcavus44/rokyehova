@@ -25,7 +25,7 @@
 }
 
 .withSticky {
-  padding-bottom: calc(var(--sticky-bar-height) + var(--space-3));
+  padding-bottom: calc(var(--sticky-bar-height) + var(--space-4));
 }
 
 @media (min-width: 768px) {
@@ -48,6 +48,11 @@
   gap: var(--space-3);
 }
 
+.layoutCentered {
+  flex: 1;
+  justify-content: center;
+}
+
 .mainColumn {
   display: flex;
   flex-direction: column;
@@ -61,9 +66,19 @@
   max-width: 100%;
 }
 
+.mainColumnCentered {
+  flex: 1;
+  justify-content: center;
+  gap: var(--space-3);
+}
+
 .pageHeader {
   text-align: center;
   padding: var(--space-2) 0 var(--space-1);
+}
+
+.pageHeaderCompact {
+  padding: 0;
 }
 
 .pageTitle {

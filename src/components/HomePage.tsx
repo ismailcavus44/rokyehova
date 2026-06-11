@@ -66,20 +66,22 @@ export function HomePage({ locale, siteName, home }: Props) {
     <>
       <SchemaJsonLd graph={schemaGraph} />
       <main className={styles.main}>
-      <div className={styles.inner}>
         <section className={styles.hero}>
           <span className={styles.heroGlow} aria-hidden />
-          <h1 className={styles.heroTitle}>{home.hero.title}</h1>
-          <p className={styles.heroSubtitle}>{home.hero.subtitle}</p>
-          <ul className={styles.stats}>
-            {home.hero.stats.map((stat) => (
-              <li key={stat} className={styles.stat}>
-                {stat}
-              </li>
-            ))}
-          </ul>
+          <div className={styles.heroInner}>
+            <h1 className={styles.heroTitle}>{home.hero.title}</h1>
+            <p className={styles.heroSubtitle}>{home.hero.subtitle}</p>
+            <ul className={styles.stats}>
+              {home.hero.stats.map((stat) => (
+                <li key={stat} className={styles.stat}>
+                  {stat}
+                </li>
+              ))}
+            </ul>
+          </div>
         </section>
 
+        <div className={styles.inner}>
         <div className={styles.categories}>
           {NAV_CATEGORIES.map((category) => (
             <section key={category.id} className={styles.category}>
@@ -128,7 +130,7 @@ export function HomePage({ locale, siteName, home }: Props) {
         </section>
 
         <HomeFaq faq={home.faq} />
-      </div>
+        </div>
       </main>
     </>
   );

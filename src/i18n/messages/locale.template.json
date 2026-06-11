@@ -1,4 +1,9 @@
 {
+  "notFound": {
+    "code": "",
+    "message": "",
+    "backHome": ""
+  },
   "header": {
     "brand": "ROK Tools",
     "languageLabel": "Language",
@@ -11,8 +16,11 @@
   "support": {
     "text": "",
     "button": "",
-    "modalTitle": "",
-    "modalText": "",
+    "goal": {
+      "title": "",
+      "text": "",
+      "reached": ""
+    },
     "usdtLabel": "",
     "copy": "",
     "copied": "",
@@ -563,6 +571,10 @@
     "emailLabel": "",
     "copyEmail": "",
     "copiedEmail": "",
+    "inGameLabel": "",
+    "inGameText": "",
+    "nickLabel": "",
+    "idLabel": "",
     "reasonsTitle": "",
     "reasons": ["", "", ""],
     "socialHint": ""

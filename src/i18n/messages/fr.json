@@ -1,4 +1,9 @@
 {
+  "notFound": {
+    "code": "404",
+    "message": "The page you're looking for wasn't found.",
+    "backHome": "Back to Home"
+  },
   "header": {
     "brand": "Outils ROK",
     "languageLabel": "Langue",
@@ -9,10 +14,13 @@
     "contactLabel": "Contact"
   },
   "support": {
-    "text": "I build these tools alone, for free. If they helped, you can buy me a coffee.",
-    "button": "Buy me a coffee",
-    "modalTitle": "Support the Project",
-    "modalText": "I build these tools alone, for free. Your support keeps me motivated.",
+    "text": "I build these tools alone, for free. You can support my next goal.",
+    "button": "Support",
+    "goal": {
+      "title": "My goal: Upgrade my computer",
+      "text": "I build these tools alone, on an aging computer. I'd like to upgrade my setup so I can work faster and add new tools. Your support goes directly into this project.",
+      "reached": "Goal reached — thank you! 🙏"
+    },
     "usdtLabel": "USDT (TRC20)",
     "copy": "Copy",
     "copied": "Copied ✓",
@@ -538,12 +546,16 @@
       "description": "Contactez ROK Tools. Signalez des bugs, envoyez des retours ou des suggestions."
     },
     "title": "Contact",
-    "subtitle": "Écrivez pour des retours, suggestions ou signalements de bugs.",
+    "subtitle": "You can reach me for any feedback, suggestions or bugs.",
     "intro": "Si vous avez trouvé un bug, une suggestion ou un problème avec un calculateur, envoyez-moi un e-mail. J'essaie de répondre dès que possible.",
-    "emailButton": "Envoyer un e-mail",
-    "emailLabel": "E-mail",
-    "copyEmail": "Copier",
-    "copiedEmail": "Copié",
+    "emailButton": "Send Email",
+    "emailLabel": "Email",
+    "copyEmail": "Copy",
+    "copiedEmail": "Copied",
+    "inGameLabel": "In-Game",
+    "inGameText": "You can also reach me in-game:",
+    "nickLabel": "Nick:",
+    "idLabel": "ID:",
     "reasonsTitle": "Pourquoi m'écrire ?",
     "reasons": [
       "Signalement de bug",

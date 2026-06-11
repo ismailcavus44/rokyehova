@@ -1,18 +1,26 @@
 {
+  "notFound": {
+    "code": "404",
+    "message": "Aradığın sayfa bulunamadı.",
+    "backHome": "Ana Sayfaya Dön"
+  },
   "header": {
     "brand": "ROK Araçları",
     "languageLabel": "Dil",
     "openMenu": "Menüyü aç",
     "closeMenu": "Menüyü kapat",
     "toolsLabel": "Hesaplayıcılar",
-    "aboutLabel": "Hakkında",
+    "aboutLabel": "Hakkımda",
     "contactLabel": "İletişim"
   },
   "support": {
-    "text": "Bu araçları tek başıma, ücretsiz geliştiriyorum. Beğendiysen bir kahve ısmarlayabilirsin.",
-    "button": "Kahve Ismarla",
-    "modalTitle": "Projeyi Destekle",
-    "modalText": "Bu araçları tek başıma, ücretsiz geliştiriyorum. Desteğin motive ediyor.",
+    "text": "Bu araçları tek başıma, ücretsiz geliştiriyorum. Bir sonraki hedefime destek olabilirsin.",
+    "button": "Destek Ol",
+    "goal": {
+      "title": "Hedefim: Bilgisayarımı Yenilemek",
+      "text": "Bu araçları tek başıma, eski bir bilgisayarla geliştiriyorum. Daha hızlı çalışıp yeni araçlar ekleyebilmek için ekipmanımı yenilemek istiyorum. Desteğin doğrudan bu projeye katkı sağlıyor.",
+      "reached": "Hedefe ulaşıldı, teşekkürler! 🙏"
+    },
     "usdtLabel": "USDT (TRC20)",
     "copy": "Kopyala",
     "copied": "Kopyalandı ✓",
@@ -48,38 +56,38 @@
     },
     "relatedCalculators": "İlgili Hesaplayıcılar",
     "seo": {
-      "title": "Rise of Kingdoms için hepsi bir arada hesaplayıcılar",
+      "title": "Rise of Kingdoms (ROK) İçin Kapsamlı Hesaplama Araçları",
       "body": [
-        "ROK Araçları, Rise of Kingdoms oyuncuları için tasarlanmış ücretsiz bir hesaplayıcı koleksiyonudur. Hızlandırma sürelerinden komutan EXP'ine, bina ve araştırma maliyetlerinden ekipman üretimine kadar ihtiyacın olan tüm hesaplamaları tek bir yerde, hızlı ve doğru şekilde yaparsın.",
-        "Tüm araçlar oyun verileriyle uyumlu çalışır ve sonuçları anında gösterir. Kayıt gerekmez, reklam yükü minimumdur; sadece planlamaya odaklan ve kaynaklarını en verimli şekilde kullan."
+        "ROK Tools, Rise of Kingdoms oyuncuları için özel olarak geliştirilmiş ücretsiz ve kapsamlı bir hesaplama araçları koleksiyonudur. Hızlandırma (speedup) süreleri ve komutan TP (EXP) gereksinimlerinden; inşaat yükseltmelerine, araştırma maliyetlerine ve ekipman üretimine kadar ihtiyacınız olan tüm hesaplamaları tek bir yerde, hızlı ve doğru bir şekilde yapabilirsiniz.",
+        "Her aracımız, anında sonuç vermek için doğrudan oyun içi verileri kullanır. Üye olma zorunluluğu yoktur ve reklamlar minimum düzeyde tutulmuştur. Böylece tamamen hesabınızın gelişimini planlamaya odaklanabilir ve kaynaklarınızı en verimli şekilde harcayabilirsiniz."
       ]
     },
     "faq": {
-      "title": "Sıkça Sorulan Sorular",
+      "title": "Sıkça Sorulan Sorular (SSS)",
       "items": [
         {
-          "question": "ROK Araçları hesaplamaları doğru mu?",
-          "answer": "Evet, formüller oyunun gerçek mekaniğinden çıkarıldı; sonuçlar oyun içi değerlerle uyumludur."
+          "question": "ROK Tools hesaplamaları doğru ve güvenilir mi?",
+          "answer": "Evet, kesinlikle. Tüm hesaplamalarımız doğrudan Rise of Kingdoms'ın oyun içi verilerine ve mekaniklerine dayanmaktadır, bu sayede kaynak ve hızlandırma planlamalarınız %100 doğru sonuç verir."
         },
         {
-          "question": "Kayıt olmam gerekiyor mu?",
-          "answer": "Hayır, tüm araçlar ücretsizdir ve kayıt gerektirmez."
+          "question": "Kayıt olmam veya hesap açmam gerekiyor mu?",
+          "answer": "Hayır, kayıt olmanıza gerek yoktur. ROK Tools tamamen ücretsizdir ve tüm hesaplama araçlarına giriş yapmadan anında erişebilirsiniz."
         },
         {
           "question": "Hesaplama verileri güncel mi?",
-          "answer": "Evet, oyun verileriyle uyumludur ve oyun güncellemelerinde yenilenir."
+          "answer": "Evet. Veritabanımızı en son Rise of Kingdoms yamalarına, güncellemelerine ve yeni eklenen komutanlara göre düzenli olarak güncelliyoruz."
         },
         {
-          "question": "Hangi hesaplayıcılar var?",
-          "answer": "Hızlandırma, kaynak, eğitim, iyileştirme, komutan EXP, ekipman, bina, araştırma, VIP, ticaret merkezi ve daha fazlası."
+          "question": "Sitede hangi hesaplama araçları bulunuyor?",
+          "answer": "Sitemizde Hızlandırma (Speedup) Hesaplayıcı, Komutan TP (EXP) Hesaplayıcı, Kaynak Planlayıcı, VIP Puanı Hesaplayıcı ve İnşaat/Araştırma maliyet hesaplayıcıları gibi birçok kullanışlı araç bulunmaktadır."
         },
         {
-          "question": "Mobilde çalışır mı?",
-          "answer": "Evet, tüm araçlar mobil uyumludur."
+          "question": "Site mobil cihazlarda çalışıyor mu?",
+          "answer": "Evet! Web sitemiz mobil cihazlar için tamamen optimize edilmiştir. Oyunu oynarken telefonunuzdan da kolayca hesaplama yapabilirsiniz."
         },
         {
-          "question": "Bu site resmi mi?",
-          "answer": "Hayır, Lilith Games ile bağlantısı olmayan, oyuncular için yapılmış ücretsiz bir fan aracıdır."
+          "question": "Bu resmi bir Rise of Kingdoms sitesi mi?",
+          "answer": "Hayır, ROK Tools oyuncular tarafından yine oyuncular için yapılmış bağımsız bir projedir. Lilith Games ile resmi bir bağlantısı veya sponsorluk anlaşması bulunmamaktadır."
         }
       ]
     },
@@ -606,11 +614,14 @@
     },
     "title": "İletişim",
     "subtitle": "Şikayet, öneri ve hatalar için bana ulaşabilirsin.",
-    "intro": "Bir hata fark ettiysen, önerin varsa veya bir hesaplayıcıda sorun yaşadıysan bana e-posta ile yazabilirsin. Mümkün olduğunca kısa sürede dönmeye çalışırım.",
     "emailButton": "E-posta Gönder",
     "emailLabel": "E-posta",
     "copyEmail": "Kopyala",
     "copiedEmail": "Kopyalandı",
+    "inGameLabel": "Oyun İçi",
+    "inGameText": "Oyun içinden de bana ulaşabilirsin:",
+    "nickLabel": "Nick:",
+    "idLabel": "ID:",
     "reasonsTitle": "Ne için yazabilirsin?",
     "reasons": [
       "Hata bildirimi",

@@ -56,9 +56,7 @@
 
       var(--highlight-top),
 
-      var(--shadow-subtle),
-
-      inset 3px 0 0 var(--accent);
+      var(--shadow-subtle);
 
   }
 

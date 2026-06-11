@@ -56,6 +56,8 @@ type Props = {
   wide?: boolean;
   /** Hide related calculators footer block. */
   showRelated?: boolean;
+  /** Vertically center title + content as one compact block (contact, etc.). */
+  centered?: boolean;
   children: ReactNode;
 };
 
@@ -82,6 +84,7 @@ export function PageShell({
   seoContent,
   wide = false,
   showRelated = true,
+  centered = false,
   children,
 }: Props) {
   const hasSticky = Boolean(stickyResults);
@@ -144,13 +147,21 @@ export function PageShell({
 
           <div className={styles.bannerRow}>
 
-            <SupportBanner text={support.text} button={support.button} />
+            <SupportBanner
+              text={support.text}
+              button={support.button}
+              goal={support.goal}
+            />
 
           </div>
 
 
 
-          <div className={styles.layout}>
+          <div
+            className={[styles.layout, centered ? styles.layoutCentered : ""]
+              .filter(Boolean)
+              .join(" ")}
+          >
 
             <div
 
@@ -159,6 +170,8 @@ export function PageShell({
                 styles.mainColumn,
 
                 wide ? styles.mainColumnWide : "",
+
+                centered ? styles.mainColumnCentered : "",
 
               ]
 
@@ -175,6 +188,8 @@ export function PageShell({
                   styles.pageHeader,
 
                   wide ? styles.pageHeaderWide : "",
+
+                  centered ? styles.pageHeaderCompact : "",
 
                 ]
 

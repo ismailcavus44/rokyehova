@@ -3,11 +3,16 @@
   top: 0;
   z-index: 100;
   width: 100%;
-  background: var(--surface);
-  border-bottom: 1px solid var(--border);
+  background: linear-gradient(
+    180deg,
+    var(--surface) 0%,
+    var(--surface) 82%,
+    color-mix(in srgb, var(--surface) 18%, var(--bg)) 100%
+  );
+  border-bottom: none;
   box-shadow:
     var(--highlight-top),
-    0 4px 24px rgba(0, 0, 0, 0.35);
+    0 4px 24px rgba(0, 0, 0, 0.2);
 }
 
 .inner {
@@ -42,6 +47,7 @@
 
 .desktopNav {
   flex: 1;
+  min-width: 0;
   display: flex;
   justify-content: center;
 }
@@ -58,7 +64,8 @@
 .navLink {
   display: inline-flex;
   align-items: center;
-  padding: 8px 14px;
+  min-height: 44px;
+  padding: 10px 14px;
   font-size: 14px;
   font-weight: 600;
   color: var(--text-mute);
@@ -82,7 +89,8 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 8px 14px;
+  min-height: 44px;
+  padding: 10px 14px;
   font-size: 14px;
   font-weight: 600;
   font-family: inherit;
@@ -117,9 +125,9 @@
 .toolsPanel {
   position: absolute;
   top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: min(640px, calc(100vw - 48px));
+  left: 0;
+  transform: none;
+  width: min(640px, calc(100vw - 32px));
   padding: 0;
   background: transparent;
   border: none;
@@ -170,7 +178,8 @@
 
 .toolsLink {
   display: block;
-  padding: 8px 10px;
+  min-height: 44px;
+  padding: 12px 10px;
   font-size: 0.875rem;
   font-weight: 500;
   color: var(--text);
@@ -197,8 +206,8 @@
   display: none;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   padding: 0;
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
@@ -277,6 +286,7 @@
 
 .mobileNavLink {
   display: block;
+  min-height: 44px;
   padding: 14px 8px;
   font-size: 0.9375rem;
   font-weight: 600;
@@ -293,7 +303,7 @@
   background: var(--accent-soft);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .inner {
     padding: 0 16px;
     height: 56px;

@@ -1,5 +1,4 @@
 import { PageShell } from "@/components/PageShell";
-import { SupportTriggerButton } from "@/components/SupportTriggerButton";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/get-dictionary";
 import styles from "./AboutPage.module.css";
@@ -20,6 +19,7 @@ export function AboutPageClient({ dict, locale }: Props) {
       support={dict.support}
       title={about.title}
       subtitle={about.subtitle}
+      centered
       staticPageSchema={{
         kind: "about",
         metaDescription: about.meta.description,
@@ -32,15 +32,6 @@ export function AboutPageClient({ dict, locale }: Props) {
             <p key={paragraph.slice(0, 32)}>{paragraph}</p>
           ))}
         </div>
-        <p className={styles.supportLine}>
-          {about.supportNote}{" "}
-          <SupportTriggerButton
-            className={styles.amberLink}
-            ariaLabel={about.supportButton}
-          >
-            {about.supportButton}
-          </SupportTriggerButton>
-        </p>
       </div>
     </PageShell>
   );

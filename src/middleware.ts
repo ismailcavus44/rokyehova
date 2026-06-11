@@ -27,12 +27,17 @@ export function middleware(request: NextRequest) {
     pathname.includes(".") ||
     isMetadataPath(pathname)
   ) {
-    return NextResponse.next();
+    const requestHeaders = new Headers(request.headers);
+    requestHeaders.set("x-pathname", pathname);
+    return NextResponse.next({ request: { headers: requestHeaders } });
   }
+
+  const requestHeaders = new Headers(request.headers);
+  requestHeaders.set("x-pathname", pathname);
 
   const pathnameLocale = getLocaleFromPath(pathname);
   if (pathnameLocale) {
-    return NextResponse.next();
+    return NextResponse.next({ request: { headers: requestHeaders } });
   }
 
   const url = request.nextUrl.clone();

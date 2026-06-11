@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, MetadataRoute } from "next";
 
 import { CALCULATOR_SLUGS as CONFIG_SLUGS } from "@/config/calculators";
 import { defaultLocale, locales, type Locale } from "@/i18n/config";
@@ -15,6 +15,7 @@ export const X_DEFAULT: Locale = defaultLocale;
 
 export const STATIC_PAGE_SLUGS = ["about", "contact"] as const;
 
+/** Home ("") + calculators + static pages — drives sitemap.xml. */
 export const CALCULATOR_SLUGS = [
   "",
   ...CONFIG_SLUGS,
@@ -57,6 +58,44 @@ export function buildAlternates(locale: Locale, slug: CalculatorSlugPath) {
     canonical: buildUrl(locale, slug),
     languages,
   };
+}
+
+function getSitemapPriority(slug: CalculatorSlugPath): number {
+  if (slug === "") return 1;
+  if (slug === "about" || slug === "contact") return 0.6;
+  return 0.8;
+}
+
+function getSitemapChangeFrequency(
+  slug: CalculatorSlugPath,
+): MetadataRoute.Sitemap[number]["changeFrequency"] {
+  return slug === "" ? "weekly" : "monthly";
+}
+
+/** All public pages × all locales, with hreflang alternates. */
+export function buildSitemapEntries(): MetadataRoute.Sitemap {
+  const lastModified = new Date();
+  const entries: MetadataRoute.Sitemap = [];
+
+  for (const slug of CALCULATOR_SLUGS) {
+    const typedSlug = slug as CalculatorSlugPath;
+
+    for (const locale of LOCALES) {
+      const alternates = buildAlternates(locale, typedSlug);
+
+      entries.push({
+        url: alternates.canonical,
+        lastModified,
+        changeFrequency: getSitemapChangeFrequency(typedSlug),
+        priority: getSitemapPriority(typedSlug),
+        alternates: {
+          languages: alternates.languages,
+        },
+      });
+    }
+  }
+
+  return entries;
 }
 
 export function buildPageMetadata(
